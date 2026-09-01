@@ -1,0 +1,207 @@
+.dashboard-main {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+/* Alert Error */
+.alert-error {
+  background-color: rgba(239, 68, 68, 0.1);
+  border: 1px solid var(--danger-color);
+  color: #fca5a5;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  text-align: center;
+  font-weight: 500;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Date Selector */
+.dates-scroll {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--bg-card) transparent;
+}
+
+.dates-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.dates-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dates-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--bg-card);
+  border-radius: 10px;
+}
+
+.date-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+  padding: 1rem 0.5rem;
+  background-color: var(--bg-color);
+  border: 1px solid var(--bg-card);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: var(--transition);
+  color: var(--text-secondary);
+}
+
+.date-btn:hover {
+  border-color: var(--text-secondary);
+}
+
+.date-btn.selected {
+  background-color: var(--accent-transparent);
+  border-color: var(--accent-color);
+  color: var(--text-primary);
+  box-shadow: inset 0 0 10px var(--accent-transparent);
+}
+
+.date-day {
+  font-size: 0.75rem;
+  text-transform: capitalize;
+  margin-bottom: 0.25rem;
+}
+
+.date-num {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: inherit;
+}
+
+.date-month {
+  font-size: 0.75rem;
+  text-transform: capitalize;
+  margin-top: 0.25rem;
+}
+
+.date-btn.selected .date-num {
+  color: var(--accent-color);
+}
+
+/* Courts Layout */
+.courts-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.court-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--bg-card);
+}
+
+.court-surface-indicator {
+  width: 40px;
+  height: 8px;
+  background: linear-gradient(90deg, #10b981, #059669); /* Hard court blue/green */
+  border-radius: 4px;
+}
+
+/* Time Slots */
+.time-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.time-slot {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 0;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid var(--bg-card);
+  transition: var(--transition);
+  min-height: 55px;
+  overflow: hidden; /* Ensures child backgrounds are clipped to border-radius */
+}
+
+.time-slot:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.slot-time {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  border-right: 1px solid var(--bg-card);
+  font-size: 0.875rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.slot-action {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+}
+
+/* Coloring the right side based on state */
+.time-slot.free .slot-action {
+  background-color: transparent;
+}
+
+.time-slot.occupied .slot-action {
+  background-color: #FCA5A5; /* Rojo claro/pastel */
+}
+
+.time-slot.mine .slot-action {
+  background-color: var(--accent-transparent);
+}
+
+.occupant-name {
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+}
+
+.slot-action button {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}

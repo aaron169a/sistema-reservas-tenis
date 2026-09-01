@@ -1,0 +1,131 @@
+.home-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/background.png');
+  background-size: cover;
+  background-position: center;
+  z-index: -2;
+  filter: blur(4px);
+  transform: scale(1.05);
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 80px);
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 24px;
+  padding: 5rem 4rem;
+  box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0,0,0,0.1);
+  max-width: 900px;
+  width: 100%;
+}
+
+.glass-title {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.sport-cards-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sport-card {
+  background: rgba(255, 255, 255, 0.65); /* Mucho más claro y brillante */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  width: 320px;
+  padding: 3.5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+}
+
+.sport-card:hover {
+  transform: translateY(-6px);
+  background: rgba(255, 255, 255, 0.9); /* Aún más claro al hacer hover */
+  box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.2);
+  border: 0.5px solid rgba(255, 255, 255, 0.8);
+}
+
+.sport-card.active-card {
+  border: 0.5px solid rgba(34, 139, 34, 0.5); /* sutil borde verde */
+}
+
+.sport-card.active-card:hover {
+  border: 0.5px solid rgba(34, 139, 34, 0.8);
+}
+
+.sport-card.inactive-card {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.sport-card.inactive-card:hover {
+  transform: none;
+  background: rgba(255, 255, 255, 0.65); /* Se mantiene igual que el base */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+}
+
+.sport-card h2 {
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.sport-card p {
+  color: var(--text-primary);
+  opacity: 0.8;
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.sport-card.inactive-card h2,
+.sport-card.inactive-card p {
+  color: #555555;
+  opacity: 0.6;
+}
+
+.sport-icon {
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.sport-card.inactive-card .sport-icon {
+  color: #555555;
+  opacity: 0.6;
+}
