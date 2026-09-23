@@ -1,67 +1,42 @@
-import { format, parseISO, isSameDay } from 'date-fns';
-
-const STORAGE_KEY = 'tennis_bookings';
-
-// Estructura de una reserva:
-// { id: string, courtId: number, date: string (YYYY-MM-DD), hour: number (6 to 16), userId: string, userName: string }
+import { db } from '../firebase/config';
+import { collection, addDoc, deleteDoc, doc, query, where, onSnapshot, getDocs } from 'firebase/firestore';
 
 export const bookingService = {
-  // Obtener todas las reservas de un día específico
-  getBookingsByDate: (dateStr) => {
-    const allBookings = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
-    return allBookings.filter(b => b.date === dateStr);
+  subscribeToDateBookings: (dateStr, callback) => {
+    const q = query(collection(db, 'bookings'), where('date', '==', dateStr));
+    return onSnapshot(q, (snapshot) => {
+      const bookings = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+      callback(bookings);
+    });
   },
 
-  // Obtener reservas de un usuario en un día específico
-  getUserBookingsCountForDate: (userId, dateStr) => {
-    const allBookings = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
-    return allBookings.filter(b => b.date === dateStr && b.userId === userId).length;
-  },
-
-  // Crear una nueva reserva
-  createBooking: (courtId, dateStr, hour, user) => {
-    const allBookings = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
-    
-    // Verificar que la cancha y hora estén libres
-    const isOccupied = allBookings.some(b => b.date === dateStr && b.courtId === courtId && b.hour === hour);
-    if (isOccupied) {
+  createBooking: async (courtId, dateStr, hour, user) => {
+    // Verificar si ya está reservado
+    const q = query(collection(db, 'bookings'), where('date', '==', dateStr), where('courtId', '==', courtId), where('hour', '==', hour));
+    const querySnapshot = await getDocs(q);
+    if (!querySnapshot.empty) {
       throw new Error('Este horario ya está reservado.');
     }
 
     // Validar máximo 2 reservas por día
-    const userBookings = allBookings.filter(b => b.date === dateStr && b.userId === user.id).length;
-    if (userBookings >= 2) {
+    const limitQ = query(collection(db, 'bookings'), where('date', '==', dateStr), where('userId', '==', user.id));
+    const limitSnapshot = await getDocs(limitQ);
+    if (limitSnapshot.size >= 2) {
       throw new Error('Has alcanzado el límite de 2 reservas por día.');
     }
 
     const newBooking = {
-      id: Math.random().toString(36).substring(2, 9),
       courtId,
       date: dateStr,
       hour,
       userId: user.id,
-      userName: user.name
+      userName: user.name,
+      createdAt: new Date().toISOString()
     };
-
-    allBookings.push(newBooking);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(allBookings));
-    return newBooking;
+    await addDoc(collection(db, 'bookings'), newBooking);
   },
 
-  // Cancelar una reserva
-  cancelBooking: (bookingId, userId) => {
-    const allBookings = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
-    const bookingIndex = allBookings.findIndex(b => b.id === bookingId);
-    
-    if (bookingIndex === -1) {
-      throw new Error('Reserva no encontrada.');
-    }
-    
-    if (allBookings[bookingIndex].userId !== userId) {
-      throw new Error('No tienes permiso para cancelar esta reserva.');
-    }
-
-    allBookings.splice(bookingIndex, 1);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(allBookings));
+  cancelBooking: async (bookingId, userId) => {
+    await deleteDoc(doc(db, 'bookings', bookingId));
   }
 };

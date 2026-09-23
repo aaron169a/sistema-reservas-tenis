@@ -19,34 +19,30 @@ const Dashboard = ({ onBack, courts, title }) => {
     return Array.from({ length: 8 }, (_, i) => addDays(startOfToday(), i));
   }, []);
 
-  const loadBookings = () => {
-    const dateStr = format(selectedDate, 'yyyy-MM-dd');
-    const dayBookings = bookingService.getBookingsByDate(dateStr);
-    setBookings(dayBookings);
-    setError(null);
-  };
-
   useEffect(() => {
-    loadBookings();
-    // eslint-disable-next-line
+    const dateStr = format(selectedDate, 'yyyy-MM-dd');
+    const unsubscribe = bookingService.subscribeToDateBookings(dateStr, (newBookings) => {
+      setBookings(newBookings);
+      setError(null);
+    });
+    
+    return () => unsubscribe();
   }, [selectedDate]);
 
-  const handleBooking = (courtId, hour) => {
+  const handleBooking = async (courtId, hour) => {
     try {
       const dateStr = format(selectedDate, 'yyyy-MM-dd');
-      bookingService.createBooking(courtId, dateStr, hour, user);
-      loadBookings();
+      await bookingService.createBooking(courtId, dateStr, hour, user);
     } catch (err) {
       setError(err.message);
       setTimeout(() => setError(null), 3000);
     }
   };
 
-  const handleCancel = (bookingId) => {
+  const handleCancel = async (bookingId) => {
     if (window.confirm('¿Seguro que deseas cancelar esta reserva?')) {
       try {
-        bookingService.cancelBooking(bookingId, user.id);
-        loadBookings();
+        await bookingService.cancelBooking(bookingId, user.id);
       } catch (err) {
         setError(err.message);
         setTimeout(() => setError(null), 3000);
