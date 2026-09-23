@@ -1,13 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { auth, db } from '../firebase/config';
-import { 
-  onAuthStateChanged, 
-  signInWithEmailAndPassword, 
-  createUserWithEmailAndPassword, 
-  signOut,
-  updateProfile
-} from 'firebase/auth';
-import { doc, setDoc, getDoc } from 'firebase/firestore';
+import sociosData from '../data/socios.json';
 
 const AuthContext = createContext();
 
@@ -18,58 +10,43 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, async (firebaseUser) => {
-      if (firebaseUser) {
-        // Fetch additional user data from Firestore if needed
-        setUser({
-          id: firebaseUser.uid,
-          name: firebaseUser.displayName || firebaseUser.email,
-          email: firebaseUser.email
-        });
-      } else {
-        setUser(null);
-      }
-      setLoading(false);
-    });
-    
-    return unsubscribe;
+    // Check if user is in localStorage
+    const storedUser = localStorage.getItem('tennis_user');
+    if (storedUser) {
+      setUser(JSON.parse(storedUser));
+    }
+    setLoading(false);
   }, []);
 
-  const login = async (email, password) => {
-    await signInWithEmailAndPassword(auth, email, password);
+  const login = async (codigo, dni) => {
+    // Buscar el socio en el JSON
+    const socio = sociosData.find(s => 
+      s.codigo.trim().toLowerCase() === codigo.trim().toLowerCase() && 
+      s.dni.trim() === dni.trim()
+    );
+
+    if (socio) {
+      const newUser = {
+        id: socio.codigo,
+        name: `${socio.nombre} ${socio.apellido}`,
+        dni: socio.dni
+      };
+      setUser(newUser);
+      localStorage.setItem('tennis_user', JSON.stringify(newUser));
+      return true;
+    } else {
+      throw new Error('Código de socio o DNI incorrectos');
+    }
   };
 
-  const register = async (name, email, password) => {
-    const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-    
-    // Update profile with name
-    await updateProfile(userCredential.user, {
-      displayName: name
-    });
-    
-    // Save to firestore to keep user records
-    await setDoc(doc(db, 'users', userCredential.user.uid), {
-      name: name,
-      email: email,
-      createdAt: new Date()
-    });
-    
-    // Force user update in state immediately to have the name
-    setUser({
-      id: userCredential.user.uid,
-      name: name,
-      email: email
-    });
-  };
-
-  const logout = async () => {
-    await signOut(auth);
+  const logout = () => {
+    setUser(null);
+    localStorage.removeItem('tennis_user');
   };
 
   const value = {
     user,
     login,
-    register,
     logout
   };
 

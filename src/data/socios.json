@@ -1,0 +1,6290 @@
+[
+  {
+    "codigo": "A258",
+    "apellido": "ABAD",
+    "nombre": "JENNY SOLEDAD",
+    "dni": "42099308"
+  },
+  {
+    "codigo": "A192",
+    "apellido": "ABARCA",
+    "nombre": "ANA CECILIA",
+    "dni": "15738302"
+  },
+  {
+    "codigo": "M014",
+    "apellido": "ADRIANZEN",
+    "nombre": "YOBANA MICAELA",
+    "dni": "15608516"
+  },
+  {
+    "codigo": "A153",
+    "apellido": "AGUEDO",
+    "nombre": "ENRIQUE MARCIAL",
+    "dni": "15725606"
+  },
+  {
+    "codigo": "A215",
+    "apellido": "AGUEDO",
+    "nombre": "LIANA PATRICIA",
+    "dni": "15726964"
+  },
+  {
+    "codigo": "A265",
+    "apellido": "AGUERO",
+    "nombre": "LUIS ERNESTO",
+    "dni": "41540983"
+  },
+  {
+    "codigo": "A161",
+    "apellido": "AGUERO",
+    "nombre": "BETTY LILIAM",
+    "dni": "15615924"
+  },
+  {
+    "codigo": "A151",
+    "apellido": "AGUERO",
+    "nombre": "LIZARDO LUIS",
+    "dni": "15725636"
+  },
+  {
+    "codigo": "A282",
+    "apellido": "AGUILAR",
+    "nombre": "MERCEDES ALBERTO",
+    "dni": "32913357"
+  },
+  {
+    "codigo": "A286",
+    "apellido": "AGUILAR",
+    "nombre": "RODRIGO ALEXIS",
+    "dni": "71889859"
+  },
+  {
+    "codigo": "A184",
+    "apellido": "AGUILERA",
+    "nombre": "HECTOR HUGO",
+    "dni": "05644957"
+  },
+  {
+    "codigo": "A238",
+    "apellido": "AGUIRRE",
+    "nombre": "WILLIAM MARTIN",
+    "dni": "15735451"
+  },
+  {
+    "codigo": "A264",
+    "apellido": "AGURTO",
+    "nombre": "CAROLINA MAHALIA",
+    "dni": "32408525"
+  },
+  {
+    "codigo": "A005",
+    "apellido": "ALARCON",
+    "nombre": "JORGE ENRIQUE",
+    "dni": "15594238"
+  },
+  {
+    "codigo": "A062",
+    "apellido": "ALARCON",
+    "nombre": "MARLENE PILAR",
+    "dni": "15580412"
+  },
+  {
+    "codigo": "A061",
+    "apellido": "ALARCON",
+    "nombre": "MEDALIT ELCINA",
+    "dni": "15590267"
+  },
+  {
+    "codigo": "A239",
+    "apellido": "ALARCON",
+    "nombre": "MARCO ANTONIO",
+    "dni": "43535076"
+  },
+  {
+    "codigo": "A287",
+    "apellido": "ALCANTARA",
+    "nombre": "KATTY ISABEL",
+    "dni": "15760485"
+  },
+  {
+    "codigo": "A013",
+    "apellido": "ALIAGA",
+    "nombre": "GUILLERMO PERCY",
+    "dni": "15590569"
+  },
+  {
+    "codigo": "A147",
+    "apellido": "ALIAGA",
+    "nombre": "ULISES",
+    "dni": "15723015"
+  },
+  {
+    "codigo": "A131",
+    "apellido": "ALIAGA",
+    "nombre": "WALTER MARTIN",
+    "dni": "15616921"
+  },
+  {
+    "codigo": "A274",
+    "apellido": "ALIAGA",
+    "nombre": "ANDREA STEPHANE",
+    "dni": "71431283"
+  },
+  {
+    "codigo": "A243",
+    "apellido": "ALMANDOS",
+    "nombre": "SYBIL JOYCE",
+    "dni": "40459466"
+  },
+  {
+    "codigo": "A266",
+    "apellido": "ALOR",
+    "nombre": "GUILLERMO",
+    "dni": "40052639"
+  },
+  {
+    "codigo": "A067",
+    "apellido": "ALOR",
+    "nombre": "LUIS ENRIQUE",
+    "dni": "15605061"
+  },
+  {
+    "codigo": "A271",
+    "apellido": "ALVA",
+    "nombre": "JUAN FRANCISCO",
+    "dni": "45085676"
+  },
+  {
+    "codigo": "A159",
+    "apellido": "ALVARADO",
+    "nombre": "RAUL DARIO",
+    "dni": "15647514"
+  },
+  {
+    "codigo": "A227",
+    "apellido": "ALVARADO",
+    "nombre": "RUTH ERIKA",
+    "dni": "41746790"
+  },
+  {
+    "codigo": "A248",
+    "apellido": "ALVARADO",
+    "nombre": "PAUL",
+    "dni": "16795578"
+  },
+  {
+    "codigo": "A280",
+    "apellido": "ALVARADO",
+    "nombre": "JUAN CARLOS",
+    "dni": "40846817"
+  },
+  {
+    "codigo": "A283",
+    "apellido": "ALVAREZ",
+    "nombre": "KATHYA",
+    "dni": "44795712"
+  },
+  {
+    "codigo": "A028",
+    "apellido": "ALVAREZ",
+    "nombre": "CESAR",
+    "dni": "15614140"
+  },
+  {
+    "codigo": "A275",
+    "apellido": "ALVAREZ",
+    "nombre": "YASHIRA MERCEDES",
+    "dni": "46503071"
+  },
+  {
+    "codigo": "A138",
+    "apellido": "ALVAREZ",
+    "nombre": "ANTONIO DAVID",
+    "dni": "15596685"
+  },
+  {
+    "codigo": "A276",
+    "apellido": "AMARO",
+    "nombre": "CARMEN LUZ",
+    "dni": "15757133"
+  },
+  {
+    "codigo": "A281",
+    "apellido": "ANDRADE",
+    "nombre": "ENOC ELIAS",
+    "dni": "40334364"
+  },
+  {
+    "codigo": "A255",
+    "apellido": "ANDRES",
+    "nombre": "PAOLO JOEL",
+    "dni": "41914885"
+  },
+  {
+    "codigo": "A260",
+    "apellido": "ANDRES",
+    "nombre": "SERGIO ELEJALDER",
+    "dni": "47087371"
+  },
+  {
+    "codigo": "A256",
+    "apellido": "ANGELES",
+    "nombre": "JIMMY CESAR",
+    "dni": "15724594"
+  },
+  {
+    "codigo": "A143",
+    "apellido": "ANGELES",
+    "nombre": "EDWIN MARTIN",
+    "dni": "15741386"
+  },
+  {
+    "codigo": "A278",
+    "apellido": "ANSELMO",
+    "nombre": "SANDY MARISELLY",
+    "dni": "40961377"
+  },
+  {
+    "codigo": "A250",
+    "apellido": "ANTAURCO",
+    "nombre": "VILMA ELIZABETH",
+    "dni": "15857846"
+  },
+  {
+    "codigo": "A289",
+    "apellido": "ANTEPARRA",
+    "nombre": "ROBERTO NAPOLEON",
+    "dni": "10636161"
+  },
+  {
+    "codigo": "A290",
+    "apellido": "ANTON",
+    "nombre": "JORGE VICTOR",
+    "dni": "43529610"
+  },
+  {
+    "codigo": "A162",
+    "apellido": "ANTON",
+    "nombre": "LEONARDO BENIGNO",
+    "dni": "15609891"
+  },
+  {
+    "codigo": "A106",
+    "apellido": "AÑAÑOS",
+    "nombre": "JORGE ROLANDO",
+    "dni": "28264089"
+  },
+  {
+    "codigo": "A285",
+    "apellido": "AQUIJE",
+    "nombre": "ALDO OMAR",
+    "dni": "41037842"
+  },
+  {
+    "codigo": "A268",
+    "apellido": "ARAMBULO",
+    "nombre": "JAIME MIGUEL",
+    "dni": "46708345"
+  },
+  {
+    "codigo": "A218",
+    "apellido": "ARAMBULO",
+    "nombre": "SORAYA JACQUELINE",
+    "dni": "40839702"
+  },
+  {
+    "codigo": "A259",
+    "apellido": "ARANA",
+    "nombre": "ANGIE NOEMI",
+    "dni": "40001692"
+  },
+  {
+    "codigo": "A137",
+    "apellido": "ARANA",
+    "nombre": "JORGE ANTONIO",
+    "dni": "15722833"
+  },
+  {
+    "codigo": "A186",
+    "apellido": "ARANDA",
+    "nombre": "RODOLFO FRANCISCO",
+    "dni": "15728010"
+  },
+  {
+    "codigo": "A163",
+    "apellido": "ARAUJO",
+    "nombre": "EDWIN LUIS",
+    "dni": "15726567"
+  },
+  {
+    "codigo": "A083",
+    "apellido": "ARCE",
+    "nombre": "ALFREDO ANTONIO",
+    "dni": "15596239"
+  },
+  {
+    "codigo": "A253",
+    "apellido": "ARDIAN",
+    "nombre": "ANGEL FERNANDO",
+    "dni": "15742256"
+  },
+  {
+    "codigo": "A129",
+    "apellido": "ARELLANO",
+    "nombre": "ROBERT ALFREDO",
+    "dni": "15590206"
+  },
+  {
+    "codigo": "A043",
+    "apellido": "ARELLANO",
+    "nombre": "WERCHIMAN",
+    "dni": "15593869"
+  },
+  {
+    "codigo": "A176",
+    "apellido": "ARENAS",
+    "nombre": "JAVIER IVAN",
+    "dni": "44055581"
+  },
+  {
+    "codigo": "A086",
+    "apellido": "AREVALO",
+    "nombre": "MARCO ANTONIO",
+    "dni": "15612204"
+  },
+  {
+    "codigo": "A269",
+    "apellido": "AREVALO",
+    "nombre": "JANET MARGOT",
+    "dni": "15726408"
+  },
+  {
+    "codigo": "A232",
+    "apellido": "AREVALO",
+    "nombre": "BORIS ABELARDO",
+    "dni": "15737689"
+  },
+  {
+    "codigo": "A090",
+    "apellido": "AREVALO",
+    "nombre": "PEDRO FERNANDO",
+    "dni": "15593956"
+  },
+  {
+    "codigo": "A182",
+    "apellido": "AREVALO",
+    "nombre": "MANUEL ALBERTO",
+    "dni": "15761750"
+  },
+  {
+    "codigo": "A251",
+    "apellido": "ARIAS",
+    "nombre": "PATRICIA MILAGROS",
+    "dni": "15738717"
+  },
+  {
+    "codigo": "A291",
+    "apellido": "ARIAS",
+    "nombre": "HILDA VICTORIA",
+    "dni": "44522080"
+  },
+  {
+    "codigo": "A214",
+    "apellido": "ARMIJO",
+    "nombre": "VICTOR HUGO",
+    "dni": "15725558"
+  },
+  {
+    "codigo": "A254",
+    "apellido": "AROSTEGUI",
+    "nombre": "ANA LUCIA",
+    "dni": "48198392"
+  },
+  {
+    "codigo": "A272",
+    "apellido": "ARRIOLA",
+    "nombre": "ALVARO JUAN MARTIN",
+    "dni": "43076391"
+  },
+  {
+    "codigo": "A267",
+    "apellido": "ARROYO",
+    "nombre": "JESSICA MILAGROS",
+    "dni": "41267955"
+  },
+  {
+    "codigo": "A277",
+    "apellido": "AYALA",
+    "nombre": "VIRGINIA ISABEL",
+    "dni": "41095591"
+  },
+  {
+    "codigo": "A270",
+    "apellido": "AYALA",
+    "nombre": "JESUS ANTONIO",
+    "dni": "44678841"
+  },
+  {
+    "codigo": "A180",
+    "apellido": "AZABACHE",
+    "nombre": "ALFREDO ISAIAS",
+    "dni": "10049594"
+  },
+  {
+    "codigo": "A288",
+    "apellido": "AZABACHE",
+    "nombre": "LUIS ALBERTO",
+    "dni": "43766693"
+  },
+  {
+    "codigo": "B147",
+    "apellido": "BAHAMONDES",
+    "nombre": "JAIME EDDIE",
+    "dni": "06268605"
+  },
+  {
+    "codigo": "B219",
+    "apellido": "BAILON",
+    "nombre": "OSCAR ALBERTO",
+    "dni": "31663048"
+  },
+  {
+    "codigo": "B240",
+    "apellido": "BALAREZO",
+    "nombre": "ISABEL ROSSALY",
+    "dni": "42706696"
+  },
+  {
+    "codigo": "B180",
+    "apellido": "BALLARDO",
+    "nombre": "JEANETTE CAROLINA",
+    "dni": "15613932"
+  },
+  {
+    "codigo": "B003",
+    "apellido": "BARBA",
+    "nombre": "JORGE HUMBERTO",
+    "dni": "15601523"
+  },
+  {
+    "codigo": "B002",
+    "apellido": "BARBA",
+    "nombre": "JOSE ANDRES",
+    "dni": "15590540"
+  },
+  {
+    "codigo": "B231",
+    "apellido": "BARRERA",
+    "nombre": "EDITH",
+    "dni": "15721004"
+  },
+  {
+    "codigo": "B208",
+    "apellido": "BARRERA",
+    "nombre": "RODOLFO AARON",
+    "dni": "41474842"
+  },
+  {
+    "codigo": "B012",
+    "apellido": "BARRERA",
+    "nombre": "NICANOR SANTIAGO",
+    "dni": "15591627"
+  },
+  {
+    "codigo": "B223",
+    "apellido": "BARRERA",
+    "nombre": "KATIA SHAYURI",
+    "dni": "41131111"
+  },
+  {
+    "codigo": "B211",
+    "apellido": "BARRERA",
+    "nombre": "ANA CECILIA",
+    "dni": "40432944"
+  },
+  {
+    "codigo": "B212",
+    "apellido": "BARRERA",
+    "nombre": "KARLA VIVIANA",
+    "dni": "44660439"
+  },
+  {
+    "codigo": "B016",
+    "apellido": "BARRERA",
+    "nombre": "MIGUEL ANGEL",
+    "dni": "15587805"
+  },
+  {
+    "codigo": "B178",
+    "apellido": "BARRERA",
+    "nombre": "CESAR ALFREDO",
+    "dni": "40652157"
+  },
+  {
+    "codigo": "B182",
+    "apellido": "BARRON",
+    "nombre": "JAVIER OSWALDO",
+    "dni": "15736955"
+  },
+  {
+    "codigo": "B187",
+    "apellido": "BAYLON",
+    "nombre": "CESAR ANTONIO",
+    "dni": "15750149"
+  },
+  {
+    "codigo": "B234",
+    "apellido": "BAZALAR",
+    "nombre": "STUNDEL WILFREDO",
+    "dni": "15724482"
+  },
+  {
+    "codigo": "B246",
+    "apellido": "BAZALAR",
+    "nombre": "MIGUEL ROLANDO",
+    "dni": "15743988"
+  },
+  {
+    "codigo": "B238",
+    "apellido": "BAZALAR",
+    "nombre": "GIANMMARCO",
+    "dni": "78048388"
+  },
+  {
+    "codigo": "B201",
+    "apellido": "BAZALAR",
+    "nombre": "JUAN CARLOS",
+    "dni": "43314779"
+  },
+  {
+    "codigo": "B218",
+    "apellido": "BAZALAR",
+    "nombre": "ANGEL EDILBERTO",
+    "dni": "45915344"
+  },
+  {
+    "codigo": "B184",
+    "apellido": "BAZALAR",
+    "nombre": "LUIS EDUARDO",
+    "dni": "41857411"
+  },
+  {
+    "codigo": "B192",
+    "apellido": "BEL",
+    "nombre": "ALAN PETER",
+    "dni": "40093283"
+  },
+  {
+    "codigo": "B135",
+    "apellido": "BELTRAN",
+    "nombre": "CHRISTOPHER",
+    "dni": "15761260"
+  },
+  {
+    "codigo": "B199",
+    "apellido": "BELTRAN",
+    "nombre": "WILLIAM IVAN",
+    "dni": "40161147"
+  },
+  {
+    "codigo": "B250",
+    "apellido": "BENAVENTE",
+    "nombre": "JUAN CARLOS",
+    "dni": "42193596"
+  },
+  {
+    "codigo": "B242",
+    "apellido": "BENAVENTE",
+    "nombre": "DANIEL ANDERSON",
+    "dni": "44951713"
+  },
+  {
+    "codigo": "B174",
+    "apellido": "BENAVIDES",
+    "nombre": "GABRIEL ALEJANDRO",
+    "dni": "42260060"
+  },
+  {
+    "codigo": "B248",
+    "apellido": "BENAVIDES",
+    "nombre": "ALEJANDRA BRIGGITH",
+    "dni": "74347293"
+  },
+  {
+    "codigo": "B214",
+    "apellido": "BENITES",
+    "nombre": "MILTON GERARDO",
+    "dni": "40685938"
+  },
+  {
+    "codigo": "B036",
+    "apellido": "BERMEO",
+    "nombre": "CARMEN ROSA",
+    "dni": "15584503"
+  },
+  {
+    "codigo": "B164",
+    "apellido": "BERNABE",
+    "nombre": "GINA PAOLA",
+    "dni": "15736711"
+  },
+  {
+    "codigo": "B221",
+    "apellido": "BERNABE",
+    "nombre": "MARITZA",
+    "dni": "15742361"
+  },
+  {
+    "codigo": "B200",
+    "apellido": "BERNAL",
+    "nombre": "CHRISTIAN YUL",
+    "dni": "15760811"
+  },
+  {
+    "codigo": "B205",
+    "apellido": "BERNAL",
+    "nombre": "JHONNY ANTENOR",
+    "dni": "15721918"
+  },
+  {
+    "codigo": "B237",
+    "apellido": "BERNAL",
+    "nombre": "JOSE",
+    "dni": "45557060"
+  },
+  {
+    "codigo": "B137",
+    "apellido": "BERNAL",
+    "nombre": "JOSE LUIS",
+    "dni": "15739632"
+  },
+  {
+    "codigo": "B251",
+    "apellido": "BERNAL",
+    "nombre": "JESUS SANDRO",
+    "dni": "21533406"
+  },
+  {
+    "codigo": "B233",
+    "apellido": "BERNAL",
+    "nombre": "REYNA SARAI",
+    "dni": "44854349"
+  },
+  {
+    "codigo": "B229",
+    "apellido": "BERNAL",
+    "nombre": "JANET DEL ROSARIO",
+    "dni": "15743812"
+  },
+  {
+    "codigo": "B244",
+    "apellido": "BERROCAL",
+    "nombre": "JUDITH MILAGROS",
+    "dni": "40883183"
+  },
+  {
+    "codigo": "B215",
+    "apellido": "BISSO",
+    "nombre": "FERNANDO LEONEL",
+    "dni": "15766419"
+  },
+  {
+    "codigo": "B045",
+    "apellido": "BISSO",
+    "nombre": "CARLOS ENRIQUE",
+    "dni": "15590017"
+  },
+  {
+    "codigo": "B046",
+    "apellido": "BISSO",
+    "nombre": "LUIS HERNAN",
+    "dni": "15594431"
+  },
+  {
+    "codigo": "B047",
+    "apellido": "BISSO",
+    "nombre": "SANTIAGO JAVIER",
+    "dni": "15594071"
+  },
+  {
+    "codigo": "B145",
+    "apellido": "BLAS",
+    "nombre": "JOSE CARLOS",
+    "dni": "07262966"
+  },
+  {
+    "codigo": "B190",
+    "apellido": "BLONDET",
+    "nombre": "CARLOS AUGUSTO",
+    "dni": "43240659"
+  },
+  {
+    "codigo": "B249",
+    "apellido": "BLONDET DE GAMARRA",
+    "nombre": "MARIA DEL CARMEN",
+    "dni": "25500243"
+  },
+  {
+    "codigo": "B138",
+    "apellido": "BOCANEGRA",
+    "nombre": "BLANCA MARGOT",
+    "dni": "15594593"
+  },
+  {
+    "codigo": "B210",
+    "apellido": "BORCHANES",
+    "nombre": "MANUEL GUILLERMO",
+    "dni": "15725898"
+  },
+  {
+    "codigo": "B227",
+    "apellido": "BRAVO",
+    "nombre": "ILIANA KARINA",
+    "dni": "42542205"
+  },
+  {
+    "codigo": "B097",
+    "apellido": "BRENNEISEN",
+    "nombre": "JAVIER ERNESTO",
+    "dni": "07925721"
+  },
+  {
+    "codigo": "B245",
+    "apellido": "BRISSOLESE",
+    "nombre": "ADOLFO GUILLERMO",
+    "dni": "15612938"
+  },
+  {
+    "codigo": "B252",
+    "apellido": "BRUNO",
+    "nombre": "PEDRO JUAN",
+    "dni": "75815308"
+  },
+  {
+    "codigo": "B189",
+    "apellido": "BUENO",
+    "nombre": "ANGEL OMAR",
+    "dni": "15760373"
+  },
+  {
+    "codigo": "B134",
+    "apellido": "BUSTAMANTE",
+    "nombre": "HENRY WALTER",
+    "dni": "18199055"
+  },
+  {
+    "codigo": "B194",
+    "apellido": "BUSTAMANTE",
+    "nombre": "LADY JADISH",
+    "dni": "41075032"
+  },
+  {
+    "codigo": "B136",
+    "apellido": "BUSTAMANTE",
+    "nombre": "MARITZA",
+    "dni": "07842247"
+  },
+  {
+    "codigo": "B217",
+    "apellido": "BUSTAMANTE",
+    "nombre": "LUIS ARMANDO",
+    "dni": "15729547"
+  },
+  {
+    "codigo": "B222",
+    "apellido": "BUSTOS",
+    "nombre": "DANNA STEFANI",
+    "dni": "72179765"
+  },
+  {
+    "codigo": "C148",
+    "apellido": "CABALLERO",
+    "nombre": "VICTOR RAUL",
+    "dni": "15585015"
+  },
+  {
+    "codigo": "C348",
+    "apellido": "CABRERA",
+    "nombre": "FREDY RICARDO",
+    "dni": "15726340"
+  },
+  {
+    "codigo": "C321",
+    "apellido": "CABRERA",
+    "nombre": "EDWARD",
+    "dni": "15763461"
+  },
+  {
+    "codigo": "C381",
+    "apellido": "CABRERA",
+    "nombre": "MARIA AZUCENA DEL CARMEN",
+    "dni": "42383533"
+  },
+  {
+    "codigo": "C368",
+    "apellido": "CABRERA",
+    "nombre": "JAVIER ENRIQUE",
+    "dni": "15738340"
+  },
+  {
+    "codigo": "C394",
+    "apellido": "CABRERA",
+    "nombre": "KATY EMILILIAMARTINA",
+    "dni": "44477820"
+  },
+  {
+    "codigo": "C307",
+    "apellido": "CABRERA",
+    "nombre": "FLORMIRA",
+    "dni": "16714572"
+  },
+  {
+    "codigo": "C376",
+    "apellido": "CABRERA",
+    "nombre": "WILDER ALEJANDRO",
+    "dni": "40656670"
+  },
+  {
+    "codigo": "C319",
+    "apellido": "CACERES",
+    "nombre": "LUIS MARCELO",
+    "dni": "15693153"
+  },
+  {
+    "codigo": "C347",
+    "apellido": "CACHIQUE",
+    "nombre": "KARIN LIZ",
+    "dni": "41551644"
+  },
+  {
+    "codigo": "C008",
+    "apellido": "CADILLO",
+    "nombre": "ELSA",
+    "dni": "15604042"
+  },
+  {
+    "codigo": "C354",
+    "apellido": "CALISTRO",
+    "nombre": "JULIO EDUARDO",
+    "dni": "73237145"
+  },
+  {
+    "codigo": "C365",
+    "apellido": "CALLE",
+    "nombre": "CRISTINA GIOVANNA",
+    "dni": "40856395"
+  },
+  {
+    "codigo": "C387",
+    "apellido": "CAMPOS",
+    "nombre": "RAMON NICOLAS GINO",
+    "dni": "40859842"
+  },
+  {
+    "codigo": "C385",
+    "apellido": "CANALES",
+    "nombre": "ALEXANDRA MARIAPIA",
+    "dni": "70523998"
+  },
+  {
+    "codigo": "C155",
+    "apellido": "CANALES",
+    "nombre": "FREDDY ROBERTO",
+    "dni": "15724765"
+  },
+  {
+    "codigo": "C384",
+    "apellido": "CANALES",
+    "nombre": "ROXANA ELIZABETH",
+    "dni": "42159926"
+  },
+  {
+    "codigo": "C355",
+    "apellido": "CARBAJAL",
+    "nombre": "DONNY EMERSON",
+    "dni": "42275145"
+  },
+  {
+    "codigo": "C372",
+    "apellido": "CARBAJAL",
+    "nombre": "WALTHER",
+    "dni": "15761570"
+  },
+  {
+    "codigo": "C304",
+    "apellido": "CARBAJAL",
+    "nombre": "CINTHIA DENISSE",
+    "dni": "44284365"
+  },
+  {
+    "codigo": "C331",
+    "apellido": "CARBAJAL",
+    "nombre": "JORGE LUIS",
+    "dni": "15724232"
+  },
+  {
+    "codigo": "C169",
+    "apellido": "CARBAJAL",
+    "nombre": "JULIO VICTOR",
+    "dni": "15586679"
+  },
+  {
+    "codigo": "C388",
+    "apellido": "CARBAJAL",
+    "nombre": "JULIO ALDEIR",
+    "dni": "72216206"
+  },
+  {
+    "codigo": "C312",
+    "apellido": "CARLOS",
+    "nombre": "FRANK AUGUSTO",
+    "dni": "80334922"
+  },
+  {
+    "codigo": "C349",
+    "apellido": "CARLOS",
+    "nombre": "PATRICIA JANET",
+    "dni": "15736005"
+  },
+  {
+    "codigo": "C233",
+    "apellido": "CARO",
+    "nombre": "JUAN DE LA CRUZ ALEJANDRO",
+    "dni": "15580606"
+  },
+  {
+    "codigo": "C364",
+    "apellido": "CARPENA",
+    "nombre": "ROBERTO ADRIAN ALDO",
+    "dni": "45512828"
+  },
+  {
+    "codigo": "C366",
+    "apellido": "CARREÑO",
+    "nombre": "DANILO HUGO",
+    "dni": "41334333"
+  },
+  {
+    "codigo": "C378",
+    "apellido": "CARREÑO",
+    "nombre": "LESLY ESTEFHANY",
+    "dni": "46281562"
+  },
+  {
+    "codigo": "C398",
+    "apellido": "CARREÑO",
+    "nombre": "MARLENY YSABEL",
+    "dni": "45550576"
+  },
+  {
+    "codigo": "C324",
+    "apellido": "CARREÑO",
+    "nombre": "ERIKA SELENE",
+    "dni": "80301922"
+  },
+  {
+    "codigo": "C034",
+    "apellido": "CARREÑO",
+    "nombre": "JOSE BERNARDO",
+    "dni": "15590242"
+  },
+  {
+    "codigo": "C210",
+    "apellido": "CARRILLO",
+    "nombre": "FELIX",
+    "dni": "09604891"
+  },
+  {
+    "codigo": "C271",
+    "apellido": "CARTY",
+    "nombre": "OBDULIA CARLOTA",
+    "dni": "15721861"
+  },
+  {
+    "codigo": "C115",
+    "apellido": "CASANOVA",
+    "nombre": "ISABEL CAROLINA",
+    "dni": "15587888"
+  },
+  {
+    "codigo": "C172",
+    "apellido": "CASOS",
+    "nombre": "CARLOS GUSTAVO",
+    "dni": "07885225"
+  },
+  {
+    "codigo": "C367",
+    "apellido": "CASOS",
+    "nombre": "CARLOS SEBASTIAN",
+    "dni": "74311402"
+  },
+  {
+    "codigo": "C322",
+    "apellido": "CASTAÑEDA",
+    "nombre": "DIANA MILAGROS",
+    "dni": "10405643"
+  },
+  {
+    "codigo": "C197",
+    "apellido": "CASTILLA",
+    "nombre": "EFRAIN DANIEL",
+    "dni": "15580896"
+  },
+  {
+    "codigo": "C395",
+    "apellido": "CASTILLO",
+    "nombre": "ANGEL SEBASTIAN",
+    "dni": "70610231"
+  },
+  {
+    "codigo": "C375",
+    "apellido": "CASTILLO",
+    "nombre": "NOHELIA CRISTINA",
+    "dni": "44370506"
+  },
+  {
+    "codigo": "C255",
+    "apellido": "CASTILLO",
+    "nombre": "JOSE ALBERTO IVAN",
+    "dni": "43185492"
+  },
+  {
+    "codigo": "C382",
+    "apellido": "CASTILLO",
+    "nombre": "ALEXANDER MIGUEL",
+    "dni": "42760381"
+  },
+  {
+    "codigo": "C261",
+    "apellido": "CASTILLO",
+    "nombre": "HERNAN",
+    "dni": "09399277"
+  },
+  {
+    "codigo": "C371",
+    "apellido": "CASTILLO",
+    "nombre": "CHRISTIAN GUSTAVO",
+    "dni": "15648915"
+  },
+  {
+    "codigo": "C226",
+    "apellido": "CASTILLO",
+    "nombre": "JOSE DANMER",
+    "dni": "43281427"
+  },
+  {
+    "codigo": "C045",
+    "apellido": "CASTILLO",
+    "nombre": "HUGO FELIX",
+    "dni": "15602172"
+  },
+  {
+    "codigo": "C362",
+    "apellido": "CASTILLO",
+    "nombre": "HECTOR JULIO",
+    "dni": "15728488"
+  },
+  {
+    "codigo": "C374",
+    "apellido": "CASTILLO",
+    "nombre": "MANUEL FERNANDO",
+    "dni": "15737000"
+  },
+  {
+    "codigo": "C051",
+    "apellido": "CASTILLO",
+    "nombre": "EZEQUIEL",
+    "dni": "15599192"
+  },
+  {
+    "codigo": "C330",
+    "apellido": "CASTILLO",
+    "nombre": "ANGEL ANTONIO",
+    "dni": "15736538"
+  },
+  {
+    "codigo": "C361",
+    "apellido": "CASTILLO",
+    "nombre": "LUIS ALBERTO",
+    "dni": "15761873"
+  },
+  {
+    "codigo": "C269",
+    "apellido": "CASTRO",
+    "nombre": "JORGE",
+    "dni": "16677092"
+  },
+  {
+    "codigo": "C391",
+    "apellido": "CASTRO",
+    "nombre": "FIDEL",
+    "dni": "15616003"
+  },
+  {
+    "codigo": "C337",
+    "apellido": "CASTRO",
+    "nombre": "WENDY VANESSA",
+    "dni": "45849591"
+  },
+  {
+    "codigo": "C336",
+    "apellido": "CASTRO",
+    "nombre": "EDUARDO RAFAEL",
+    "dni": "15734427"
+  },
+  {
+    "codigo": "C104",
+    "apellido": "CASTRO",
+    "nombre": "JULIO ADRIAN",
+    "dni": "43389730"
+  },
+  {
+    "codigo": "C342",
+    "apellido": "CATAÑO",
+    "nombre": "CESAR FAUSTO",
+    "dni": "10455443"
+  },
+  {
+    "codigo": "C338",
+    "apellido": "CAYCHO",
+    "nombre": "JAN KARLO",
+    "dni": "15735686"
+  },
+  {
+    "codigo": "C379",
+    "apellido": "CAYCHO",
+    "nombre": "YEYKO PAUL",
+    "dni": "10784219"
+  },
+  {
+    "codigo": "C397",
+    "apellido": "CEFERINO",
+    "nombre": "CANDY YULIANA",
+    "dni": "40978512"
+  },
+  {
+    "codigo": "C389",
+    "apellido": "CENTENO",
+    "nombre": "ROGER ALDO",
+    "dni": "15766043"
+  },
+  {
+    "codigo": "C275",
+    "apellido": "CENTENO",
+    "nombre": "ERNESTO ALFONSO",
+    "dni": "09925161"
+  },
+  {
+    "codigo": "C055",
+    "apellido": "CENTENO",
+    "nombre": "SEVERO ERNESTO",
+    "dni": "15606790"
+  },
+  {
+    "codigo": "C294",
+    "apellido": "CERNA",
+    "nombre": "FELIX MANUEL",
+    "dni": "41481432"
+  },
+  {
+    "codigo": "C333",
+    "apellido": "CERNA",
+    "nombre": "JOSEPH HARRIS",
+    "dni": "40390152"
+  },
+  {
+    "codigo": "C136",
+    "apellido": "CERVERA",
+    "nombre": "GIOVANNI FELIPE",
+    "dni": "15589069"
+  },
+  {
+    "codigo": "CH115",
+    "apellido": "CHAFALOTE",
+    "nombre": "DIEGO ADRIAN",
+    "dni": "70761244"
+  },
+  {
+    "codigo": "C306",
+    "apellido": "CHAMPA",
+    "nombre": "LILIANA JESUS",
+    "dni": "15736974"
+  },
+  {
+    "codigo": "CH103",
+    "apellido": "CHANG",
+    "nombre": "MARIA DEL PILAR YUMIKO",
+    "dni": "42194694"
+  },
+  {
+    "codigo": "CH09",
+    "apellido": "CHANG",
+    "nombre": "HECTOR HUGO",
+    "dni": "15589558"
+  },
+  {
+    "codigo": "CH118",
+    "apellido": "CHANG",
+    "nombre": "EDDIE AGUSTIN",
+    "dni": "15761078"
+  },
+  {
+    "codigo": "CH14",
+    "apellido": "CHANG",
+    "nombre": "PERCY JAIME",
+    "dni": "15589869"
+  },
+  {
+    "codigo": "CH15",
+    "apellido": "CHANG",
+    "nombre": "MARIO BALTAZAR",
+    "dni": "15584393"
+  },
+  {
+    "codigo": "CH121",
+    "apellido": "CHANGANAQUI",
+    "nombre": "CARLOS ROLANDO",
+    "dni": "25602645"
+  },
+  {
+    "codigo": "CH108",
+    "apellido": "CHAVARRIA",
+    "nombre": "EVERLIN GALOIS",
+    "dni": "41495551"
+  },
+  {
+    "codigo": "CH101",
+    "apellido": "CHAVARRY",
+    "nombre": "MANUEL ANTONIO",
+    "dni": "41073435"
+  },
+  {
+    "codigo": "C254",
+    "apellido": "CHAVEZ",
+    "nombre": "ELVIS NOE",
+    "dni": "15756245"
+  },
+  {
+    "codigo": "CH107",
+    "apellido": "CHAVEZ",
+    "nombre": "JEFFERSON JOSE",
+    "dni": "74233752"
+  },
+  {
+    "codigo": "CH69",
+    "apellido": "CHAVEZ",
+    "nombre": "LAURA DEL CARMEN",
+    "dni": "15728220"
+  },
+  {
+    "codigo": "CH106",
+    "apellido": "CHAVEZ",
+    "nombre": "JOSE JORGE",
+    "dni": "15762597"
+  },
+  {
+    "codigo": "CH22",
+    "apellido": "CHAVEZ",
+    "nombre": "LUIS JAVIER",
+    "dni": "15607122"
+  },
+  {
+    "codigo": "CH122",
+    "apellido": "CHAVEZ",
+    "nombre": "JULIO CESAR",
+    "dni": "47616925"
+  },
+  {
+    "codigo": "C248",
+    "apellido": "CHAVEZ",
+    "nombre": "ALEXIS BRIAN",
+    "dni": "15727380"
+  },
+  {
+    "codigo": "CH113",
+    "apellido": "CHENG",
+    "nombre": "MELISSA ISABEL",
+    "dni": "42407494"
+  },
+  {
+    "codigo": "CH119",
+    "apellido": "CHENG",
+    "nombre": "KARLA MARIA",
+    "dni": "46437152"
+  },
+  {
+    "codigo": "CH96",
+    "apellido": "CHERRES",
+    "nombre": "LUIS ENRIQUE",
+    "dni": "15595946"
+  },
+  {
+    "codigo": "L072",
+    "apellido": "CHIA",
+    "nombre": "EMILIO ALFREDO",
+    "dni": "15593634"
+  },
+  {
+    "codigo": "C246",
+    "apellido": "CHINCHAY",
+    "nombre": "WALTER FELICIANO",
+    "dni": "15598055"
+  },
+  {
+    "codigo": "CH94",
+    "apellido": "CHINCHAY",
+    "nombre": "MARCO ANTONIO",
+    "dni": "21542077"
+  },
+  {
+    "codigo": "C279",
+    "apellido": "CHINCHAYAN",
+    "nombre": "BRUNO MARCIAL",
+    "dni": "15738628"
+  },
+  {
+    "codigo": "CH120",
+    "apellido": "CHIRITO",
+    "nombre": "SILVIO ARTURO",
+    "dni": "15582735"
+  },
+  {
+    "codigo": "CH87",
+    "apellido": "CHIRITO",
+    "nombre": "JOSE LORENZO MARTIN",
+    "dni": "15729551"
+  },
+  {
+    "codigo": "CH117",
+    "apellido": "CHIROQUE",
+    "nombre": "DANDY MARTIN",
+    "dni": "15761483"
+  },
+  {
+    "codigo": "CH114",
+    "apellido": "CHU",
+    "nombre": "BONNY USHIMI",
+    "dni": "41376138"
+  },
+  {
+    "codigo": "CH116",
+    "apellido": "CHU",
+    "nombre": "MIRIAM YOVANA",
+    "dni": "41416096"
+  },
+  {
+    "codigo": "CH34",
+    "apellido": "CHUI",
+    "nombre": "NELSON OSWALDO",
+    "dni": "09997336"
+  },
+  {
+    "codigo": "CH111",
+    "apellido": "CHUMBES",
+    "nombre": "LUIS CESAR",
+    "dni": "15721898"
+  },
+  {
+    "codigo": "CH110",
+    "apellido": "CHUMBES",
+    "nombre": "ANGGELA KATHERINE",
+    "dni": "41721409"
+  },
+  {
+    "codigo": "C256",
+    "apellido": "CHUNG",
+    "nombre": "JOSE MARTIN",
+    "dni": "29384319"
+  },
+  {
+    "codigo": "CH112",
+    "apellido": "CHURRANGO",
+    "nombre": "SANDRA FIORELLA",
+    "dni": "40791985"
+  },
+  {
+    "codigo": "C182",
+    "apellido": "CLAVIJO",
+    "nombre": "PEDRO",
+    "dni": "15739608"
+  },
+  {
+    "codigo": "C064",
+    "apellido": "CLEMENTE",
+    "nombre": "HECTOR",
+    "dni": "15582797"
+  },
+  {
+    "codigo": "C386",
+    "apellido": "CLEMENTE",
+    "nombre": "ELIZABETH CARMEN",
+    "dni": "47042537"
+  },
+  {
+    "codigo": "C352",
+    "apellido": "COCA",
+    "nombre": "ERICK ALEXANDER",
+    "dni": "45247766"
+  },
+  {
+    "codigo": "C346",
+    "apellido": "COLICHON",
+    "nombre": "MONICA YANINA",
+    "dni": "40101478"
+  },
+  {
+    "codigo": "C216",
+    "apellido": "COLLANTES",
+    "nombre": "KATYA DENISE",
+    "dni": "15761941"
+  },
+  {
+    "codigo": "C264",
+    "apellido": "COLLANTES",
+    "nombre": "SANTIAGO",
+    "dni": "08287380"
+  },
+  {
+    "codigo": "C326",
+    "apellido": "COLLANTES",
+    "nombre": "ANDREA YULISA",
+    "dni": "45129812"
+  },
+  {
+    "codigo": "C067",
+    "apellido": "COLLANTES",
+    "nombre": "CARLOS ALBERTO",
+    "dni": "15582672"
+  },
+  {
+    "codigo": "C332",
+    "apellido": "COLLANTES",
+    "nombre": "YULISSA NOVALI",
+    "dni": "15739554"
+  },
+  {
+    "codigo": "C281",
+    "apellido": "CONDE",
+    "nombre": "JORGE LUIS",
+    "dni": "44006023"
+  },
+  {
+    "codigo": "C344",
+    "apellido": "CONDOR",
+    "nombre": "ALEJANDRO MARKOV",
+    "dni": "45329429"
+  },
+  {
+    "codigo": "C262",
+    "apellido": "CONDOR",
+    "nombre": "EDIN FROILAN",
+    "dni": "15725524"
+  },
+  {
+    "codigo": "C260",
+    "apellido": "CONDOR",
+    "nombre": "SILVIA SUSANA",
+    "dni": "15727340"
+  },
+  {
+    "codigo": "C107",
+    "apellido": "CONDOR",
+    "nombre": "JUAN ALBERTO",
+    "dni": "15614034"
+  },
+  {
+    "codigo": "C377",
+    "apellido": "CONDOR",
+    "nombre": "ANGHELLA IDALIA",
+    "dni": "15724467"
+  },
+  {
+    "codigo": "C392",
+    "apellido": "CONTADOR",
+    "nombre": "FRANZ JONATHAN",
+    "dni": "44683335"
+  },
+  {
+    "codigo": "C070",
+    "apellido": "CONTRERAS",
+    "nombre": "SAMUEL GUSTAVO",
+    "dni": "15739228"
+  },
+  {
+    "codigo": "C340",
+    "apellido": "CORAL",
+    "nombre": "OSCAR ROBERTO",
+    "dni": "15762917"
+  },
+  {
+    "codigo": "C393",
+    "apellido": "CORDOVA",
+    "nombre": "MEGUMI ALEXANDRA",
+    "dni": "63371400"
+  },
+  {
+    "codigo": "C369",
+    "apellido": "CORDOVA",
+    "nombre": "ARTURO",
+    "dni": "15762980"
+  },
+  {
+    "codigo": "C221",
+    "apellido": "CORNEJO",
+    "nombre": "CARLOS CLEVER",
+    "dni": "15617547"
+  },
+  {
+    "codigo": "C328",
+    "apellido": "CORPUS",
+    "nombre": "EDITH IRAIDA",
+    "dni": "15743972"
+  },
+  {
+    "codigo": "C396",
+    "apellido": "COSTA",
+    "nombre": "SUSAN LILIANA",
+    "dni": "42267863"
+  },
+  {
+    "codigo": "C305",
+    "apellido": "COSTILLA",
+    "nombre": "HUGO ENRIQUE",
+    "dni": "80575765"
+  },
+  {
+    "codigo": "C383",
+    "apellido": "CRUZ",
+    "nombre": "MIGUEL ANGEL",
+    "dni": "16027348"
+  },
+  {
+    "codigo": "C263",
+    "apellido": "CRUZ",
+    "nombre": "MARCO ANTONIO",
+    "dni": "15759989"
+  },
+  {
+    "codigo": "C345",
+    "apellido": "CRUZ",
+    "nombre": "JESSICA YOLANDA",
+    "dni": "40268512"
+  },
+  {
+    "codigo": "C274",
+    "apellido": "CUBA",
+    "nombre": "GLADYS ESTHER",
+    "dni": "15606044"
+  },
+  {
+    "codigo": "C390",
+    "apellido": "CUELLAR",
+    "nombre": "TANIA ZAYDA",
+    "dni": "41073428"
+  },
+  {
+    "codigo": "C270",
+    "apellido": "CUEVA",
+    "nombre": "RAFAEL",
+    "dni": "15726494"
+  },
+  {
+    "codigo": "C370",
+    "apellido": "CUEVA",
+    "nombre": "JOSSELYN YURIKO",
+    "dni": "47204257"
+  },
+  {
+    "codigo": "D139",
+    "apellido": "DAMASO",
+    "nombre": "JAIME WILLIAM",
+    "dni": "15724003"
+  },
+  {
+    "codigo": "D105",
+    "apellido": "DAMAZO",
+    "nombre": "MARIA ELIZABETH",
+    "dni": "15590598"
+  },
+  {
+    "codigo": "D128",
+    "apellido": "DAVILA",
+    "nombre": "JUAN ALBERTO",
+    "dni": "15634431"
+  },
+  {
+    "codigo": "D136",
+    "apellido": "DAVILA",
+    "nombre": "JOSHEP JONHATAN",
+    "dni": "42274217"
+  },
+  {
+    "codigo": "D140",
+    "apellido": "DE LA CRUZ",
+    "nombre": "KARINA ANDREA",
+    "dni": "43622119"
+  },
+  {
+    "codigo": "D124",
+    "apellido": "DE LA CRUZ",
+    "nombre": "MALENA ESTHER",
+    "dni": "08627680"
+  },
+  {
+    "codigo": "D118",
+    "apellido": "DEL CAMPO",
+    "nombre": "CARLOS ALBERTO",
+    "dni": "43397328"
+  },
+  {
+    "codigo": "D038",
+    "apellido": "DEL VALLE",
+    "nombre": "JESUS MARTIN",
+    "dni": "15645247"
+  },
+  {
+    "codigo": "D012",
+    "apellido": "DELGADO",
+    "nombre": "JORGE",
+    "dni": "15608874"
+  },
+  {
+    "codigo": "D098",
+    "apellido": "DIAZ",
+    "nombre": "DANIEL ANTONIO",
+    "dni": "07759509"
+  },
+  {
+    "codigo": "D090",
+    "apellido": "DIAZ",
+    "nombre": "DAVID",
+    "dni": "15736744"
+  },
+  {
+    "codigo": "D129",
+    "apellido": "DIAZ",
+    "nombre": "MARIO ALBERTO",
+    "dni": "15614796"
+  },
+  {
+    "codigo": "D058",
+    "apellido": "DIAZ",
+    "nombre": "WILDER ALBERTO",
+    "dni": "15592073"
+  },
+  {
+    "codigo": "D131",
+    "apellido": "DIAZ",
+    "nombre": "ROSSANA MAGALY",
+    "dni": "43780193"
+  },
+  {
+    "codigo": "D135",
+    "apellido": "DIAZ",
+    "nombre": "JESUS FABRIZIO",
+    "dni": "40365402"
+  },
+  {
+    "codigo": "D020",
+    "apellido": "DIAZ",
+    "nombre": "LUIS MIGUEL",
+    "dni": "15614484"
+  },
+  {
+    "codigo": "D017",
+    "apellido": "DIAZ",
+    "nombre": "JESUS EVARISTO",
+    "dni": "15610689"
+  },
+  {
+    "codigo": "D111",
+    "apellido": "DIAZ",
+    "nombre": "MIGUEL ANGEL",
+    "dni": "15608052"
+  },
+  {
+    "codigo": "D145",
+    "apellido": "DIAZ",
+    "nombre": "CESAR ALONSO",
+    "dni": "46640999"
+  },
+  {
+    "codigo": "D144",
+    "apellido": "DIAZ",
+    "nombre": "MIGUEL SAMMY",
+    "dni": "43238898"
+  },
+  {
+    "codigo": "D055",
+    "apellido": "DIAZ",
+    "nombre": "ERLAN",
+    "dni": "15593878"
+  },
+  {
+    "codigo": "D132",
+    "apellido": "DIAZ",
+    "nombre": "EDWARD ALBERTO",
+    "dni": "40954880"
+  },
+  {
+    "codigo": "D126",
+    "apellido": "DIAZ",
+    "nombre": "ROBERTO",
+    "dni": "15620337"
+  },
+  {
+    "codigo": "D050",
+    "apellido": "DIAZ",
+    "nombre": "JULIO",
+    "dni": "15592961"
+  },
+  {
+    "codigo": "D027",
+    "apellido": "DIAZ",
+    "nombre": "PEDRO ALFREDO",
+    "dni": "15588950"
+  },
+  {
+    "codigo": "D137",
+    "apellido": "DIAZ",
+    "nombre": "MELODIE SHERYL",
+    "dni": "45801519"
+  },
+  {
+    "codigo": "D133",
+    "apellido": "DIAZ",
+    "nombre": "ZULEMA NAHIA",
+    "dni": "42322412"
+  },
+  {
+    "codigo": "D138",
+    "apellido": "DIAZ",
+    "nombre": "SILVIA MILAGROS",
+    "dni": "70430845"
+  },
+  {
+    "codigo": "D130",
+    "apellido": "DIAZ",
+    "nombre": "HILDA LAURA",
+    "dni": "15764730"
+  },
+  {
+    "codigo": "D127",
+    "apellido": "DOCUME",
+    "nombre": "SANDRA JESSICA",
+    "dni": "40075481"
+  },
+  {
+    "codigo": "D141",
+    "apellido": "DOLORES",
+    "nombre": "FLUVIO IVAN",
+    "dni": "45110933"
+  },
+  {
+    "codigo": "D142",
+    "apellido": "DOMINGUEZ",
+    "nombre": "MARISOL CAROLAY",
+    "dni": "73543488"
+  },
+  {
+    "codigo": "D032",
+    "apellido": "DORADOR",
+    "nombre": "PEDRO WILLIAM",
+    "dni": "15594403"
+  },
+  {
+    "codigo": "D143",
+    "apellido": "DOY",
+    "nombre": "CINTHIA BANIA",
+    "dni": "46675923"
+  },
+  {
+    "codigo": "E087",
+    "apellido": "ECHEGARAY",
+    "nombre": "LOURDES LILIANA",
+    "dni": "40978513"
+  },
+  {
+    "codigo": "E089",
+    "apellido": "ELCORROBARRUTIA",
+    "nombre": "RICARDO",
+    "dni": "45560487"
+  },
+  {
+    "codigo": "E092",
+    "apellido": "ESCOBEDO",
+    "nombre": "MIULER RICHARD",
+    "dni": "41817133"
+  },
+  {
+    "codigo": "E047",
+    "apellido": "ESPADIN",
+    "nombre": "RAFAEL ELIAS",
+    "dni": "15722179"
+  },
+  {
+    "codigo": "E083",
+    "apellido": "ESPEJO",
+    "nombre": "CRISTIAN LUIS",
+    "dni": "15735365"
+  },
+  {
+    "codigo": "E086",
+    "apellido": "ESPEJO",
+    "nombre": "ROSALBINA NANCY",
+    "dni": "43317701"
+  },
+  {
+    "codigo": "E080",
+    "apellido": "ESPINO",
+    "nombre": "ENRIQUE HECTOR",
+    "dni": "15728601"
+  },
+  {
+    "codigo": "E093",
+    "apellido": "ESPINOZA",
+    "nombre": "ANGELLO GIOVANNI",
+    "dni": "40399830"
+  },
+  {
+    "codigo": "E030",
+    "apellido": "ESPINOZA",
+    "nombre": "VICTOR ALEJANDRO",
+    "dni": "15602657"
+  },
+  {
+    "codigo": "E091",
+    "apellido": "ESPINOZA",
+    "nombre": "JEFERSON",
+    "dni": "41746805"
+  },
+  {
+    "codigo": "E088",
+    "apellido": "ESTUPIÑAN",
+    "nombre": "JORGE LUIS",
+    "dni": "15727537"
+  },
+  {
+    "codigo": "E084",
+    "apellido": "ESTUPIÑAN",
+    "nombre": "EMMA DAYANA",
+    "dni": "42194695"
+  },
+  {
+    "codigo": "E082",
+    "apellido": "ESTUPIÑAN",
+    "nombre": "CARLOS ALBERTO",
+    "dni": "44391759"
+  },
+  {
+    "codigo": "E090",
+    "apellido": "EYZAGUIRRE",
+    "nombre": "CARLOS RICARDO",
+    "dni": "15758325"
+  },
+  {
+    "codigo": "F124",
+    "apellido": "FALCON",
+    "nombre": "MARCO ANTONIO",
+    "dni": "15682433"
+  },
+  {
+    "codigo": "F125",
+    "apellido": "FARRO",
+    "nombre": "EDWIN IVAN",
+    "dni": "15735619"
+  },
+  {
+    "codigo": "F121",
+    "apellido": "FARROMEQUE",
+    "nombre": "ANGELLA ROSSANA",
+    "dni": "40080692"
+  },
+  {
+    "codigo": "F122",
+    "apellido": "FEDALTO",
+    "nombre": "KASSANDRA",
+    "dni": "44017935"
+  },
+  {
+    "codigo": "F103",
+    "apellido": "FERNANDEZ",
+    "nombre": "MIGUEL MARTIN",
+    "dni": "15735725"
+  },
+  {
+    "codigo": "F132",
+    "apellido": "FERNANDEZ",
+    "nombre": "NATHALY ELIANA",
+    "dni": "43087855"
+  },
+  {
+    "codigo": "F081",
+    "apellido": "FERNANDEZ",
+    "nombre": "LEONIDAS MARCOS",
+    "dni": "15722229"
+  },
+  {
+    "codigo": "F129",
+    "apellido": "FLORES",
+    "nombre": "LORENA EVELYN",
+    "dni": "44194174"
+  },
+  {
+    "codigo": "F035",
+    "apellido": "FLORES",
+    "nombre": "SAUL ERNESTO",
+    "dni": "15590386"
+  },
+  {
+    "codigo": "F133",
+    "apellido": "FLORES",
+    "nombre": "MARINO RICARDO",
+    "dni": "46871488"
+  },
+  {
+    "codigo": "F095",
+    "apellido": "FLORES",
+    "nombre": "NANCY GEOVANA",
+    "dni": "15616175"
+  },
+  {
+    "codigo": "F038",
+    "apellido": "FLORES",
+    "nombre": "JUAN JOSE",
+    "dni": "15592738"
+  },
+  {
+    "codigo": "F089",
+    "apellido": "FLORES",
+    "nombre": "HENRY WALTER",
+    "dni": "15724954"
+  },
+  {
+    "codigo": "F128",
+    "apellido": "FLORES",
+    "nombre": "FELIPE ANTONIO",
+    "dni": "40720534"
+  },
+  {
+    "codigo": "F067",
+    "apellido": "FLORES",
+    "nombre": "LUIS GUILLERMO",
+    "dni": "15728790"
+  },
+  {
+    "codigo": "F108",
+    "apellido": "FLORES",
+    "nombre": "MARIO ANTONIO",
+    "dni": "15764835"
+  },
+  {
+    "codigo": "F126",
+    "apellido": "FLORIAN",
+    "nombre": "WALTER FERNANDO",
+    "dni": "43393587"
+  },
+  {
+    "codigo": "F093",
+    "apellido": "FUENTES",
+    "nombre": "JESUS ALFREDO",
+    "dni": "20229983"
+  },
+  {
+    "codigo": "F123",
+    "apellido": "FUENTES RIVERA",
+    "nombre": "ANGIE YULI",
+    "dni": "45737808"
+  },
+  {
+    "codigo": "F130",
+    "apellido": "FUENTES RIVERA",
+    "nombre": "MERY MARGOT",
+    "dni": "15759978"
+  },
+  {
+    "codigo": "F050",
+    "apellido": "FUENTES RIVERA",
+    "nombre": "ANA CECILIA",
+    "dni": "15609681"
+  },
+  {
+    "codigo": "G214",
+    "apellido": "GALDOS",
+    "nombre": "JOSE ANTONIO",
+    "dni": "15760821"
+  },
+  {
+    "codigo": "G265",
+    "apellido": "GALLARDO",
+    "nombre": "JUAN WILFREDO",
+    "dni": "18858146"
+  },
+  {
+    "codigo": "G260",
+    "apellido": "GAMARRA",
+    "nombre": "JESUS ENRIQUE",
+    "dni": "70868121"
+  },
+  {
+    "codigo": "G253",
+    "apellido": "GAMARRA",
+    "nombre": "HUGO NENE",
+    "dni": "15640884"
+  },
+  {
+    "codigo": "G099",
+    "apellido": "GARAY",
+    "nombre": "JOSE JULIO",
+    "dni": "07739701"
+  },
+  {
+    "codigo": "G283",
+    "apellido": "GARCIA",
+    "nombre": "STHEFANY ROSAURA MARIA",
+    "dni": "48163006"
+  },
+  {
+    "codigo": "G189",
+    "apellido": "GARCIA",
+    "nombre": "ERICK",
+    "dni": "15726875"
+  },
+  {
+    "codigo": "G139",
+    "apellido": "GARCIA",
+    "nombre": "CESAR ALEXIS",
+    "dni": "15724189"
+  },
+  {
+    "codigo": "G286",
+    "apellido": "GARCIA",
+    "nombre": "ELENA MASIEL",
+    "dni": "40114164"
+  },
+  {
+    "codigo": "G011",
+    "apellido": "GARCIA",
+    "nombre": "PEDRO JOSE",
+    "dni": "15582021"
+  },
+  {
+    "codigo": "G288",
+    "apellido": "GARCIA",
+    "nombre": "MARIA DEL CARMEN",
+    "dni": "47219159"
+  },
+  {
+    "codigo": "G289",
+    "apellido": "GARCIA",
+    "nombre": "PERCY EUGENIO",
+    "dni": "40486570"
+  },
+  {
+    "codigo": "G273",
+    "apellido": "GARCIA",
+    "nombre": "DANIELA EDITH",
+    "dni": "15995714"
+  },
+  {
+    "codigo": "G160",
+    "apellido": "GARCIA",
+    "nombre": "JUAN JAVIER",
+    "dni": "15616002"
+  },
+  {
+    "codigo": "G154",
+    "apellido": "GARCIA",
+    "nombre": "ANGEL ESTEBAN",
+    "dni": "08035654"
+  },
+  {
+    "codigo": "G291",
+    "apellido": "GARCIA",
+    "nombre": "JULIAN HUMBERTO",
+    "dni": "61062978"
+  },
+  {
+    "codigo": "G105",
+    "apellido": "GARCIA",
+    "nombre": "JORGE ANTONIO",
+    "dni": "15587138"
+  },
+  {
+    "codigo": "G252",
+    "apellido": "GARCIA",
+    "nombre": "EDDY ENRIQUE",
+    "dni": "40445949"
+  },
+  {
+    "codigo": "G285",
+    "apellido": "GARCIA",
+    "nombre": "ELDER JOSE",
+    "dni": "15641501"
+  },
+  {
+    "codigo": "G208",
+    "apellido": "GARCIA",
+    "nombre": "HUGO EDUARDO",
+    "dni": "15722865"
+  },
+  {
+    "codigo": "G230",
+    "apellido": "GARCIA",
+    "nombre": "RAUL IVAN",
+    "dni": "15726558"
+  },
+  {
+    "codigo": "G248",
+    "apellido": "GARCIA",
+    "nombre": "YESSICA ROXANA",
+    "dni": "15735634"
+  },
+  {
+    "codigo": "G280",
+    "apellido": "GAVEDIA",
+    "nombre": "JOSE LUIS",
+    "dni": "45831515"
+  },
+  {
+    "codigo": "G292",
+    "apellido": "GAVIRIA",
+    "nombre": "CESAR FILOGONIO",
+    "dni": "15722300"
+  },
+  {
+    "codigo": "G018",
+    "apellido": "GIORDANO",
+    "nombre": "JUAN ALFREDO",
+    "dni": "15615220"
+  },
+  {
+    "codigo": "G218",
+    "apellido": "GIORDANO",
+    "nombre": "MAGALY EVELYN",
+    "dni": "41577166"
+  },
+  {
+    "codigo": "G284",
+    "apellido": "GODOY",
+    "nombre": "DAVID ANIBAL",
+    "dni": "46912783"
+  },
+  {
+    "codigo": "G243",
+    "apellido": "GOMERO",
+    "nombre": "ROSITA VIOLETA FORTUNATA",
+    "dni": "15738592"
+  },
+  {
+    "codigo": "G281",
+    "apellido": "GOMEZ",
+    "nombre": "JORGE LUIS",
+    "dni": "43602016"
+  },
+  {
+    "codigo": "G290",
+    "apellido": "GOMEZ",
+    "nombre": "ARMANDO",
+    "dni": "45097831"
+  },
+  {
+    "codigo": "G275",
+    "apellido": "GOMEZ",
+    "nombre": "MARIA FE ANGELINNA",
+    "dni": "43647082"
+  },
+  {
+    "codigo": "G251",
+    "apellido": "GOMEZ",
+    "nombre": "JANET PATRICIA",
+    "dni": "40095619"
+  },
+  {
+    "codigo": "G264",
+    "apellido": "GOMEZ",
+    "nombre": "SUSAM DENNICE",
+    "dni": "15737094"
+  },
+  {
+    "codigo": "G287",
+    "apellido": "GOMEZ",
+    "nombre": "ANDRES SUNMAR",
+    "dni": "47457381"
+  },
+  {
+    "codigo": "G166",
+    "apellido": "GOMEZ",
+    "nombre": "ARMANDO",
+    "dni": "15617340"
+  },
+  {
+    "codigo": "G272",
+    "apellido": "GOMEZ",
+    "nombre": "LADY ELIZABETH VIATHARE",
+    "dni": "71848481"
+  },
+  {
+    "codigo": "G190",
+    "apellido": "GOMEZ",
+    "nombre": "PERCY VICTOR ROLANDO",
+    "dni": "15729523"
+  },
+  {
+    "codigo": "G380",
+    "apellido": "GONZALES",
+    "nombre": "MIGUEL ANGEL",
+    "dni": "15725638"
+  },
+  {
+    "codigo": "G031",
+    "apellido": "GONZALES",
+    "nombre": "CARLOS ALBERTO",
+    "dni": "31675148"
+  },
+  {
+    "codigo": "G200",
+    "apellido": "GONZALES",
+    "nombre": "JOSE CARLOS DOMINGO",
+    "dni": "42661186"
+  },
+  {
+    "codigo": "G202",
+    "apellido": "GONZALES",
+    "nombre": "CARLOS ENRIQUE",
+    "dni": "15616992"
+  },
+  {
+    "codigo": "G179",
+    "apellido": "GONZALES",
+    "nombre": "ROSARIO",
+    "dni": "15724917"
+  },
+  {
+    "codigo": "G255",
+    "apellido": "GONZALES",
+    "nombre": "FANNY PAOLA",
+    "dni": "10271125"
+  },
+  {
+    "codigo": "G259",
+    "apellido": "GONZALEZ",
+    "nombre": "MARIA FERNANDA",
+    "dni": "77336311"
+  },
+  {
+    "codigo": "G131",
+    "apellido": "GONZALEZ",
+    "nombre": "MARIA LUZMILA",
+    "dni": "15590856"
+  },
+  {
+    "codigo": "G036",
+    "apellido": "GONZALEZ",
+    "nombre": "ALFREDO ALEJANDRO",
+    "dni": "15606918"
+  },
+  {
+    "codigo": "G038",
+    "apellido": "GONZALEZ",
+    "nombre": "ANGEL OCTAVIO",
+    "dni": "15613020"
+  },
+  {
+    "codigo": "G089",
+    "apellido": "GONZALEZ",
+    "nombre": "FERNANDO JOSE",
+    "dni": "15617514"
+  },
+  {
+    "codigo": "G256",
+    "apellido": "GONZALEZ",
+    "nombre": "CINTHYA MILAGROS",
+    "dni": "43680101"
+  },
+  {
+    "codigo": "G123",
+    "apellido": "GONZALEZ",
+    "nombre": "LUIS FERNANDO",
+    "dni": "07826969"
+  },
+  {
+    "codigo": "G269",
+    "apellido": "GORN",
+    "nombre": "PEDRO MANUEL",
+    "dni": "15738668"
+  },
+  {
+    "codigo": "G263",
+    "apellido": "GRADOS",
+    "nombre": "VICTOR WILLIAMS",
+    "dni": "40672670"
+  },
+  {
+    "codigo": "G254",
+    "apellido": "GRADOS",
+    "nombre": "BENNY DAVID QUINTILIANO",
+    "dni": "40151722"
+  },
+  {
+    "codigo": "G127",
+    "apellido": "GRADOS",
+    "nombre": "DAVID CONRADO",
+    "dni": "15584131"
+  },
+  {
+    "codigo": "G276",
+    "apellido": "GRADOS",
+    "nombre": "CAMILA ANTHUANET",
+    "dni": "73443342"
+  },
+  {
+    "codigo": "G274",
+    "apellido": "GRANADOS",
+    "nombre": "EDWIN",
+    "dni": "15764100"
+  },
+  {
+    "codigo": "G262",
+    "apellido": "GRAU",
+    "nombre": "PEDRO ROBERTO",
+    "dni": "42092059"
+  },
+  {
+    "codigo": "G201",
+    "apellido": "GRAU",
+    "nombre": "ROBERTO AUGUSTO",
+    "dni": "15727921"
+  },
+  {
+    "codigo": "G241",
+    "apellido": "GUERRA",
+    "nombre": "ANGIE VANESSA",
+    "dni": "45167812"
+  },
+  {
+    "codigo": "G277",
+    "apellido": "GUERRA",
+    "nombre": "BETTY YULI",
+    "dni": "40481590"
+  },
+  {
+    "codigo": "G049",
+    "apellido": "GUERRA",
+    "nombre": "JORGE ALBERTO",
+    "dni": "15586336"
+  },
+  {
+    "codigo": "G145",
+    "apellido": "GUERRERO",
+    "nombre": "JULIA DEL PILAR",
+    "dni": "15738084"
+  },
+  {
+    "codigo": "G279",
+    "apellido": "GUERRERO",
+    "nombre": "EDWIN OSCAR",
+    "dni": "09873323"
+  },
+  {
+    "codigo": "G062",
+    "apellido": "GUERRERO",
+    "nombre": "SEGUNDO VICTOR",
+    "dni": "15590269"
+  },
+  {
+    "codigo": "G237",
+    "apellido": "GUERRERO",
+    "nombre": "OSKAR MARTHIN",
+    "dni": "43997486"
+  },
+  {
+    "codigo": "G278",
+    "apellido": "GUERRERO",
+    "nombre": "MARILYN GUISSELLE",
+    "dni": "45022464"
+  },
+  {
+    "codigo": "G238",
+    "apellido": "GUILLEN",
+    "nombre": "SILVIA EMIGDIA",
+    "dni": "15725513"
+  },
+  {
+    "codigo": "G186",
+    "apellido": "GUISADA",
+    "nombre": "LUIS ALBERTO",
+    "dni": "41697417"
+  },
+  {
+    "codigo": "G236",
+    "apellido": "GUIZADA",
+    "nombre": "FABIOLA ANDREA",
+    "dni": "42367661"
+  },
+  {
+    "codigo": "G239",
+    "apellido": "GUIZADO",
+    "nombre": "ERIK",
+    "dni": "06789925"
+  },
+  {
+    "codigo": "G087",
+    "apellido": "GUTIERREZ",
+    "nombre": "MARIA DEL ROSARIO",
+    "dni": "15724643"
+  },
+  {
+    "codigo": "G055",
+    "apellido": "GUTIERREZ",
+    "nombre": "PAUL",
+    "dni": "15595626"
+  },
+  {
+    "codigo": "G249",
+    "apellido": "GUTIERREZ",
+    "nombre": "MILER IVAN",
+    "dni": "15761053"
+  },
+  {
+    "codigo": "G293",
+    "apellido": "GUTIERREZ",
+    "nombre": "WILLIAM ALBERTO",
+    "dni": "42251202"
+  },
+  {
+    "codigo": "G257",
+    "apellido": "GUZMAN",
+    "nombre": "SANDRA SOPHIA",
+    "dni": "41830298"
+  },
+  {
+    "codigo": "G282",
+    "apellido": "GUZMAN",
+    "nombre": "MARIA ALEJANDRA",
+    "dni": "73736775"
+  },
+  {
+    "codigo": "H089",
+    "apellido": "HAITARA",
+    "nombre": "LYDIA",
+    "dni": "15734129"
+  },
+  {
+    "codigo": "H092",
+    "apellido": "HARO",
+    "nombre": "RICARDO RAFAEL",
+    "dni": "40737757"
+  },
+  {
+    "codigo": "H048",
+    "apellido": "HARO",
+    "nombre": "EDUARDO ALFREDO",
+    "dni": "32910085"
+  },
+  {
+    "codigo": "H052",
+    "apellido": "HERBOZO",
+    "nombre": "JAIME LUIS",
+    "dni": "15598884"
+  },
+  {
+    "codigo": "H080",
+    "apellido": "HERBOZO",
+    "nombre": "EDWIN ALEX",
+    "dni": "15735969"
+  },
+  {
+    "codigo": "H090",
+    "apellido": "HERRERA",
+    "nombre": "JOANN JOAO",
+    "dni": "45440775"
+  },
+  {
+    "codigo": "H007",
+    "apellido": "HERRERA",
+    "nombre": "LUIS ALBERTO",
+    "dni": "15584531"
+  },
+  {
+    "codigo": "H064",
+    "apellido": "HERRERA",
+    "nombre": "SHEYLA VANESSA",
+    "dni": "41558934"
+  },
+  {
+    "codigo": "H081",
+    "apellido": "HERRERA",
+    "nombre": "LIZ MIRIAM",
+    "dni": "15739754"
+  },
+  {
+    "codigo": "H054",
+    "apellido": "HIDALGO",
+    "nombre": "OSCAR ALBERTO",
+    "dni": "15729447"
+  },
+  {
+    "codigo": "H083",
+    "apellido": "HIDALGO",
+    "nombre": "ROBINSON",
+    "dni": "07974279"
+  },
+  {
+    "codigo": "H079",
+    "apellido": "HIDALGO",
+    "nombre": "LEIDY HAYDEE",
+    "dni": "47717815"
+  },
+  {
+    "codigo": "H029",
+    "apellido": "HIJAR",
+    "nombre": "AMANDA GISELLA",
+    "dni": "15598688"
+  },
+  {
+    "codigo": "H066",
+    "apellido": "HIJAR",
+    "nombre": "RAYMUNDO JAVIER",
+    "dni": "15685212"
+  },
+  {
+    "codigo": "H091",
+    "apellido": "HIJAR",
+    "nombre": "GIANNINA  DENISSE",
+    "dni": "15738394"
+  },
+  {
+    "codigo": "H074",
+    "apellido": "HINOJOSA",
+    "nombre": "VICTOR HERNAN",
+    "dni": "40265948"
+  },
+  {
+    "codigo": "H069",
+    "apellido": "HINOSTROZA",
+    "nombre": "CINTYA  CECILIA",
+    "dni": "41388489"
+  },
+  {
+    "codigo": "H043",
+    "apellido": "HUAMAN",
+    "nombre": "JUAN CARLOS",
+    "dni": "15725947"
+  },
+  {
+    "codigo": "H094",
+    "apellido": "HUAMAN",
+    "nombre": "CARLOS GUILLERMO",
+    "dni": "15735626"
+  },
+  {
+    "codigo": "H088",
+    "apellido": "HUAMAN",
+    "nombre": "FORTUNATO",
+    "dni": "41133671"
+  },
+  {
+    "codigo": "H067",
+    "apellido": "HUAMAN",
+    "nombre": "JOSE ARTURO",
+    "dni": "15724934"
+  },
+  {
+    "codigo": "H082",
+    "apellido": "HUAMAN",
+    "nombre": "MIGUEL ERNESTO",
+    "dni": "15607132"
+  },
+  {
+    "codigo": "H077",
+    "apellido": "HUANQUI",
+    "nombre": "AARON MANUEL",
+    "dni": "70747515"
+  },
+  {
+    "codigo": "H033",
+    "apellido": "HUARANGA",
+    "nombre": "RICHARD",
+    "dni": "15617211"
+  },
+  {
+    "codigo": "H093",
+    "apellido": "HUASUPOMA",
+    "nombre": "ERIKA JULISSA",
+    "dni": "15763292"
+  },
+  {
+    "codigo": "H086",
+    "apellido": "HUAVIL",
+    "nombre": "JUAN DIEGO",
+    "dni": "72079732"
+  },
+  {
+    "codigo": "H084",
+    "apellido": "HUERTA",
+    "nombre": "YOLANDA",
+    "dni": "15722560"
+  },
+  {
+    "codigo": "I002",
+    "apellido": "IBAÑEZ",
+    "nombre": "JUAN CARLOS",
+    "dni": "15595167"
+  },
+  {
+    "codigo": "I005",
+    "apellido": "IBAÑEZ",
+    "nombre": "MARIA DEL CARMEN",
+    "dni": "15594009"
+  },
+  {
+    "codigo": "I035",
+    "apellido": "INFANTE",
+    "nombre": "MARIANO RAFAEL",
+    "dni": "15761874"
+  },
+  {
+    "codigo": "I033",
+    "apellido": "IPINCE",
+    "nombre": "FIORELLA FAVIOLA",
+    "dni": "43458408"
+  },
+  {
+    "codigo": "I034",
+    "apellido": "ISIQUE",
+    "nombre": "JUAN WILFREDO",
+    "dni": "15735662"
+  },
+  {
+    "codigo": "J027",
+    "apellido": "JAMANCA",
+    "nombre": "CHRISTIAN LEONARDO",
+    "dni": "41367906"
+  },
+  {
+    "codigo": "J020",
+    "apellido": "JARA",
+    "nombre": "JAVIER NOLAZCO",
+    "dni": "15672376"
+  },
+  {
+    "codigo": "J022",
+    "apellido": "JARA",
+    "nombre": "ROBERT ANTONIO",
+    "dni": "15735993"
+  },
+  {
+    "codigo": "J014",
+    "apellido": "JIMENEZ",
+    "nombre": "JOSE",
+    "dni": "15741701"
+  },
+  {
+    "codigo": "J030",
+    "apellido": "JIMENEZ",
+    "nombre": "ROXANA JESUS",
+    "dni": "15759931"
+  },
+  {
+    "codigo": "J005",
+    "apellido": "JO",
+    "nombre": "MARCIANO",
+    "dni": "10272972"
+  },
+  {
+    "codigo": "J021",
+    "apellido": "JUAREZ",
+    "nombre": "ROXANA ISELA",
+    "dni": "15744242"
+  },
+  {
+    "codigo": "J031",
+    "apellido": "JUNCO",
+    "nombre": "MELISSA ANAHI",
+    "dni": "43490358"
+  },
+  {
+    "codigo": "J028",
+    "apellido": "JURADO",
+    "nombre": "STEPHANY",
+    "dni": "70747527"
+  },
+  {
+    "codigo": "K012",
+    "apellido": "KASAY",
+    "nombre": "ROBERTO MAX SAKUHEY",
+    "dni": "15737640"
+  },
+  {
+    "codigo": "K013",
+    "apellido": "KONJA",
+    "nombre": "RAFAEL VICTOR",
+    "dni": "15720366"
+  },
+  {
+    "codigo": "K014",
+    "apellido": "KU",
+    "nombre": "DAVID DANIEL",
+    "dni": "15760241"
+  },
+  {
+    "codigo": "K011",
+    "apellido": "KUDO",
+    "nombre": "SILVIA VIKY",
+    "dni": "15605071"
+  },
+  {
+    "codigo": "L220",
+    "apellido": "LA ROSA",
+    "nombre": "LUZ MARIA",
+    "dni": "42263499"
+  },
+  {
+    "codigo": "L008",
+    "apellido": "LA ROSA",
+    "nombre": "EDGARDO",
+    "dni": "15605344"
+  },
+  {
+    "codigo": "L224",
+    "apellido": "LA ROSA",
+    "nombre": "DIANA ERIKA",
+    "dni": "70837731"
+  },
+  {
+    "codigo": "L205",
+    "apellido": "LA ROSA",
+    "nombre": "ANA MARIA",
+    "dni": "15738296"
+  },
+  {
+    "codigo": "L114",
+    "apellido": "LA ROSA",
+    "nombre": "LUIS ENRIQUE",
+    "dni": "15602589"
+  },
+  {
+    "codigo": "L016",
+    "apellido": "LA ROSA",
+    "nombre": "VICTOR MANUEL",
+    "dni": "15606274"
+  },
+  {
+    "codigo": "L195",
+    "apellido": "LA ROSA",
+    "nombre": "ABILDER MANUEL",
+    "dni": "40896297"
+  },
+  {
+    "codigo": "L021",
+    "apellido": "LA ROSA",
+    "nombre": "FREDY HERNANDO",
+    "dni": "15592055"
+  },
+  {
+    "codigo": "L020",
+    "apellido": "LA ROSA",
+    "nombre": "JESUS ALFREDO",
+    "dni": "15759504"
+  },
+  {
+    "codigo": "L092",
+    "apellido": "LA SERNA",
+    "nombre": "EFRAIN WALTER",
+    "dni": "15759429"
+  },
+  {
+    "codigo": "L215",
+    "apellido": "LA SERNA",
+    "nombre": "HECTOR ENRIQUE",
+    "dni": "72157951"
+  },
+  {
+    "codigo": "L201",
+    "apellido": "LANDA",
+    "nombre": "SANTIAGO MANUEL",
+    "dni": "40941565"
+  },
+  {
+    "codigo": "L203",
+    "apellido": "LANEGRA",
+    "nombre": "FIORELLA ROCIO",
+    "dni": "42540675"
+  },
+  {
+    "codigo": "L004",
+    "apellido": "LANEGRA",
+    "nombre": "CARLOS ENRIQUE",
+    "dni": "15594807"
+  },
+  {
+    "codigo": "L225",
+    "apellido": "LAOS",
+    "nombre": "CHRISTIAN JOAO",
+    "dni": "43877997"
+  },
+  {
+    "codigo": "L223",
+    "apellido": "LAOS",
+    "nombre": "MARIA CRISTINA",
+    "dni": "41206705"
+  },
+  {
+    "codigo": "L142",
+    "apellido": "LAVALLE",
+    "nombre": "DANIEL SANTIAGO",
+    "dni": "15739812"
+  },
+  {
+    "codigo": "L146",
+    "apellido": "LAZARO",
+    "nombre": "NILA",
+    "dni": "44170880"
+  },
+  {
+    "codigo": "L168",
+    "apellido": "LAZARO",
+    "nombre": "RICHAR MARCELO",
+    "dni": "15685134"
+  },
+  {
+    "codigo": "L189",
+    "apellido": "LEANDRO",
+    "nombre": "MIGUEL ANGEL",
+    "dni": "40610156"
+  },
+  {
+    "codigo": "L065",
+    "apellido": "LEON",
+    "nombre": "PERCY EDGAR",
+    "dni": "156038757"
+  },
+  {
+    "codigo": "L222",
+    "apellido": "LEON",
+    "nombre": "JULISSA HERLINDA",
+    "dni": "72658972"
+  },
+  {
+    "codigo": "L236",
+    "apellido": "LEON",
+    "nombre": "ALEXANDER CHUCK",
+    "dni": "70618335"
+  },
+  {
+    "codigo": "L179",
+    "apellido": "LEON",
+    "nombre": "SARITA LIZETH",
+    "dni": "42088620"
+  },
+  {
+    "codigo": "L196",
+    "apellido": "LEON",
+    "nombre": "JULIO ARMANDO",
+    "dni": "15742051"
+  },
+  {
+    "codigo": "L204",
+    "apellido": "LEON",
+    "nombre": "RICARDO ANDRES",
+    "dni": "15737279"
+  },
+  {
+    "codigo": "L028",
+    "apellido": "LETURIA",
+    "nombre": "CARLOS CIRO",
+    "dni": "15596056"
+  },
+  {
+    "codigo": "L128",
+    "apellido": "LEZAMETA",
+    "nombre": "HUGO SANTOS",
+    "dni": "15739261"
+  },
+  {
+    "codigo": "L116",
+    "apellido": "LEZAMETA",
+    "nombre": "ROMER LUIS",
+    "dni": "15617438"
+  },
+  {
+    "codigo": "L216",
+    "apellido": "LEZAMETA",
+    "nombre": "WALTHER FELIPE",
+    "dni": "40946313"
+  },
+  {
+    "codigo": "L212",
+    "apellido": "LINARES",
+    "nombre": "POOL HUMBERTO",
+    "dni": "70810726"
+  },
+  {
+    "codigo": "L191",
+    "apellido": "LINO",
+    "nombre": "JUAN EDGAR",
+    "dni": "07870669"
+  },
+  {
+    "codigo": "L183",
+    "apellido": "LINO",
+    "nombre": "PEDRO DENNIS",
+    "dni": "43170456"
+  },
+  {
+    "codigo": "L230",
+    "apellido": "LINO",
+    "nombre": "LADY CAROLINA",
+    "dni": "46307412"
+  },
+  {
+    "codigo": "L209",
+    "apellido": "LIOO",
+    "nombre": "ROBERTO FRANCISCO",
+    "dni": "40699537"
+  },
+  {
+    "codigo": "L144",
+    "apellido": "LIOO",
+    "nombre": "CAROLINA DEL ROSARIO",
+    "dni": "43666409"
+  },
+  {
+    "codigo": "L206",
+    "apellido": "LIVORA",
+    "nombre": "DAYANA DEL ROSARIO",
+    "dni": "41264788"
+  },
+  {
+    "codigo": "L221",
+    "apellido": "LIVORA",
+    "nombre": "ELVA LYNETTE",
+    "dni": "72282969"
+  },
+  {
+    "codigo": "L211",
+    "apellido": "LLANOS",
+    "nombre": "VICTOR RAUL",
+    "dni": "40401507"
+  },
+  {
+    "codigo": "L167",
+    "apellido": "LLERENA",
+    "nombre": "MERCEDES CARMELA DEL SOCORRO",
+    "dni": "15582575"
+  },
+  {
+    "codigo": "L043",
+    "apellido": "LO SAY YICK",
+    "nombre": "SIXTO FELIX*",
+    "dni": "15587260"
+  },
+  {
+    "codigo": "L214",
+    "apellido": "LOAYZA",
+    "nombre": "DIEGO ALFONSO",
+    "dni": "42458455"
+  },
+  {
+    "codigo": "L235",
+    "apellido": "LOAYZA",
+    "nombre": "JAIME FERNANDO",
+    "dni": "41343330"
+  },
+  {
+    "codigo": "L069",
+    "apellido": "LOO",
+    "nombre": "CARLOS ALBERTO",
+    "dni": "15594634"
+  },
+  {
+    "codigo": "L234",
+    "apellido": "LOPEZ",
+    "nombre": "JOSE LUIS",
+    "dni": "45268619"
+  },
+  {
+    "codigo": "L229",
+    "apellido": "LOPEZ",
+    "nombre": "JOHAN POOL",
+    "dni": "44899455"
+  },
+  {
+    "codigo": "L200",
+    "apellido": "LOPEZ",
+    "nombre": "ISRAEL SAMUEL",
+    "dni": "44522069"
+  },
+  {
+    "codigo": "L226",
+    "apellido": "LOPEZ",
+    "nombre": "CARLOS MANUEL",
+    "dni": "15600050"
+  },
+  {
+    "codigo": "L181",
+    "apellido": "LOPEZ",
+    "nombre": "ROCIO MARTHA",
+    "dni": "15724199"
+  },
+  {
+    "codigo": "L218",
+    "apellido": "LOPEZ",
+    "nombre": "VANESSA",
+    "dni": "09624551"
+  },
+  {
+    "codigo": "L233",
+    "apellido": "LOPEZ",
+    "nombre": "MIGUEL ANDRES",
+    "dni": "42190942"
+  },
+  {
+    "codigo": "L210",
+    "apellido": "LOPEZ",
+    "nombre": "PEDRO LUIS",
+    "dni": "40596611"
+  },
+  {
+    "codigo": "L127",
+    "apellido": "LOPEZ",
+    "nombre": "JOSE HUBERT",
+    "dni": "15692393"
+  },
+  {
+    "codigo": "L232",
+    "apellido": "LOYOLA",
+    "nombre": "DELHI SANDIE",
+    "dni": "41805101"
+  },
+  {
+    "codigo": "L045",
+    "apellido": "LOZA",
+    "nombre": "PEDRO ARTURO",
+    "dni": "15601146"
+  },
+  {
+    "codigo": "L058",
+    "apellido": "LOZA",
+    "nombre": "VICTORIA OLGA",
+    "dni": "15585404"
+  },
+  {
+    "codigo": "L219",
+    "apellido": "LOZA",
+    "nombre": "ROBERTO CARLOS",
+    "dni": "15760787"
+  },
+  {
+    "codigo": "L228",
+    "apellido": "LOZA",
+    "nombre": "ROMAN",
+    "dni": "15744523"
+  },
+  {
+    "codigo": "L231",
+    "apellido": "LOZA",
+    "nombre": "CARMEN ROSA",
+    "dni": "42194686"
+  },
+  {
+    "codigo": "L188",
+    "apellido": "LOZA",
+    "nombre": "PEDRO ARTURO",
+    "dni": "40945239"
+  },
+  {
+    "codigo": "L130",
+    "apellido": "LOZANO",
+    "nombre": "LILIANA MILAGROS",
+    "dni": "15723769"
+  },
+  {
+    "codigo": "L207",
+    "apellido": "LOZANO",
+    "nombre": "MARIA PAULA",
+    "dni": "45751185"
+  },
+  {
+    "codigo": "L198",
+    "apellido": "LUIS",
+    "nombre": "VIOLETA ANABEL",
+    "dni": "40522241"
+  },
+  {
+    "codigo": "L184",
+    "apellido": "LUJAN",
+    "nombre": "MIRTHA KELLY",
+    "dni": "18011359"
+  },
+  {
+    "codigo": "L227",
+    "apellido": "LUNA",
+    "nombre": "JOSE ALEJANDRO",
+    "dni": "10289700"
+  },
+  {
+    "codigo": "L197",
+    "apellido": "LUNA",
+    "nombre": "MARLENE",
+    "dni": "71924302"
+  },
+  {
+    "codigo": "L217",
+    "apellido": "LUYO",
+    "nombre": "JAIME",
+    "dni": "16002601"
+  },
+  {
+    "codigo": "M362",
+    "apellido": "MACARLUPU",
+    "nombre": "ANA CINTHIA",
+    "dni": "41837820"
+  },
+  {
+    "codigo": "M397",
+    "apellido": "MACHUCA",
+    "nombre": "ROSA ELENA",
+    "dni": "32921892"
+  },
+  {
+    "codigo": "M046",
+    "apellido": "MALDONADO",
+    "nombre": "ZOILA DOLORES",
+    "dni": "15613029"
+  },
+  {
+    "codigo": "M394",
+    "apellido": "MALLQUI",
+    "nombre": "BRESLY ANTUANETTE",
+    "dni": "70667081"
+  },
+  {
+    "codigo": "M325",
+    "apellido": "MALPARTIDA",
+    "nombre": "JUAN CARLOS",
+    "dni": "15727194"
+  },
+  {
+    "codigo": "M356",
+    "apellido": "MANCO",
+    "nombre": "ROSA MABEL",
+    "dni": "41539827"
+  },
+  {
+    "codigo": "M349",
+    "apellido": "MANDAMIENTO",
+    "nombre": "ELISEO OMAR",
+    "dni": "15760260"
+  },
+  {
+    "codigo": "M180",
+    "apellido": "MANDAMIENTO",
+    "nombre": "LOURDES",
+    "dni": "15722425"
+  },
+  {
+    "codigo": "M391",
+    "apellido": "MANRIQUE",
+    "nombre": "GONZALO MARTIN",
+    "dni": "40670188"
+  },
+  {
+    "codigo": "M004",
+    "apellido": "MANRIQUE",
+    "nombre": "CARLOS ABELARDO*",
+    "dni": "15588822"
+  },
+  {
+    "codigo": "M300",
+    "apellido": "MANRIQUE",
+    "nombre": "MARIA GENOVEVA",
+    "dni": "15724844"
+  },
+  {
+    "codigo": "M008",
+    "apellido": "MANRIQUE",
+    "nombre": "HECTOR",
+    "dni": "15589264"
+  },
+  {
+    "codigo": "M357",
+    "apellido": "MARCELO",
+    "nombre": "NORVINA MARLENA",
+    "dni": "15766260"
+  },
+  {
+    "codigo": "M123",
+    "apellido": "MARCOS",
+    "nombre": "CESAR GUILLERMO",
+    "dni": "15590902"
+  },
+  {
+    "codigo": "M389",
+    "apellido": "MARCOS",
+    "nombre": "OLGA LUZ",
+    "dni": "15724673"
+  },
+  {
+    "codigo": "M368",
+    "apellido": "MARCOS",
+    "nombre": "VIVIANA FIORELLA",
+    "dni": "45697464"
+  },
+  {
+    "codigo": "M126",
+    "apellido": "MARCOS",
+    "nombre": "ADINO HENRY",
+    "dni": "15587780"
+  },
+  {
+    "codigo": "M269",
+    "apellido": "MARCOS",
+    "nombre": "YONY ROLANDO",
+    "dni": "40164693"
+  },
+  {
+    "codigo": "M319",
+    "apellido": "MARIN",
+    "nombre": "CARMEN ANA",
+    "dni": "15760836"
+  },
+  {
+    "codigo": "M338",
+    "apellido": "MARIN",
+    "nombre": "CARLOS  ESTANISLAO",
+    "dni": "15586697"
+  },
+  {
+    "codigo": "M138",
+    "apellido": "MARQUEZ",
+    "nombre": "SADOT EUDALDO",
+    "dni": "06593846"
+  },
+  {
+    "codigo": "M369",
+    "apellido": "MARQUEZ",
+    "nombre": "IVAN",
+    "dni": "44385326"
+  },
+  {
+    "codigo": "M017",
+    "apellido": "MARTIN",
+    "nombre": "MANUEL BENIGNO",
+    "dni": "15590997"
+  },
+  {
+    "codigo": "M365",
+    "apellido": "MARTINEZ",
+    "nombre": "VALERIA MABEL",
+    "dni": "46476344"
+  },
+  {
+    "codigo": "M301",
+    "apellido": "MARTINEZ",
+    "nombre": "WILLIAM ALEJANDRO",
+    "dni": "15727858"
+  },
+  {
+    "codigo": "M378",
+    "apellido": "MARTINEZ",
+    "nombre": "SOFIA GLADYS",
+    "dni": "468997798"
+  },
+  {
+    "codigo": "M381",
+    "apellido": "MASUDA",
+    "nombre": "CARLOS ALBERTO",
+    "dni": "15606243"
+  },
+  {
+    "codigo": "M388",
+    "apellido": "MASUDA",
+    "nombre": "CARLOS ENRIQUE",
+    "dni": "46578549"
+  },
+  {
+    "codigo": "M026",
+    "apellido": "MATZUMURA",
+    "nombre": "ROBERTO HERNAN",
+    "dni": "15588287"
+  },
+  {
+    "codigo": "M383",
+    "apellido": "MAURICIO",
+    "nombre": "WILBERT",
+    "dni": "15733328"
+  },
+  {
+    "codigo": "M353",
+    "apellido": "MAURICIO",
+    "nombre": "ROSARIO GISELA",
+    "dni": "02893703"
+  },
+  {
+    "codigo": "M244",
+    "apellido": "MAYO",
+    "nombre": "RICHARD JAIME",
+    "dni": "15737962"
+  },
+  {
+    "codigo": "M291",
+    "apellido": "MAYORGA",
+    "nombre": "MARIA ISABEL",
+    "dni": "23860693"
+  },
+  {
+    "codigo": "M390",
+    "apellido": "MAZUELOS",
+    "nombre": "FABIOLA KATHERINE",
+    "dni": "47295857"
+  },
+  {
+    "codigo": "M328",
+    "apellido": "MAZUELOS",
+    "nombre": "SERGIO RAFAEL",
+    "dni": "15721713"
+  },
+  {
+    "codigo": "M330",
+    "apellido": "MEDINA",
+    "nombre": "JUAN ENRIQUE",
+    "dni": "07749212"
+  },
+  {
+    "codigo": "M140",
+    "apellido": "MEDINA",
+    "nombre": "JOSE ANGEL",
+    "dni": "15599535"
+  },
+  {
+    "codigo": "M329",
+    "apellido": "MEDINA",
+    "nombre": "PATRICIA TATIANA",
+    "dni": "45479548"
+  },
+  {
+    "codigo": "M395",
+    "apellido": "MEDINA",
+    "nombre": "LEONARDO JESUS",
+    "dni": "72315293"
+  },
+  {
+    "codigo": "M355",
+    "apellido": "MEDINA",
+    "nombre": "MARIA DEL PILAR",
+    "dni": "15761304"
+  },
+  {
+    "codigo": "M309",
+    "apellido": "MEJIA",
+    "nombre": "FRANK CHARLES",
+    "dni": "15736807"
+  },
+  {
+    "codigo": "M384",
+    "apellido": "MEJIA",
+    "nombre": "MAXIMO JESUS",
+    "dni": "10030635"
+  },
+  {
+    "codigo": "M360",
+    "apellido": "MEJIA",
+    "nombre": "RUBEN SANTIAGO",
+    "dni": "40470512"
+  },
+  {
+    "codigo": "M364",
+    "apellido": "MEJIA",
+    "nombre": "PAMELA TRISH",
+    "dni": "45938802"
+  },
+  {
+    "codigo": "M379",
+    "apellido": "MEJICO",
+    "nombre": "CESIL MARTIN",
+    "dni": "45438784"
+  },
+  {
+    "codigo": "M312",
+    "apellido": "MELENDEZ",
+    "nombre": "LIGIA ARACELI",
+    "dni": "15735352"
+  },
+  {
+    "codigo": "M276",
+    "apellido": "MENDOZA",
+    "nombre": "LAURA RAQUEL",
+    "dni": "15595546"
+  },
+  {
+    "codigo": "M337",
+    "apellido": "MENDOZA",
+    "nombre": "CARLOS ALBERTO",
+    "dni": "15615794"
+  },
+  {
+    "codigo": "M342",
+    "apellido": "MENDOZA",
+    "nombre": "MARCO",
+    "dni": "15609981"
+  },
+  {
+    "codigo": "M398",
+    "apellido": "MENDOZA",
+    "nombre": "DELCY ELIZABETH",
+    "dni": "44172265"
+  },
+  {
+    "codigo": "M336",
+    "apellido": "MENDOZA",
+    "nombre": "ERNESTO LORENZO",
+    "dni": "15764251"
+  },
+  {
+    "codigo": "M385",
+    "apellido": "MENDOZA",
+    "nombre": "JOSE ZACARIAS",
+    "dni": "28105691"
+  },
+  {
+    "codigo": "M264",
+    "apellido": "MENESES",
+    "nombre": "ANGEL ALFONSO",
+    "dni": "15722384"
+  },
+  {
+    "codigo": "M287",
+    "apellido": "MENESES",
+    "nombre": "ADA ROSARIO",
+    "dni": "15735477"
+  },
+  {
+    "codigo": "M211",
+    "apellido": "MENESES",
+    "nombre": "WILLIAM EUSEBIO",
+    "dni": "15737777"
+  },
+  {
+    "codigo": "M041",
+    "apellido": "MENESES",
+    "nombre": "HECTOR ALFONSO",
+    "dni": "15581218"
+  },
+  {
+    "codigo": "M400",
+    "apellido": "MEZA",
+    "nombre": "LORENA ERIKA",
+    "dni": "15761990"
+  },
+  {
+    "codigo": "M270",
+    "apellido": "MEZA",
+    "nombre": "JUANA OFELIA",
+    "dni": "15736649"
+  },
+  {
+    "codigo": "M382",
+    "apellido": "MIGLIORE",
+    "nombre": "BENEDICTO ANTONIO",
+    "dni": "41303472"
+  },
+  {
+    "codigo": "M194",
+    "apellido": "MIGLIORI",
+    "nombre": "BENEDICTO ANTONIO",
+    "dni": "15588551"
+  },
+  {
+    "codigo": "M239",
+    "apellido": "MIGLIORI",
+    "nombre": "MARIA ESPERANZA ROCIO",
+    "dni": "15761185"
+  },
+  {
+    "codigo": "M396",
+    "apellido": "MOGOLLON",
+    "nombre": "NOEMI MIRIAM",
+    "dni": "40783724"
+  },
+  {
+    "codigo": "M318",
+    "apellido": "MOLLEAPASA",
+    "nombre": "CARMEN CECILIA",
+    "dni": "15766143"
+  },
+  {
+    "codigo": "M231",
+    "apellido": "MONCADA",
+    "nombre": "JENNY MILAGROS",
+    "dni": "15722481"
+  },
+  {
+    "codigo": "M062",
+    "apellido": "MONCADA",
+    "nombre": "ANDRES OSWALDO",
+    "dni": "15590371"
+  },
+  {
+    "codigo": "M393",
+    "apellido": "MONDRAGON",
+    "nombre": "HEVER ALDO",
+    "dni": "15766345"
+  },
+  {
+    "codigo": "M348",
+    "apellido": "MONGO",
+    "nombre": "CLAUDIA ALEXANDRA",
+    "dni": "45038560"
+  },
+  {
+    "codigo": "M347",
+    "apellido": "MONGO",
+    "nombre": "ROSA MARIA",
+    "dni": "43612951"
+  },
+  {
+    "codigo": "M127",
+    "apellido": "MONGO",
+    "nombre": "MARIA OLGA",
+    "dni": "15595360"
+  },
+  {
+    "codigo": "M117",
+    "apellido": "MONGO",
+    "nombre": "ROBERTO FRANCISCO",
+    "dni": "15592680"
+  },
+  {
+    "codigo": "M320",
+    "apellido": "MONTEMAYOR",
+    "nombre": "ANA GISSELA",
+    "dni": "15735694"
+  },
+  {
+    "codigo": "M332",
+    "apellido": "MONTEMAYOR",
+    "nombre": "DWIGHT",
+    "dni": "15761454"
+  },
+  {
+    "codigo": "M243",
+    "apellido": "MONTERO",
+    "nombre": "CESAR ARTURO",
+    "dni": "15736095"
+  },
+  {
+    "codigo": "M322",
+    "apellido": "MONTES",
+    "nombre": "CARMEN SOLEDAD",
+    "dni": "15764037"
+  },
+  {
+    "codigo": "M392",
+    "apellido": "MORALES",
+    "nombre": "MILAGROS FIORELLA",
+    "dni": "72269709"
+  },
+  {
+    "codigo": "M294",
+    "apellido": "MORALES",
+    "nombre": "MILTON CESAR",
+    "dni": "15726504"
+  },
+  {
+    "codigo": "M161",
+    "apellido": "MORALES",
+    "nombre": "PEDRO ELMER",
+    "dni": "15590169"
+  },
+  {
+    "codigo": "M354",
+    "apellido": "MORALES",
+    "nombre": "CESAR AUGUSTO",
+    "dni": "40548048"
+  },
+  {
+    "codigo": "M373",
+    "apellido": "MORALES",
+    "nombre": "CARLOS ALBERTO",
+    "dni": "15725695"
+  },
+  {
+    "codigo": "M297",
+    "apellido": "MORALES",
+    "nombre": "ROSA JUDITH",
+    "dni": "15587868"
+  },
+  {
+    "codigo": "M299",
+    "apellido": "MORAN",
+    "nombre": "DIEGO MARTIN",
+    "dni": "15762687"
+  },
+  {
+    "codigo": "M359",
+    "apellido": "MORAN",
+    "nombre": "SERGIO ALONSO",
+    "dni": "72313540"
+  },
+  {
+    "codigo": "M387",
+    "apellido": "MORAN",
+    "nombre": "GISSELA BEATRIZ",
+    "dni": "42676188"
+  },
+  {
+    "codigo": "M386",
+    "apellido": "MORANTE",
+    "nombre": "YACLYN SOYDELI MARCY",
+    "dni": "45321370"
+  },
+  {
+    "codigo": "M376",
+    "apellido": "MORI",
+    "nombre": "SAMATHA ALEJANDRA",
+    "dni": "45643569"
+  },
+  {
+    "codigo": "M190",
+    "apellido": "MORI",
+    "nombre": "JOSE ANTONIO",
+    "dni": "15727682"
+  },
+  {
+    "codigo": "M363",
+    "apellido": "MORRIS",
+    "nombre": "JACK ESTEBAN",
+    "dni": "15739682"
+  },
+  {
+    "codigo": "M367",
+    "apellido": "MOSTACERO",
+    "nombre": "ELIA ALEJANDRA",
+    "dni": "47534217"
+  },
+  {
+    "codigo": "M298",
+    "apellido": "MUGRUZA",
+    "nombre": "RODOLFO CARLOS",
+    "dni": "15766299"
+  },
+  {
+    "codigo": "M234",
+    "apellido": "MUGRUZA",
+    "nombre": "MARIA DORA",
+    "dni": "15736821"
+  },
+  {
+    "codigo": "M401",
+    "apellido": "MUGRUZA",
+    "nombre": "OSCAR ENRIQUE",
+    "dni": "40925389"
+  },
+  {
+    "codigo": "M295",
+    "apellido": "MUGURUZA",
+    "nombre": "MARIA LOURDES",
+    "dni": "15728152"
+  },
+  {
+    "codigo": "M361",
+    "apellido": "MUGURUZA",
+    "nombre": "AIDA SORAYA",
+    "dni": "42827000"
+  },
+  {
+    "codigo": "M343",
+    "apellido": "MUGURUZA",
+    "nombre": "EVELYN LISSET",
+    "dni": "41928536"
+  },
+  {
+    "codigo": "M399",
+    "apellido": "MUÑOZ",
+    "nombre": "RONALD FERNANDO",
+    "dni": "40559384"
+  },
+  {
+    "codigo": "M358",
+    "apellido": "MUÑOZ",
+    "nombre": "NILTON FRANK",
+    "dni": "41581242"
+  },
+  {
+    "codigo": "M331",
+    "apellido": "MUÑOZ",
+    "nombre": "JOSE LUIS",
+    "dni": "15756209"
+  },
+  {
+    "codigo": "M371",
+    "apellido": "MURGA",
+    "nombre": "FRANK JACK",
+    "dni": "80652620"
+  },
+  {
+    "codigo": "N085",
+    "apellido": "NAPURI",
+    "nombre": "GIUSSEPPY",
+    "dni": "07268641"
+  },
+  {
+    "codigo": "N087",
+    "apellido": "NARCIZO",
+    "nombre": "GISELA JANET",
+    "dni": "45189522"
+  },
+  {
+    "codigo": "N099",
+    "apellido": "NATIVIDAD",
+    "nombre": "ROY EDER",
+    "dni": "43809989"
+  },
+  {
+    "codigo": "N086",
+    "apellido": "NATIVIDAD",
+    "nombre": "DELICIAS EUFEMIA",
+    "dni": "15740030"
+  },
+  {
+    "codigo": "N097",
+    "apellido": "NATIVIDAD",
+    "nombre": "ROBERT SANDRO",
+    "dni": "15726124"
+  },
+  {
+    "codigo": "N089",
+    "apellido": "NATO",
+    "nombre": "JOEL AUGUSTO",
+    "dni": "15742336"
+  },
+  {
+    "codigo": "N075",
+    "apellido": "NATO",
+    "nombre": "YOBER EMILIO",
+    "dni": "15756414"
+  },
+  {
+    "codigo": "N078",
+    "apellido": "NAVA",
+    "nombre": "KAREN TERESA",
+    "dni": "15727505"
+  },
+  {
+    "codigo": "N103",
+    "apellido": "NAVARRO",
+    "nombre": "BLANCA ROSA",
+    "dni": "43884197"
+  },
+  {
+    "codigo": "N071",
+    "apellido": "NAVARRO",
+    "nombre": "MARIBEL JESUS",
+    "dni": "15729324"
+  },
+  {
+    "codigo": "N082",
+    "apellido": "NAZARIO",
+    "nombre": "OSCAR ALBERTO",
+    "dni": "16021429"
+  },
+  {
+    "codigo": "N102",
+    "apellido": "NAZARIO",
+    "nombre": "RICARDO ANTONIO",
+    "dni": "72797846"
+  },
+  {
+    "codigo": "N053",
+    "apellido": "NEGREIROS",
+    "nombre": "WALTER ALBERTO",
+    "dni": "15731402"
+  },
+  {
+    "codigo": "N101",
+    "apellido": "NEYRA",
+    "nombre": "AUGUSTO ABEL ANTONIO",
+    "dni": "15589936"
+  },
+  {
+    "codigo": "N080",
+    "apellido": "NICHO",
+    "nombre": "LUIS ANTONIO",
+    "dni": "15648154"
+  },
+  {
+    "codigo": "N100",
+    "apellido": "NICHO",
+    "nombre": "LUIS ANIBAL",
+    "dni": "43196571"
+  },
+  {
+    "codigo": "N095",
+    "apellido": "NICHO",
+    "nombre": "MARCO ANTONIO",
+    "dni": "15732010"
+  },
+  {
+    "codigo": "N094",
+    "apellido": "NICHO",
+    "nombre": "JUAN ANTONIO",
+    "dni": "42406906"
+  },
+  {
+    "codigo": "N031",
+    "apellido": "NICHO",
+    "nombre": "CESAR HUGO",
+    "dni": "15586861"
+  },
+  {
+    "codigo": "N092",
+    "apellido": "NICHO",
+    "nombre": "PEDRO CARLOS",
+    "dni": "15732587"
+  },
+  {
+    "codigo": "N088",
+    "apellido": "NICHO",
+    "nombre": "ENRIQUE JONNATHAN",
+    "dni": "43111130"
+  },
+  {
+    "codigo": "N054",
+    "apellido": "NORIEGA",
+    "nombre": "PATRICIA CECILIA",
+    "dni": "15735747"
+  },
+  {
+    "codigo": "N057",
+    "apellido": "NUÑEZ",
+    "nombre": "MILAGROS LEONOR",
+    "dni": "15648674"
+  },
+  {
+    "codigo": "N041",
+    "apellido": "NUÑEZ",
+    "nombre": "EDUARDO JESUS",
+    "dni": "15758878"
+  },
+  {
+    "codigo": "N061",
+    "apellido": "NUÑEZ",
+    "nombre": "OLGA KAREN",
+    "dni": "15766118"
+  },
+  {
+    "codigo": "N065",
+    "apellido": "NUÑEZ",
+    "nombre": "CARLOS AUGUSTO",
+    "dni": "15761251"
+  },
+  {
+    "codigo": "N067",
+    "apellido": "NUÑEZ",
+    "nombre": "TATIANA CECILIA",
+    "dni": "15728003"
+  },
+  {
+    "codigo": "O043",
+    "apellido": "OBANDO",
+    "nombre": "LUIS GUSTAVO",
+    "dni": "15735417"
+  },
+  {
+    "codigo": "O045",
+    "apellido": "OBISPO",
+    "nombre": "GENARO RICARDO",
+    "dni": "15614004"
+  },
+  {
+    "codigo": "O044",
+    "apellido": "OBISPO",
+    "nombre": "EUSEBIO CALIXTO",
+    "dni": "15646660"
+  },
+  {
+    "codigo": "O061",
+    "apellido": "OBREGON",
+    "nombre": "ANIBAL JESUS",
+    "dni": "15736648"
+  },
+  {
+    "codigo": "O062",
+    "apellido": "OCAÑA",
+    "nombre": "JAIR DAVID",
+    "dni": "45697002"
+  },
+  {
+    "codigo": "O067",
+    "apellido": "OCAÑA",
+    "nombre": "XIOMARA ALEXANDRA",
+    "dni": "72324906"
+  },
+  {
+    "codigo": "O070",
+    "apellido": "OCROSPOMA",
+    "nombre": "GINA MARISELA",
+    "dni": "15738049"
+  },
+  {
+    "codigo": "O075",
+    "apellido": "OCROSPOMA",
+    "nombre": "ROBERT WILLIAM",
+    "dni": "15728953"
+  },
+  {
+    "codigo": "O072",
+    "apellido": "OJEDA",
+    "nombre": "JEMMYFER MAVILA",
+    "dni": "44514667"
+  },
+  {
+    "codigo": "O064",
+    "apellido": "OLIVAS",
+    "nombre": "OMAR MATEO",
+    "dni": "15720240"
+  },
+  {
+    "codigo": "O051",
+    "apellido": "ORELLANO",
+    "nombre": "ESPERANZA GUDELIA",
+    "dni": "15762613"
+  },
+  {
+    "codigo": "O074",
+    "apellido": "ORTIZ",
+    "nombre": "CRISTHIAN MARTIN",
+    "dni": "43379317"
+  },
+  {
+    "codigo": "O073",
+    "apellido": "ORTIZ",
+    "nombre": "KATHERINE VANESSA",
+    "dni": "44345511"
+  },
+  {
+    "codigo": "O068",
+    "apellido": "ORTIZ",
+    "nombre": "CLAUDIA SOFIA",
+    "dni": "72371227"
+  },
+  {
+    "codigo": "O039",
+    "apellido": "ORTIZ",
+    "nombre": "JOSE ONESIMO",
+    "dni": "09643157"
+  },
+  {
+    "codigo": "O069",
+    "apellido": "ORTIZ",
+    "nombre": "YANI DEL ROSARIO",
+    "dni": "72386718"
+  },
+  {
+    "codigo": "O059",
+    "apellido": "OSORIO",
+    "nombre": "JUAN WILIAR",
+    "dni": "15736396"
+  },
+  {
+    "codigo": "O076",
+    "apellido": "OSORIO",
+    "nombre": "JUAN JOSE",
+    "dni": "15735590"
+  },
+  {
+    "codigo": "O065",
+    "apellido": "OSORIO",
+    "nombre": "JAVIER EDUARDO",
+    "dni": "15735291"
+  },
+  {
+    "codigo": "O057",
+    "apellido": "OSTOLAZA",
+    "nombre": "OTTO MARTIN",
+    "dni": "42161698"
+  },
+  {
+    "codigo": "O032",
+    "apellido": "OTOYA",
+    "nombre": "CARLOS WILFREDO",
+    "dni": "43567817"
+  },
+  {
+    "codigo": "O071",
+    "apellido": "OTOYA",
+    "nombre": "CARLOS RAUL",
+    "dni": "45590488"
+  },
+  {
+    "codigo": "O063",
+    "apellido": "OYANGUREN",
+    "nombre": "MONICA ARLENE",
+    "dni": "09611824"
+  },
+  {
+    "codigo": "O077",
+    "apellido": "OYOLA",
+    "nombre": "HILDA NEREIRA",
+    "dni": "15641006"
+  },
+  {
+    "codigo": "P229",
+    "apellido": "PACHECO",
+    "nombre": "EVELIN LISET",
+    "dni": "41193984"
+  },
+  {
+    "codigo": "P263",
+    "apellido": "PACHECO",
+    "nombre": "JAKELINE JENNY",
+    "dni": "43538901"
+  },
+  {
+    "codigo": "P228",
+    "apellido": "PACHECO",
+    "nombre": "FLAVIO ALCIDES",
+    "dni": "41557608"
+  },
+  {
+    "codigo": "P204",
+    "apellido": "PACHERREZ",
+    "nombre": "YESSICA MILAGROS",
+    "dni": "41848637"
+  },
+  {
+    "codigo": "P200",
+    "apellido": "PACIFICO",
+    "nombre": "CARLOS DELFIN",
+    "dni": "15760945"
+  },
+  {
+    "codigo": "P256",
+    "apellido": "PACORA",
+    "nombre": "SUSANA BEATRIZ",
+    "dni": "40628036"
+  },
+  {
+    "codigo": "P236",
+    "apellido": "PADILLA",
+    "nombre": "PEDRO HERNAN",
+    "dni": "41239504"
+  },
+  {
+    "codigo": "P270",
+    "apellido": "PADILLA",
+    "nombre": "CARMEN FLOR",
+    "dni": "15720656"
+  },
+  {
+    "codigo": "P242",
+    "apellido": "PADILLA",
+    "nombre": "LIZ DELCY",
+    "dni": "15724322"
+  },
+  {
+    "codigo": "P209",
+    "apellido": "PAICO",
+    "nombre": "OSCAR ROLANDO",
+    "dni": "15761555"
+  },
+  {
+    "codigo": "P148",
+    "apellido": "PALACIOS",
+    "nombre": "GONZALO JOAQUIN ROLANDO",
+    "dni": "17908452"
+  },
+  {
+    "codigo": "P232",
+    "apellido": "PALACIOS",
+    "nombre": "PEDRO",
+    "dni": "16434783"
+  },
+  {
+    "codigo": "P245",
+    "apellido": "PALACIOS",
+    "nombre": "JAVIER ENRIQUE",
+    "dni": "42462591"
+  },
+  {
+    "codigo": "P275",
+    "apellido": "PALACIOS",
+    "nombre": "MIGUEL ANGEL",
+    "dni": "44732863"
+  },
+  {
+    "codigo": "P246",
+    "apellido": "PALACIOS",
+    "nombre": "SHELLAH BELEN",
+    "dni": "41298823"
+  },
+  {
+    "codigo": "P247",
+    "apellido": "PALMA",
+    "nombre": "DIEGO FERNANDO",
+    "dni": "70472416"
+  },
+  {
+    "codigo": "P184",
+    "apellido": "PALMA",
+    "nombre": "FERNANDO MIGUEL",
+    "dni": "15652747"
+  },
+  {
+    "codigo": "P012",
+    "apellido": "PALOMARES",
+    "nombre": "CARMEN BETTY",
+    "dni": "15688795"
+  },
+  {
+    "codigo": "P109",
+    "apellido": "PALOMINO",
+    "nombre": "MARCIAL ALCIBIADES",
+    "dni": "15614981"
+  },
+  {
+    "codigo": "P267",
+    "apellido": "PALOMINO",
+    "nombre": "RICHARD ROY",
+    "dni": "15756036"
+  },
+  {
+    "codigo": "P241",
+    "apellido": "PALOMINO",
+    "nombre": "SUSANA JANINA",
+    "dni": "15766126"
+  },
+  {
+    "codigo": "P203",
+    "apellido": "PALOMO",
+    "nombre": "TOBIAS MARTIN",
+    "dni": "42118821"
+  },
+  {
+    "codigo": "P153",
+    "apellido": "PALOMO",
+    "nombre": "FELIX HUMBERTO",
+    "dni": "15728637"
+  },
+  {
+    "codigo": "P169",
+    "apellido": "PANDURO",
+    "nombre": "JULIO CESAR",
+    "dni": "09613773"
+  },
+  {
+    "codigo": "P219",
+    "apellido": "PANTOJA",
+    "nombre": "HENRRY JOEL",
+    "dni": "42400299"
+  },
+  {
+    "codigo": "P188",
+    "apellido": "PANTOJA",
+    "nombre": "JHONNY WALTHER",
+    "dni": "41556767"
+  },
+  {
+    "codigo": "P261",
+    "apellido": "PANTOJA",
+    "nombre": "MAYORY ISABEL",
+    "dni": "47692345"
+  },
+  {
+    "codigo": "P248",
+    "apellido": "PAREDES",
+    "nombre": "MARIA LORENA",
+    "dni": "41176365"
+  },
+  {
+    "codigo": "P264",
+    "apellido": "PAREDES",
+    "nombre": "JUAN CARLOS",
+    "dni": "09869036"
+  },
+  {
+    "codigo": "P174",
+    "apellido": "PAREDES",
+    "nombre": "ALDO JOEL",
+    "dni": "15739132"
+  },
+  {
+    "codigo": "P206",
+    "apellido": "PAREDES",
+    "nombre": "JUAN MIGUEL",
+    "dni": "15647445"
+  },
+  {
+    "codigo": "P278",
+    "apellido": "PARIONA",
+    "nombre": "EVELING KEYKO",
+    "dni": "42985356"
+  },
+  {
+    "codigo": "P268",
+    "apellido": "PASCO",
+    "nombre": "LUIS MIGUEL",
+    "dni": "44296581"
+  },
+  {
+    "codigo": "P239",
+    "apellido": "PASION",
+    "nombre": "MILLER",
+    "dni": "15736167"
+  },
+  {
+    "codigo": "P205",
+    "apellido": "PASTOR",
+    "nombre": "EMILIO ALIONI",
+    "dni": "15719729"
+  },
+  {
+    "codigo": "P215",
+    "apellido": "PAZ",
+    "nombre": "ABELARDO HUMBERTO",
+    "dni": "40313300"
+  },
+  {
+    "codigo": "P223",
+    "apellido": "PECHO",
+    "nombre": "MARIA SUSANA",
+    "dni": "09366079"
+  },
+  {
+    "codigo": "P176",
+    "apellido": "PENADILLO",
+    "nombre": "MOISES MANUEL",
+    "dni": "15646161"
+  },
+  {
+    "codigo": "P271",
+    "apellido": "PEÑA",
+    "nombre": "RAFAEL ENRIQUE",
+    "dni": "73424684"
+  },
+  {
+    "codigo": "P207",
+    "apellido": "PEÑA",
+    "nombre": "LARRY VICTOR ALFREDO",
+    "dni": "15739763"
+  },
+  {
+    "codigo": "P244",
+    "apellido": "PEÑA",
+    "nombre": "CARLOS ALBERTO",
+    "dni": "71790509"
+  },
+  {
+    "codigo": "P249",
+    "apellido": "PEÑA",
+    "nombre": "JOSE ALFREDO",
+    "dni": "15648322"
+  },
+  {
+    "codigo": "P168",
+    "apellido": "PEREZ",
+    "nombre": "MARCO ANTONIO",
+    "dni": "15738333"
+  },
+  {
+    "codigo": "P096",
+    "apellido": "PEREZ",
+    "nombre": "WILLIAM ERNESTO",
+    "dni": "15604584"
+  },
+  {
+    "codigo": "P234",
+    "apellido": "PEREZ",
+    "nombre": "ISELA MARITA",
+    "dni": "42391324"
+  },
+  {
+    "codigo": "P260",
+    "apellido": "PEREZ",
+    "nombre": "CAROL ROSSMERY",
+    "dni": "44846776"
+  },
+  {
+    "codigo": "P269",
+    "apellido": "PEREZ",
+    "nombre": "YESSICA ELIZABETH",
+    "dni": "42097830"
+  },
+  {
+    "codigo": "P250",
+    "apellido": "PEREZ",
+    "nombre": "LUIS ANGEL",
+    "dni": "41426111"
+  },
+  {
+    "codigo": "P252",
+    "apellido": "PEREZ",
+    "nombre": "MARCO ALFREDO",
+    "dni": "45373825"
+  },
+  {
+    "codigo": "P227",
+    "apellido": "PEREZ",
+    "nombre": "RODOLFO TARCILO",
+    "dni": "08545938"
+  },
+  {
+    "codigo": "P272",
+    "apellido": "PESANTES",
+    "nombre": "PIERO ALONSO",
+    "dni": "70563715"
+  },
+  {
+    "codigo": "P265",
+    "apellido": "PEZO",
+    "nombre": "JHOSSELYN AYLIN",
+    "dni": "72438324"
+  },
+  {
+    "codigo": "P095",
+    "apellido": "PEZO",
+    "nombre": "PABLO ADRIAN",
+    "dni": "15603719"
+  },
+  {
+    "codigo": "P033",
+    "apellido": "PHANG",
+    "nombre": "JOSE JAVIER",
+    "dni": "15591350"
+  },
+  {
+    "codigo": "P274",
+    "apellido": "PICHILINGUE",
+    "nombre": "FLOR MILAGROS",
+    "dni": "41828293"
+  },
+  {
+    "codigo": "P210",
+    "apellido": "PICHILINGUE",
+    "nombre": "MARTHA EDITH",
+    "dni": "15730531"
+  },
+  {
+    "codigo": "P276",
+    "apellido": "PICHILINGUE",
+    "nombre": "JAIME GIANI",
+    "dni": "71922263"
+  },
+  {
+    "codigo": "P196",
+    "apellido": "PICHILINGUE",
+    "nombre": "HUGO CESAR",
+    "dni": "15616282"
+  },
+  {
+    "codigo": "P208",
+    "apellido": "PICHILINGUE",
+    "nombre": "VICTOR MANUEL",
+    "dni": "42244494"
+  },
+  {
+    "codigo": "P185",
+    "apellido": "PIMENTEL",
+    "nombre": "ANDROMEDA ORQUIDEA",
+    "dni": "40809064"
+  },
+  {
+    "codigo": "P273",
+    "apellido": "PIMENTEL",
+    "nombre": "KARINA PENELOPE",
+    "dni": "15763748"
+  },
+  {
+    "codigo": "P277",
+    "apellido": "PIÑELLA",
+    "nombre": "KRYSTEL MELANY",
+    "dni": "71448882"
+  },
+  {
+    "codigo": "P257",
+    "apellido": "PISCOYA",
+    "nombre": "CARLOS ENRRIQUE",
+    "dni": "40375049"
+  },
+  {
+    "codigo": "P251",
+    "apellido": "PISCOYA",
+    "nombre": "HECTOR JESUS",
+    "dni": "15729348"
+  },
+  {
+    "codigo": "P235",
+    "apellido": "POLO",
+    "nombre": "JOHN CARLOS",
+    "dni": "40655549"
+  },
+  {
+    "codigo": "P240",
+    "apellido": "PORLLES",
+    "nombre": "INGRID FABIOLA",
+    "dni": "43590078"
+  },
+  {
+    "codigo": "P063",
+    "apellido": "PORLLES",
+    "nombre": "JACINTO ISIDRO",
+    "dni": "15597056"
+  },
+  {
+    "codigo": "P258",
+    "apellido": "PORTAL",
+    "nombre": "SILVIA VERUSHKA",
+    "dni": "15737558"
+  },
+  {
+    "codigo": "P266",
+    "apellido": "PORTALATINO",
+    "nombre": "SILVANA ANNETTE",
+    "dni": "46147861"
+  },
+  {
+    "codigo": "P255",
+    "apellido": "PRADO",
+    "nombre": "GLORIA CAROLINA",
+    "dni": "43822992"
+  },
+  {
+    "codigo": "P243",
+    "apellido": "PRADO",
+    "nombre": "PEDRO RONALD",
+    "dni": "40920506"
+  },
+  {
+    "codigo": "P231",
+    "apellido": "PRIETO",
+    "nombre": "MARIO CLETO",
+    "dni": "07931357"
+  },
+  {
+    "codigo": "P179",
+    "apellido": "PUCCIO",
+    "nombre": "LUCY",
+    "dni": "15737580"
+  },
+  {
+    "codigo": "P230",
+    "apellido": "PURIZACA",
+    "nombre": "HECTOR JESUS",
+    "dni": "40217442"
+  },
+  {
+    "codigo": "Q003",
+    "apellido": "QUEIROLO",
+    "nombre": "MANUEL FORTUNATO",
+    "dni": "15595673"
+  },
+  {
+    "codigo": "Q343",
+    "apellido": "QUEREBALU",
+    "nombre": "MAYRA VANESSA",
+    "dni": "43672008"
+  },
+  {
+    "codigo": "Q334",
+    "apellido": "QUEVEDO",
+    "nombre": "MARIO ANTERO",
+    "dni": "15739562"
+  },
+  {
+    "codigo": "Q005",
+    "apellido": "QUICHE",
+    "nombre": "CARLOS",
+    "dni": "15601572"
+  },
+  {
+    "codigo": "Q030",
+    "apellido": "QUICHE",
+    "nombre": "ALICIA MARLENE",
+    "dni": "15738153"
+  },
+  {
+    "codigo": "Q036",
+    "apellido": "QUICHE",
+    "nombre": "CARLOS ELIAS",
+    "dni": "15728347"
+  },
+  {
+    "codigo": "Q340",
+    "apellido": "QUINTANA",
+    "nombre": "PATRICIA YULIANNA",
+    "dni": "15761039"
+  },
+  {
+    "codigo": "Q337",
+    "apellido": "QUINTANA",
+    "nombre": "EDWARD GABRIEL",
+    "dni": "15735383"
+  },
+  {
+    "codigo": "Q010",
+    "apellido": "QUINTEROS",
+    "nombre": "JULIO ENRIQUE",
+    "dni": "15606840"
+  },
+  {
+    "codigo": "Q342",
+    "apellido": "QUIROZ",
+    "nombre": "EDDER ERIK",
+    "dni": "31674906"
+  },
+  {
+    "codigo": "Q345",
+    "apellido": "QUISPE",
+    "nombre": "JUAN ISRAEL",
+    "dni": "72282025"
+  },
+  {
+    "codigo": "Q338",
+    "apellido": "QUISPE",
+    "nombre": "ROBERTO CARLOS",
+    "dni": "40740770"
+  },
+  {
+    "codigo": "Q034",
+    "apellido": "QUISPE",
+    "nombre": "ROSA PATRICIA",
+    "dni": "15735793"
+  },
+  {
+    "codigo": "Q339",
+    "apellido": "QUISPE",
+    "nombre": "VILMER",
+    "dni": "45935285"
+  },
+  {
+    "codigo": "Q335",
+    "apellido": "QUISPE",
+    "nombre": "YOLANDA ISABEL",
+    "dni": "15753154"
+  },
+  {
+    "codigo": "R349",
+    "apellido": "RADAS",
+    "nombre": "SANDRA ISAMAR DEL CARMEN",
+    "dni": "47180402"
+  },
+  {
+    "codigo": "R307",
+    "apellido": "RAMIREZ",
+    "nombre": "JULIO CESAR",
+    "dni": "43482223"
+  },
+  {
+    "codigo": "R332",
+    "apellido": "RAMIREZ",
+    "nombre": "SONIA ISABEL",
+    "dni": "41223028"
+  },
+  {
+    "codigo": "R333",
+    "apellido": "RAMIREZ",
+    "nombre": "JORGE LUIS",
+    "dni": "15733282"
+  },
+  {
+    "codigo": "R215",
+    "apellido": "RAMIREZ",
+    "nombre": "GUILLERMO",
+    "dni": "15710800"
+  },
+  {
+    "codigo": "R357",
+    "apellido": "RAMIREZ",
+    "nombre": "DEYSI BEATRIZ",
+    "dni": "41707069"
+  },
+  {
+    "codigo": "R347",
+    "apellido": "RAMIREZ",
+    "nombre": "GINO JASSIEL",
+    "dni": "41385061"
+  },
+  {
+    "codigo": "R354",
+    "apellido": "RAMIREZ",
+    "nombre": "LILIA CECILIA",
+    "dni": "15760591"
+  },
+  {
+    "codigo": "R182",
+    "apellido": "RAMIREZ",
+    "nombre": "NILDA LUZ",
+    "dni": "15583268"
+  },
+  {
+    "codigo": "R358",
+    "apellido": "RAMIREZ",
+    "nombre": "LUIS FRANCO MARTIN",
+    "dni": "72644131"
+  },
+  {
+    "codigo": "R285",
+    "apellido": "RAMIS",
+    "nombre": "CHRISTIAN FERNANDO",
+    "dni": "15736597"
+  },
+  {
+    "codigo": "R008",
+    "apellido": "RAMIS",
+    "nombre": "JOSE FERNANDO",
+    "dni": "15593998"
+  },
+  {
+    "codigo": "R313",
+    "apellido": "RAMOS",
+    "nombre": "JENIFER STHEFANIE",
+    "dni": "72501041"
+  },
+  {
+    "codigo": "R304",
+    "apellido": "RAMOS",
+    "nombre": "BERNUY",
+    "dni": "09773350"
+  },
+  {
+    "codigo": "R012",
+    "apellido": "RAMOS",
+    "nombre": "RAUL DANIEL",
+    "dni": "15596063"
+  },
+  {
+    "codigo": "R289",
+    "apellido": "RAZURI",
+    "nombre": "SILVIA ELIZABETH",
+    "dni": "15694104"
+  },
+  {
+    "codigo": "R343",
+    "apellido": "REA",
+    "nombre": "FLOR MAGALY",
+    "dni": "40382257"
+  },
+  {
+    "codigo": "R138",
+    "apellido": "REA",
+    "nombre": "OSCAR TEODORO",
+    "dni": "15585112"
+  },
+  {
+    "codigo": "R331",
+    "apellido": "REBATTA",
+    "nombre": "JOSE MANUEL",
+    "dni": "70897331"
+  },
+  {
+    "codigo": "R191",
+    "apellido": "REGALADO",
+    "nombre": "PEDRO MIGUEL",
+    "dni": "15738990"
+  },
+  {
+    "codigo": "R291",
+    "apellido": "REQUENA",
+    "nombre": "PILAR VICKY",
+    "dni": "15725206"
+  },
+  {
+    "codigo": "R350",
+    "apellido": "REQUENA",
+    "nombre": "JOMAYRA DARIA",
+    "dni": "73760894"
+  },
+  {
+    "codigo": "R021",
+    "apellido": "REQUENA",
+    "nombre": "JORGE RAUL",
+    "dni": "15591345"
+  },
+  {
+    "codigo": "R341",
+    "apellido": "RETUERTO",
+    "nombre": "LILA NOELIA",
+    "dni": "15759919"
+  },
+  {
+    "codigo": "R353",
+    "apellido": "RETUERTO",
+    "nombre": "CHRIZ CAROLAND",
+    "dni": "45915353"
+  },
+  {
+    "codigo": "R352",
+    "apellido": "RETUERTO",
+    "nombre": "JENNIFER THALIA",
+    "dni": "47822619"
+  },
+  {
+    "codigo": "R163",
+    "apellido": "REY",
+    "nombre": "RAFAEL GABRIEL",
+    "dni": "09388716"
+  },
+  {
+    "codigo": "R236",
+    "apellido": "REYES",
+    "nombre": "RICARDO MANUEL",
+    "dni": "41178855"
+  },
+  {
+    "codigo": "R272",
+    "apellido": "REYES",
+    "nombre": "SANDRA YANETH",
+    "dni": "15728717"
+  },
+  {
+    "codigo": "R180",
+    "apellido": "REYES",
+    "nombre": "CARLOS ALBERTO",
+    "dni": "07404511"
+  },
+  {
+    "codigo": "R259",
+    "apellido": "REYES",
+    "nombre": "EDWIN EDGARDO",
+    "dni": "07429440"
+  },
+  {
+    "codigo": "R361",
+    "apellido": "REYNA",
+    "nombre": "PEDRO JESUS",
+    "dni": "41340001"
+  },
+  {
+    "codigo": "R367",
+    "apellido": "RIOFRIO",
+    "nombre": "FLORESMILDA",
+    "dni": "40746193"
+  },
+  {
+    "codigo": "R360",
+    "apellido": "RIOS",
+    "nombre": "PAUL REMY",
+    "dni": "44448987"
+  },
+  {
+    "codigo": "R035",
+    "apellido": "RIOS",
+    "nombre": "ALFONSO ALBERTO",
+    "dni": "15723639"
+  },
+  {
+    "codigo": "R337",
+    "apellido": "RIOS",
+    "nombre": "MARY CLAUDIA",
+    "dni": "15761787"
+  },
+  {
+    "codigo": "R133",
+    "apellido": "RIOS",
+    "nombre": "PEDRO MARTIN",
+    "dni": "15591709"
+  },
+  {
+    "codigo": "R309",
+    "apellido": "RISCO",
+    "nombre": "ALLISON FERNANDA",
+    "dni": "70774619"
+  },
+  {
+    "codigo": "R355",
+    "apellido": "RIVAS",
+    "nombre": "ALEJANDRO MANUEL",
+    "dni": "15731070"
+  },
+  {
+    "codigo": "R237",
+    "apellido": "RIVAS",
+    "nombre": "GLORIA ENITH",
+    "dni": "15731757"
+  },
+  {
+    "codigo": "R273",
+    "apellido": "RIVERA",
+    "nombre": "GIULIANO HENRY",
+    "dni": "09867437"
+  },
+  {
+    "codigo": "R281",
+    "apellido": "RIVERA",
+    "nombre": "MARIELA DOMITILA",
+    "dni": "40399018"
+  },
+  {
+    "codigo": "R297",
+    "apellido": "RIVERA",
+    "nombre": "LILIANA",
+    "dni": "43041221"
+  },
+  {
+    "codigo": "R302",
+    "apellido": "RIVERA",
+    "nombre": "SANDRA",
+    "dni": "15757108"
+  },
+  {
+    "codigo": "R283",
+    "apellido": "RIVERA",
+    "nombre": "YANETH MARLUBE",
+    "dni": "15735300"
+  },
+  {
+    "codigo": "R303",
+    "apellido": "RIVERA",
+    "nombre": "WILFREDO KOKYMOTO",
+    "dni": "73194252"
+  },
+  {
+    "codigo": "R292",
+    "apellido": "ROBLES",
+    "nombre": "CARMEN INES",
+    "dni": "22960715"
+  },
+  {
+    "codigo": "R268",
+    "apellido": "ROCCA",
+    "nombre": "JHON CARLOS",
+    "dni": "15738676"
+  },
+  {
+    "codigo": "R298",
+    "apellido": "RODAS",
+    "nombre": "ROBERTO JOAO",
+    "dni": "40722481"
+  },
+  {
+    "codigo": "R356",
+    "apellido": "RODRIGUEZ",
+    "nombre": "ILLA ANGEL",
+    "dni": "60798193"
+  },
+  {
+    "codigo": "R290",
+    "apellido": "RODRIGUEZ",
+    "nombre": "JAIME ANDRES",
+    "dni": "18071883"
+  },
+  {
+    "codigo": "R338",
+    "apellido": "RODRIGUEZ",
+    "nombre": "KARIN SOFIA",
+    "dni": "15737951"
+  },
+  {
+    "codigo": "R342",
+    "apellido": "RODRIGUEZ",
+    "nombre": "DIANA ISABEL",
+    "dni": "44946867"
+  },
+  {
+    "codigo": "R324",
+    "apellido": "RODRIGUEZ",
+    "nombre": "KENSIS NICKOLS",
+    "dni": "44457468"
+  },
+  {
+    "codigo": "R323",
+    "apellido": "RODRIGUEZ",
+    "nombre": "WALTER JESUS",
+    "dni": "15759300"
+  },
+  {
+    "codigo": "R344",
+    "apellido": "RODRIGUEZ",
+    "nombre": "EDMUNDO ROLANDO",
+    "dni": "25812400"
+  },
+  {
+    "codigo": "R058",
+    "apellido": "RODRIGUEZ",
+    "nombre": "JOSE LUIS",
+    "dni": "15739966"
+  },
+  {
+    "codigo": "R121",
+    "apellido": "RODRIGUEZ",
+    "nombre": "MANUEL AUGUSTO",
+    "dni": "15587210"
+  },
+  {
+    "codigo": "R201",
+    "apellido": "RODRIGUEZ",
+    "nombre": "MARIA ISABEL",
+    "dni": "15590660"
+  },
+  {
+    "codigo": "R318",
+    "apellido": "RODRIGUEZ",
+    "nombre": "PATRICIA CELESTE",
+    "dni": "41907505"
+  },
+  {
+    "codigo": "R359",
+    "apellido": "ROJAS",
+    "nombre": "MERCEDES KARY",
+    "dni": "15763312"
+  },
+  {
+    "codigo": "R110",
+    "apellido": "ROJAS",
+    "nombre": "HUGO TEODORO",
+    "dni": "15609856"
+  },
+  {
+    "codigo": "R296",
+    "apellido": "ROJAS",
+    "nombre": "HENRY",
+    "dni": "15731714"
+  },
+  {
+    "codigo": "R301",
+    "apellido": "ROJAS",
+    "nombre": "LILIANA FELICITA",
+    "dni": "15725267"
+  },
+  {
+    "codigo": "R062",
+    "apellido": "ROJAS",
+    "nombre": "ENRIQUE",
+    "dni": "15588879"
+  },
+  {
+    "codigo": "R325",
+    "apellido": "ROJAS",
+    "nombre": "FREDY ALFONSO",
+    "dni": "46690291"
+  },
+  {
+    "codigo": "R326",
+    "apellido": "ROJAS",
+    "nombre": "LUIS ROBERTO",
+    "dni": "71098961"
+  },
+  {
+    "codigo": "R064",
+    "apellido": "ROJAS",
+    "nombre": "JORGE ISAAC",
+    "dni": "15590382"
+  },
+  {
+    "codigo": "R252",
+    "apellido": "ROJAS",
+    "nombre": "CHRISTIAN DAVID",
+    "dni": "42831886"
+  },
+  {
+    "codigo": "R366",
+    "apellido": "ROJAS",
+    "nombre": "FLOR CARMEN ROSA",
+    "dni": "46546051"
+  },
+  {
+    "codigo": "R330",
+    "apellido": "ROJAS",
+    "nombre": "YESENIA JULY",
+    "dni": "15739709"
+  },
+  {
+    "codigo": "R365",
+    "apellido": "ROMAN",
+    "nombre": "ERIKA MARIENE",
+    "dni": "46526996"
+  },
+  {
+    "codigo": "R368",
+    "apellido": "ROMERO",
+    "nombre": "DAYANNE KASANDRA",
+    "dni": "74252178"
+  },
+  {
+    "codigo": "R351",
+    "apellido": "ROMERO",
+    "nombre": "PIERO RAFAEL",
+    "dni": "46865875"
+  },
+  {
+    "codigo": "R109",
+    "apellido": "ROMERO",
+    "nombre": "JOSE GUSTAVO",
+    "dni": "15722863"
+  },
+  {
+    "codigo": "R072",
+    "apellido": "ROMERO",
+    "nombre": "RAFAEL MARIO",
+    "dni": "15609818"
+  },
+  {
+    "codigo": "R362",
+    "apellido": "ROMERO",
+    "nombre": "JOSE MARIANO",
+    "dni": "71230121"
+  },
+  {
+    "codigo": "R312",
+    "apellido": "ROMERO",
+    "nombre": "CHRISTIAM HUGO",
+    "dni": "40596600"
+  },
+  {
+    "codigo": "R311",
+    "apellido": "ROMERO",
+    "nombre": "LILIANA DEL PILAR",
+    "dni": "42124372"
+  },
+  {
+    "codigo": "R203",
+    "apellido": "ROMERO",
+    "nombre": "RENATO EFRAIN",
+    "dni": "42839245"
+  },
+  {
+    "codigo": "R310",
+    "apellido": "ROMERO",
+    "nombre": "ERYC MANUEL",
+    "dni": "45803518"
+  },
+  {
+    "codigo": "R339",
+    "apellido": "ROMERO",
+    "nombre": "VIVIANA ZADITH",
+    "dni": "41068857"
+  },
+  {
+    "codigo": "R238",
+    "apellido": "ROMERO",
+    "nombre": "MARTIN LEONCIO",
+    "dni": "15614277"
+  },
+  {
+    "codigo": "R251",
+    "apellido": "ROMERO",
+    "nombre": "JESSICA CONSUELO",
+    "dni": "15741291"
+  },
+  {
+    "codigo": "R346",
+    "apellido": "ROMERO",
+    "nombre": "JORGE MARTIN",
+    "dni": "40501389"
+  },
+  {
+    "codigo": "R305",
+    "apellido": "ROMERO",
+    "nombre": "CESAR AUGUSTO",
+    "dni": "40126419"
+  },
+  {
+    "codigo": "R306",
+    "apellido": "ROMERO",
+    "nombre": "JUAN ALEXANDER",
+    "dni": "15740630"
+  },
+  {
+    "codigo": "R205",
+    "apellido": "ROMERO",
+    "nombre": "MARCO ANTONIO",
+    "dni": "15740449"
+  },
+  {
+    "codigo": "R246",
+    "apellido": "ROMERO",
+    "nombre": "PEDRO LUIS",
+    "dni": "15727005"
+  },
+  {
+    "codigo": "R363",
+    "apellido": "RONDON",
+    "nombre": "YURI RUBIRE",
+    "dni": "41501235"
+  },
+  {
+    "codigo": "R345",
+    "apellido": "ROQUE",
+    "nombre": "CLAUDIA EMILIA",
+    "dni": "45465152"
+  },
+  {
+    "codigo": "R308",
+    "apellido": "ROSALES",
+    "nombre": "FRANCISCO CLAUDIO",
+    "dni": "09393120"
+  },
+  {
+    "codigo": "R364",
+    "apellido": "ROSALES",
+    "nombre": "VIRGINIA",
+    "dni": "15762841"
+  },
+  {
+    "codigo": "R274",
+    "apellido": "ROSAS",
+    "nombre": "DALIA MAGDALENA",
+    "dni": "40052839"
+  },
+  {
+    "codigo": "R087",
+    "apellido": "ROSAS",
+    "nombre": "CARLOS",
+    "dni": "15598834"
+  },
+  {
+    "codigo": "R315",
+    "apellido": "ROSPIGLIOSI",
+    "nombre": "JUAN DE DIOS GINO",
+    "dni": "09727062"
+  },
+  {
+    "codigo": "R340",
+    "apellido": "ROSSI",
+    "nombre": "GERALDO ANDRE",
+    "dni": "70788132"
+  },
+  {
+    "codigo": "R119",
+    "apellido": "ROSSI",
+    "nombre": "LUIS ALFREDO",
+    "dni": "15599049"
+  },
+  {
+    "codigo": "R348",
+    "apellido": "ROVEGNO",
+    "nombre": "CLAUDIO LORENZO",
+    "dni": "09861230"
+  },
+  {
+    "codigo": "S291",
+    "apellido": "SAAVEDRA",
+    "nombre": "JUAN JOSE",
+    "dni": "09882062"
+  },
+  {
+    "codigo": "S253",
+    "apellido": "SALAS",
+    "nombre": "CATHERINE",
+    "dni": "41209224"
+  },
+  {
+    "codigo": "S009",
+    "apellido": "SALAS",
+    "nombre": "CARLOS MANUEL*",
+    "dni": "15609778"
+  },
+  {
+    "codigo": "S011",
+    "apellido": "SALAS",
+    "nombre": "JUAN ALBERTO",
+    "dni": "15580201"
+  },
+  {
+    "codigo": "S295",
+    "apellido": "SALAS",
+    "nombre": "LUIS JAVIER",
+    "dni": "71212781"
+  },
+  {
+    "codigo": "S293",
+    "apellido": "SALAS",
+    "nombre": "KARLA EDITH",
+    "dni": "70443465"
+  },
+  {
+    "codigo": "S297",
+    "apellido": "SALAS",
+    "nombre": "LUCIA MABEL",
+    "dni": "72546365"
+  },
+  {
+    "codigo": "S185",
+    "apellido": "SALAZAR",
+    "nombre": "MARCOS JUAN",
+    "dni": "08501618"
+  },
+  {
+    "codigo": "S019",
+    "apellido": "SALAZAR",
+    "nombre": "LUIS MARTIN",
+    "dni": "15582771"
+  },
+  {
+    "codigo": "S237",
+    "apellido": "SALAZAR",
+    "nombre": "GIOVANNA",
+    "dni": "15737427"
+  },
+  {
+    "codigo": "S210",
+    "apellido": "SALAZAR",
+    "nombre": "ROCIO AMPARO",
+    "dni": "15727060"
+  },
+  {
+    "codigo": "S140",
+    "apellido": "SALDANI",
+    "nombre": "JOSE DOMINICO",
+    "dni": "15742528"
+  },
+  {
+    "codigo": "S318",
+    "apellido": "SALINAS",
+    "nombre": "DIANA FRANCISCA",
+    "dni": "15699861"
+  },
+  {
+    "codigo": "S317",
+    "apellido": "SALINAS",
+    "nombre": "EDUARDO",
+    "dni": "15739670"
+  },
+  {
+    "codigo": "S168",
+    "apellido": "SALINAS",
+    "nombre": "MIGUEL",
+    "dni": "40177485"
+  },
+  {
+    "codigo": "S298",
+    "apellido": "SALOME",
+    "nombre": "MIGUEL ANGEL",
+    "dni": "42867487"
+  },
+  {
+    "codigo": "S214",
+    "apellido": "SALVADOR",
+    "nombre": "JORGE ANTONIO",
+    "dni": "15601201"
+  },
+  {
+    "codigo": "S283",
+    "apellido": "SAMANAMU",
+    "nombre": "CESAR RODRIGO",
+    "dni": "40436861"
+  },
+  {
+    "codigo": "S094",
+    "apellido": "SAMANAMUD",
+    "nombre": "MISAEL ARTURO",
+    "dni": "15653662"
+  },
+  {
+    "codigo": "S316",
+    "apellido": "SAMANAMUD",
+    "nombre": "JULIA CECILIA",
+    "dni": "40856091"
+  },
+  {
+    "codigo": "S301",
+    "apellido": "SAMANAMUD",
+    "nombre": "PEDRO ISAAC",
+    "dni": "46034004"
+  },
+  {
+    "codigo": "S325",
+    "apellido": "SAMANAMUD",
+    "nombre": "SANDRA LIZET",
+    "dni": "47690047"
+  },
+  {
+    "codigo": "S306",
+    "apellido": "SAMESHIMA",
+    "nombre": "JOSE MANUEL MASANORI",
+    "dni": "72081378"
+  },
+  {
+    "codigo": "S323",
+    "apellido": "SAMPEN",
+    "nombre": "ANYELO CHRISTOPHER",
+    "dni": "44170844"
+  },
+  {
+    "codigo": "S284",
+    "apellido": "SANCHEZ",
+    "nombre": "ALBERT JAIRO",
+    "dni": "71948355"
+  },
+  {
+    "codigo": "S281",
+    "apellido": "SANCHEZ",
+    "nombre": "RICARDO",
+    "dni": "15645066"
+  },
+  {
+    "codigo": "S303",
+    "apellido": "SANCHEZ",
+    "nombre": "EVELYN PAMELA",
+    "dni": "73192466"
+  },
+  {
+    "codigo": "S260",
+    "apellido": "SANCHEZ",
+    "nombre": "JHONN FERNANDO",
+    "dni": "40760555"
+  },
+  {
+    "codigo": "S103",
+    "apellido": "SANCHEZ",
+    "nombre": "RICHARD DAVID",
+    "dni": "15611788"
+  },
+  {
+    "codigo": "S148",
+    "apellido": "SANCHEZ",
+    "nombre": "VICTOR HUGO",
+    "dni": "15580924"
+  },
+  {
+    "codigo": "S060",
+    "apellido": "SANCHEZ",
+    "nombre": "LUISA MERCEDES",
+    "dni": "15586987"
+  },
+  {
+    "codigo": "S199",
+    "apellido": "SANDOVAL",
+    "nombre": "HENRY KEPPLER",
+    "dni": "07962521"
+  },
+  {
+    "codigo": "S322",
+    "apellido": "SANTILLANA",
+    "nombre": "MANUEL NATIVIDAD",
+    "dni": "40427571"
+  },
+  {
+    "codigo": "S040",
+    "apellido": "SARMIENTO",
+    "nombre": "JUAN MARIO",
+    "dni": "07940729"
+  },
+  {
+    "codigo": "S043",
+    "apellido": "SCHAEFER",
+    "nombre": "HELGA CATHERINE",
+    "dni": "15586674"
+  },
+  {
+    "codigo": "S314",
+    "apellido": "SEGURA",
+    "nombre": "PIERINA ALEXANDRA",
+    "dni": "72709247"
+  },
+  {
+    "codigo": "S050",
+    "apellido": "SERPA",
+    "nombre": "HUGO WILLIAM",
+    "dni": "15587751"
+  },
+  {
+    "codigo": "S049",
+    "apellido": "SERPA",
+    "nombre": "JESUS ENRIQUE",
+    "dni": "15608095"
+  },
+  {
+    "codigo": "S052",
+    "apellido": "SERPA",
+    "nombre": "OSCAR ANTONIO",
+    "dni": "15584256"
+  },
+  {
+    "codigo": "S053",
+    "apellido": "SERPA",
+    "nombre": "OSCAR ADAN",
+    "dni": "15601922"
+  },
+  {
+    "codigo": "S248",
+    "apellido": "SERRANO",
+    "nombre": "ELIZABETH CAROLYN",
+    "dni": "15759942"
+  },
+  {
+    "codigo": "S309",
+    "apellido": "SERRANO",
+    "nombre": "MARIA LUISA",
+    "dni": "15760434"
+  },
+  {
+    "codigo": "S262",
+    "apellido": "SHIRAHAMA",
+    "nombre": "CECILIA SAKINO",
+    "dni": "15736988"
+  },
+  {
+    "codigo": "S313",
+    "apellido": "SILVA",
+    "nombre": "MARCELO",
+    "dni": "47719501"
+  },
+  {
+    "codigo": "S179",
+    "apellido": "SILVESTRE",
+    "nombre": "CARLOS CESAR",
+    "dni": "15648443"
+  },
+  {
+    "codigo": "S265",
+    "apellido": "SIMBRON",
+    "nombre": "DOMENICO",
+    "dni": "44497185"
+  },
+  {
+    "codigo": "S223",
+    "apellido": "SOCLA",
+    "nombre": "MANUEL JESUS",
+    "dni": "15612433"
+  },
+  {
+    "codigo": "S255",
+    "apellido": "SOLANO",
+    "nombre": "ZULLY MARIBEL",
+    "dni": "15761664"
+  },
+  {
+    "codigo": "S233",
+    "apellido": "SOLANO",
+    "nombre": "RICHARD EDWIN",
+    "dni": "15729074"
+  },
+  {
+    "codigo": "S321",
+    "apellido": "SOLIS",
+    "nombre": "FLAVIO ORLANDO",
+    "dni": "15764521"
+  },
+  {
+    "codigo": "S319",
+    "apellido": "SOLIS",
+    "nombre": "CARLOS ALBERTO",
+    "dni": "41614097"
+  },
+  {
+    "codigo": "S270",
+    "apellido": "SOLIS",
+    "nombre": "CARLOS OMAR",
+    "dni": "15740186"
+  },
+  {
+    "codigo": "S271",
+    "apellido": "SOSA",
+    "nombre": "MAICKOL STUART",
+    "dni": "15766423"
+  },
+  {
+    "codigo": "S320",
+    "apellido": "SOSA",
+    "nombre": "JOSE DAVID",
+    "dni": "40561241"
+  },
+  {
+    "codigo": "S111",
+    "apellido": "SOTELO",
+    "nombre": "JOSE SAMUEL*",
+    "dni": "15592099"
+  },
+  {
+    "codigo": "S240",
+    "apellido": "SOTELO",
+    "nombre": "MERY ANA DEL CARMEN",
+    "dni": "15619094"
+  },
+  {
+    "codigo": "S069",
+    "apellido": "SOTELO",
+    "nombre": "JUAN CESAR",
+    "dni": "15589339"
+  },
+  {
+    "codigo": "S267",
+    "apellido": "SOTO",
+    "nombre": "DANNY EDGARDO",
+    "dni": "10171874"
+  },
+  {
+    "codigo": "S307",
+    "apellido": "SOTO",
+    "nombre": "DAVID GONZALO",
+    "dni": "43036054"
+  },
+  {
+    "codigo": "S211",
+    "apellido": "SOTO",
+    "nombre": "CHRISTIAN ANTONIO",
+    "dni": "15764480"
+  },
+  {
+    "codigo": "S187",
+    "apellido": "SOTO",
+    "nombre": "ERIK GIOVANNI",
+    "dni": "15735280"
+  },
+  {
+    "codigo": "S299",
+    "apellido": "SU",
+    "nombre": "LUCY MEYLIN",
+    "dni": "45839952"
+  },
+  {
+    "codigo": "S274",
+    "apellido": "SUAREZ",
+    "nombre": "PRISCILA NATALY",
+    "dni": "45682922"
+  },
+  {
+    "codigo": "S302",
+    "apellido": "SUAREZ",
+    "nombre": "LUIS ALFREDO",
+    "dni": "74803932"
+  },
+  {
+    "codigo": "S311",
+    "apellido": "SUAREZ",
+    "nombre": "JORGE ALEJANDRO",
+    "dni": "42126614"
+  },
+  {
+    "codigo": "S080",
+    "apellido": "SUN HAN",
+    "nombre": "NANCY JUANA",
+    "dni": "15585655"
+  },
+  {
+    "codigo": "S324",
+    "apellido": "SUSANIBAR",
+    "nombre": "CLAUDIA ALEJANDRA",
+    "dni": "70671365"
+  },
+  {
+    "codigo": "S273",
+    "apellido": "SUSANIBAR",
+    "nombre": "NORMA LILIANA",
+    "dni": "15725134"
+  },
+  {
+    "codigo": "S305",
+    "apellido": "SUSANO",
+    "nombre": "SARA RAQUEL",
+    "dni": "40303758"
+  },
+  {
+    "codigo": "T137",
+    "apellido": "TABOADA",
+    "nombre": "JULIO HUMBERTO",
+    "dni": "45714658"
+  },
+  {
+    "codigo": "T126",
+    "apellido": "TABOADA",
+    "nombre": "ERICK DAVID",
+    "dni": "41617637"
+  },
+  {
+    "codigo": "T138",
+    "apellido": "TABORI",
+    "nombre": "MARITZA JOANY",
+    "dni": "45720724"
+  },
+  {
+    "codigo": "T117",
+    "apellido": "TAFUR",
+    "nombre": "JUAN JOSE",
+    "dni": "08126260"
+  },
+  {
+    "codigo": "T095",
+    "apellido": "TAFUR",
+    "nombre": "LUIS HIDEBRANDO",
+    "dni": "02830884"
+  },
+  {
+    "codigo": "T001",
+    "apellido": "TALAVERA",
+    "nombre": "ALBERTO ENRIQUE*",
+    "dni": "15584323"
+  },
+  {
+    "codigo": "T074",
+    "apellido": "TALAVERA",
+    "nombre": "FRANCISCO JAVIER",
+    "dni": "15759233"
+  },
+  {
+    "codigo": "T132",
+    "apellido": "TAMAYO",
+    "nombre": "TANIA LIZBETH",
+    "dni": "45512823"
+  },
+  {
+    "codigo": "T128",
+    "apellido": "TANAKA",
+    "nombre": "PATRICIA ELIZABETH",
+    "dni": "15743836"
+  },
+  {
+    "codigo": "T107",
+    "apellido": "TASSO",
+    "nombre": "VICTOR EDUARDO",
+    "dni": "15736640"
+  },
+  {
+    "codigo": "T114",
+    "apellido": "TEJADA",
+    "nombre": "ELARD ALEJANDRO",
+    "dni": "40848141"
+  },
+  {
+    "codigo": "T005",
+    "apellido": "TELLO",
+    "nombre": "TULIO",
+    "dni": "15597381"
+  },
+  {
+    "codigo": "T139",
+    "apellido": "TOLEDO",
+    "nombre": "JEANETT ANGELA",
+    "dni": "47020992"
+  },
+  {
+    "codigo": "T135",
+    "apellido": "TOLEDO",
+    "nombre": "GIANFRANCO RAUL",
+    "dni": "46263956"
+  },
+  {
+    "codigo": "T136",
+    "apellido": "TOLEDO",
+    "nombre": "PIERINA DEL PILAR",
+    "dni": "44656856"
+  },
+  {
+    "codigo": "T060",
+    "apellido": "TOLEDO",
+    "nombre": "JEAN MARTIN",
+    "dni": "15759509"
+  },
+  {
+    "codigo": "T109",
+    "apellido": "TOLENTINO",
+    "nombre": "JOSE WILLIAM",
+    "dni": "15596724"
+  },
+  {
+    "codigo": "T013",
+    "apellido": "TORERO",
+    "nombre": "TEOFILO ORLANDO",
+    "dni": "15583588"
+  },
+  {
+    "codigo": "T064",
+    "apellido": "TORERO",
+    "nombre": "NORAH LILIANA",
+    "dni": "15587806"
+  },
+  {
+    "codigo": "T077",
+    "apellido": "TORERO",
+    "nombre": "RAUL CLAUDIO",
+    "dni": "15727168"
+  },
+  {
+    "codigo": "T016",
+    "apellido": "TORERO",
+    "nombre": "LUIS JAVIER",
+    "dni": "15598872"
+  },
+  {
+    "codigo": "T131",
+    "apellido": "TORREJON",
+    "nombre": "CESAR ALEXANDER",
+    "dni": "15738563"
+  },
+  {
+    "codigo": "T108",
+    "apellido": "TORRES",
+    "nombre": "SANDRA PATRICIA",
+    "dni": "15738832"
+  },
+  {
+    "codigo": "T133",
+    "apellido": "TORRES",
+    "nombre": "MARIO ALFREDO",
+    "dni": "15996661"
+  },
+  {
+    "codigo": "T129",
+    "apellido": "TORRES",
+    "nombre": "YULISSA ROCIO",
+    "dni": "40476345"
+  },
+  {
+    "codigo": "T134",
+    "apellido": "TORRES",
+    "nombre": "ALESSANDRO GABRIEL",
+    "dni": "70600044"
+  },
+  {
+    "codigo": "T055",
+    "apellido": "TORRES",
+    "nombre": "JUAN CARLOS",
+    "dni": "15724382"
+  },
+  {
+    "codigo": "T130",
+    "apellido": "TORRES",
+    "nombre": "MANUEL",
+    "dni": "45467821"
+  },
+  {
+    "codigo": "T086",
+    "apellido": "TORRES",
+    "nombre": "SILVIA  CRISTINA",
+    "dni": "40694176"
+  },
+  {
+    "codigo": "T090",
+    "apellido": "TORRES",
+    "nombre": "LUIS ALBERTO",
+    "dni": "15724936"
+  },
+  {
+    "codigo": "T080",
+    "apellido": "TORRES-CALDERON",
+    "nombre": "OSCAR ROBERTO",
+    "dni": "25001641"
+  },
+  {
+    "codigo": "T127",
+    "apellido": "TRUJILLO",
+    "nombre": "RAFAEL",
+    "dni": "15724013"
+  },
+  {
+    "codigo": "T052",
+    "apellido": "TUESTA",
+    "nombre": "VICTOR ALBERTO",
+    "dni": "08891352"
+  },
+  {
+    "codigo": "U024",
+    "apellido": "ULLOA",
+    "nombre": "FLOR AMELIA",
+    "dni": "70751977"
+  },
+  {
+    "codigo": "U020",
+    "apellido": "URBANO",
+    "nombre": "JORGE ARMANDO",
+    "dni": "80276311"
+  },
+  {
+    "codigo": "U023",
+    "apellido": "URBANO",
+    "nombre": "JOSE ANTONIO",
+    "dni": "41107667"
+  },
+  {
+    "codigo": "V112",
+    "apellido": "VACCARI",
+    "nombre": "CECILIA ISABEL",
+    "dni": "15615199"
+  },
+  {
+    "codigo": "V197",
+    "apellido": "VALDEOS",
+    "nombre": "LAURA YAJAIRA",
+    "dni": "40543659"
+  },
+  {
+    "codigo": "V003",
+    "apellido": "VALDERRAMA",
+    "nombre": "FELIX ALBERTO",
+    "dni": "15593353"
+  },
+  {
+    "codigo": "V148",
+    "apellido": "VALDERRAMA",
+    "nombre": "LYNNET FABIOLA",
+    "dni": "41921612"
+  },
+  {
+    "codigo": "V141",
+    "apellido": "VALDIVIA",
+    "nombre": "JESSICA CECILIA",
+    "dni": "15740223"
+  },
+  {
+    "codigo": "V192",
+    "apellido": "VALDIVIA",
+    "nombre": "MANUEL BENJAMIN",
+    "dni": "23829513"
+  },
+  {
+    "codigo": "V166",
+    "apellido": "VALENCIA",
+    "nombre": "CESAR AUGUSTO",
+    "dni": "15738167"
+  },
+  {
+    "codigo": "V096",
+    "apellido": "VALENCIA",
+    "nombre": "CARLOS ESTUARDO",
+    "dni": "15599907"
+  },
+  {
+    "codigo": "V206",
+    "apellido": "VALENZUELA",
+    "nombre": "STEFFANY PRYCILLA",
+    "dni": "72882834"
+  },
+  {
+    "codigo": "V180",
+    "apellido": "VALLADARES",
+    "nombre": "MANUEL ALEJANDRO",
+    "dni": "40646884"
+  },
+  {
+    "codigo": "V181",
+    "apellido": "VALLADARES",
+    "nombre": "MIRIAM ISABEL",
+    "dni": "15738991"
+  },
+  {
+    "codigo": "V171",
+    "apellido": "VALLADARES",
+    "nombre": "JULIO ERNESTO",
+    "dni": "42418290"
+  },
+  {
+    "codigo": "V073",
+    "apellido": "VARGAS",
+    "nombre": "GUILLERMO ARTURO",
+    "dni": "15723384"
+  },
+  {
+    "codigo": "V202",
+    "apellido": "VARGAS",
+    "nombre": "JHOJANY ROSSALY",
+    "dni": "46081484"
+  },
+  {
+    "codigo": "V089",
+    "apellido": "VARGAS",
+    "nombre": "MARCO ANTONIO",
+    "dni": "15608540"
+  },
+  {
+    "codigo": "V106",
+    "apellido": "VARGAS",
+    "nombre": "AURELIO AUGUSTO",
+    "dni": "09932073"
+  },
+  {
+    "codigo": "V185",
+    "apellido": "VASQUEZ",
+    "nombre": "MONICA MILAGROS",
+    "dni": "41433685"
+  },
+  {
+    "codigo": "V205",
+    "apellido": "VASQUEZ",
+    "nombre": "OMAR RODOLFO",
+    "dni": "15612760"
+  },
+  {
+    "codigo": "V177",
+    "apellido": "VASQUEZ",
+    "nombre": "DAVID MANUEL",
+    "dni": "44078197"
+  },
+  {
+    "codigo": "V028",
+    "apellido": "VEGA",
+    "nombre": "JOSE ENRIQUE",
+    "dni": "15590456"
+  },
+  {
+    "codigo": "V151",
+    "apellido": "VEGA",
+    "nombre": "JORGE DHANI",
+    "dni": "40404131"
+  },
+  {
+    "codigo": "V204",
+    "apellido": "VEGA",
+    "nombre": "JOSIE STEFANIE",
+    "dni": "46476342"
+  },
+  {
+    "codigo": "V189",
+    "apellido": "VEGA",
+    "nombre": "JACKELINE ELIANA",
+    "dni": "40526051"
+  },
+  {
+    "codigo": "V101",
+    "apellido": "VELASQUEZ",
+    "nombre": "WALTER CARLOS",
+    "dni": "15735513"
+  },
+  {
+    "codigo": "V191",
+    "apellido": "VELASQUEZ",
+    "nombre": "JUAN JOSE",
+    "dni": "40272043"
+  },
+  {
+    "codigo": "V199",
+    "apellido": "VELASQUEZ",
+    "nombre": "PATRICIA MARIA",
+    "dni": "40100135"
+  },
+  {
+    "codigo": "V173",
+    "apellido": "VELEZ",
+    "nombre": "JESSICA NATALIA",
+    "dni": "41628271"
+  },
+  {
+    "codigo": "V186",
+    "apellido": "VELEZ DE VILLA",
+    "nombre": "ROBERTO CARLOS",
+    "dni": "43524182"
+  },
+  {
+    "codigo": "V156",
+    "apellido": "VELIZ",
+    "nombre": "HUGO JORGE",
+    "dni": "15737169"
+  },
+  {
+    "codigo": "V039",
+    "apellido": "VENTOCILLA",
+    "nombre": "DIANA LOURDES",
+    "dni": "15597716"
+  },
+  {
+    "codigo": "V184",
+    "apellido": "VENTOCILLA",
+    "nombre": "MICHAEL VLADIMIR",
+    "dni": "15612090"
+  },
+  {
+    "codigo": "V179",
+    "apellido": "VERA",
+    "nombre": "LUIS MARIO ENRIQUE",
+    "dni": "18115768"
+  },
+  {
+    "codigo": "V201",
+    "apellido": "VERANO",
+    "nombre": "SAUL FERNANDO",
+    "dni": "15742839"
+  },
+  {
+    "codigo": "V168",
+    "apellido": "VERGARA",
+    "nombre": "POMPEYO PRISCILIANO",
+    "dni": "15594196"
+  },
+  {
+    "codigo": "V175",
+    "apellido": "VERONA",
+    "nombre": "EDGARD ALAN RYDER",
+    "dni": "41239538"
+  },
+  {
+    "codigo": "V135",
+    "apellido": "VIDAL",
+    "nombre": "ANA CECILIA",
+    "dni": "40849067"
+  },
+  {
+    "codigo": "V094",
+    "apellido": "VIDAL",
+    "nombre": "MARIELLA ALEYDA",
+    "dni": "15725355"
+  },
+  {
+    "codigo": "V198",
+    "apellido": "VIDAL",
+    "nombre": "AURELIO ALEJANDRO",
+    "dni": "09796867"
+  },
+  {
+    "codigo": "V194",
+    "apellido": "VIDARTE",
+    "nombre": "PIERRE ADHEMIR",
+    "dni": "42608012"
+  },
+  {
+    "codigo": "V203",
+    "apellido": "VILCA",
+    "nombre": "JESUS ANGEL",
+    "dni": "44311198"
+  },
+  {
+    "codigo": "V196",
+    "apellido": "VILCHEZ",
+    "nombre": "JUAN ADELCIO",
+    "dni": "08847624"
+  },
+  {
+    "codigo": "V200",
+    "apellido": "VILLANUEVA",
+    "nombre": "MIRIAN MEDALIT",
+    "dni": "41534348"
+  },
+  {
+    "codigo": "V182",
+    "apellido": "VILLANUEVA",
+    "nombre": "VALERY ELIZABETH",
+    "dni": "45497634"
+  },
+  {
+    "codigo": "V195",
+    "apellido": "VILLANUEVA",
+    "nombre": "KATHERINE NATALIA",
+    "dni": "15759753"
+  },
+  {
+    "codigo": "V108",
+    "apellido": "VILLAVICENCIO",
+    "nombre": "LUIS ANTONIO JHON",
+    "dni": "15595444"
+  },
+  {
+    "codigo": "W006",
+    "apellido": "WONG",
+    "nombre": "MARCELA ALEJANDRA",
+    "dni": "15766157"
+  },
+  {
+    "codigo": "Y020",
+    "apellido": "YABAR",
+    "nombre": "CARLOS AUGUSTO",
+    "dni": "15760707"
+  },
+  {
+    "codigo": "Y024",
+    "apellido": "YACCHI",
+    "nombre": "ROSA MABEL",
+    "dni": "15740183"
+  },
+  {
+    "codigo": "Y016",
+    "apellido": "YACCHI",
+    "nombre": "JULIO FERNANDO",
+    "dni": "15648074"
+  },
+  {
+    "codigo": "Y034",
+    "apellido": "YAÑEZ",
+    "nombre": "YISSELA",
+    "dni": "15736123"
+  },
+  {
+    "codigo": "Y029",
+    "apellido": "YENGLE",
+    "nombre": "MIGUEL HERNAN",
+    "dni": "18073658"
+  },
+  {
+    "codigo": "Y031",
+    "apellido": "YI",
+    "nombre": "NESTOR RAUL",
+    "dni": "07630377"
+  },
+  {
+    "codigo": "Y033",
+    "apellido": "YON",
+    "nombre": "HELEN MARGOT",
+    "dni": "40015000"
+  },
+  {
+    "codigo": "Y002",
+    "apellido": "YONG",
+    "nombre": "PERCY NEPTALI",
+    "dni": "15686789"
+  },
+  {
+    "codigo": "Y013",
+    "apellido": "YONG",
+    "nombre": "MAURO ALFONSO",
+    "dni": "15584066"
+  },
+  {
+    "codigo": "Y036",
+    "apellido": "YSHIY",
+    "nombre": "ANAYKA DAYELLI",
+    "dni": "76383396"
+  },
+  {
+    "codigo": "Y035",
+    "apellido": "YSHIY",
+    "nombre": "LEONARDO",
+    "dni": "15764538"
+  },
+  {
+    "codigo": "Z078",
+    "apellido": "ZAPATA",
+    "nombre": "JUAN RICARDO",
+    "dni": "40865861"
+  },
+  {
+    "codigo": "Z009",
+    "apellido": "ZAPATA",
+    "nombre": "ROBERTO",
+    "dni": "15726204"
+  },
+  {
+    "codigo": "Z073",
+    "apellido": "ZAPATA",
+    "nombre": "CARLOS ENRIQUE",
+    "dni": "15735283"
+  },
+  {
+    "codigo": "Z059",
+    "apellido": "ZAPATA",
+    "nombre": "JOSE LUIS",
+    "dni": "40678937"
+  },
+  {
+    "codigo": "Z051",
+    "apellido": "ZAPATA",
+    "nombre": "ORLANDO ELIAS",
+    "dni": "15611441"
+  },
+  {
+    "codigo": "Z076",
+    "apellido": "ZARAGOZA",
+    "nombre": "WILMER VICTOR",
+    "dni": "41814726"
+  },
+  {
+    "codigo": "Z065",
+    "apellido": "ZAVALETA",
+    "nombre": "JUAN JAVIER",
+    "dni": "15646650"
+  },
+  {
+    "codigo": "Z034",
+    "apellido": "ZERILLO",
+    "nombre": "CARLOS",
+    "dni": "15596331"
+  },
+  {
+    "codigo": "Z014",
+    "apellido": "ZERILLO",
+    "nombre": "MANUEL SALVADOR",
+    "dni": "15596874"
+  },
+  {
+    "codigo": "Z057",
+    "apellido": "ZERILLO",
+    "nombre": "MILISSA",
+    "dni": "45483200"
+  },
+  {
+    "codigo": "Z058",
+    "apellido": "ZERILLO",
+    "nombre": "PRISCILLA",
+    "dni": "43760520"
+  },
+  {
+    "codigo": "Z052",
+    "apellido": "ZERILLO",
+    "nombre": "VIVIAN JULISSA",
+    "dni": "42458450"
+  },
+  {
+    "codigo": "Z049",
+    "apellido": "ZERILLO",
+    "nombre": "JORGE LUIS",
+    "dni": "10327910"
+  },
+  {
+    "codigo": "Z071",
+    "apellido": "ZERILLO",
+    "nombre": "WENDY YOHANA",
+    "dni": "42137073"
+  },
+  {
+    "codigo": "Z015",
+    "apellido": "ZERILLO",
+    "nombre": "ANTONIO LORENZO",
+    "dni": "15602791"
+  },
+  {
+    "codigo": "Z016",
+    "apellido": "ZERILLO",
+    "nombre": "CARLOS SALVADOR",
+    "dni": "15590586"
+  },
+  {
+    "codigo": "Z017",
+    "apellido": "ZERILLO",
+    "nombre": "DOUGLAS",
+    "dni": "15600111"
+  },
+  {
+    "codigo": "Z041",
+    "apellido": "ZERILLO",
+    "nombre": "RICARDO ISRAEL",
+    "dni": "15737317"
+  },
+  {
+    "codigo": "Z075",
+    "apellido": "ZERILLO",
+    "nombre": "SANDRA RAQUEL",
+    "dni": "40036972"
+  },
+  {
+    "codigo": "Z080",
+    "apellido": "ZERILLO",
+    "nombre": "CARLOS GIANFRANCO",
+    "dni": "70514065"
+  },
+  {
+    "codigo": "Z079",
+    "apellido": "ZERILLO",
+    "nombre": "JAIRO GIANCARLO",
+    "dni": "70514872"
+  },
+  {
+    "codigo": "Z070",
+    "apellido": "ZERILLO",
+    "nombre": "KARLA ROSSANA",
+    "dni": "44296574"
+  },
+  {
+    "codigo": "Z077",
+    "apellido": "ZUÑIGA",
+    "nombre": "ANDREA STEFANY",
+    "dni": "72315324"
+  },
+  {
+    "codigo": "Z046",
+    "apellido": "ZUÑIGA",
+    "nombre": "CARLOS ENRIQUE",
+    "dni": "15759503"
+  },
+  {
+    "codigo": "Z060",
+    "apellido": "ZURITA",
+    "nombre": "ALFREDO TOMAS",
+    "dni": "15761234"
+  },
+  {
+    "codigo": "Z067",
+    "apellido": "ZURITA",
+    "nombre": "WALTER LEONARDO",
+    "dni": "15760981"
+  }
+]
