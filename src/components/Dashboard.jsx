@@ -19,6 +19,8 @@ const Dashboard = ({ onBack, courts, title }) => {
     return Array.from({ length: 8 }, (_, i) => addDays(startOfToday(), i));
   }, []);
 
+  const [loadingSlot, setLoadingSlot] = useState(null);
+
   useEffect(() => {
     const dateStr = format(selectedDate, 'yyyy-MM-dd');
     const unsubscribe = bookingService.subscribeToDateBookings(dateStr, (newBookings) => {
@@ -31,11 +33,14 @@ const Dashboard = ({ onBack, courts, title }) => {
 
   const handleBooking = async (courtId, hour) => {
     try {
+      setLoadingSlot(`${courtId}-${hour}`);
       const dateStr = format(selectedDate, 'yyyy-MM-dd');
       await bookingService.createBooking(courtId, dateStr, hour, user);
     } catch (err) {
       setError(err.message);
       setTimeout(() => setError(null), 3000);
+    } finally {
+      setLoadingSlot(null);
     }
   };
 
@@ -131,8 +136,9 @@ const Dashboard = ({ onBack, courts, title }) => {
                           <button 
                             className="btn btn-primary btn-sm"
                             onClick={() => handleBooking(court.id, hour)}
+                            disabled={loadingSlot === `${court.id}-${hour}`}
                           >
-                            Reservar
+                            {loadingSlot === `${court.id}-${hour}` ? 'Reservando...' : 'Reservar'}
                           </button>
                         )}
                         {isMine && (
