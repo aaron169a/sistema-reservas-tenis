@@ -27,6 +27,22 @@ export const AuthProvider = ({ children }) => {
       skipEmptyLines: true,
       complete: (results) => {
         setSociosData(results.data);
+
+        // Actualizar el nombre del usuario si ya estaba en caché con datos antiguos
+        const storedUserStr = localStorage.getItem('tennis_user');
+        if (storedUserStr) {
+          const parsedUser = JSON.parse(storedUserStr);
+          const currentSocio = results.data.find(s => s['CodSocio'] && s['CodSocio'].trim().toUpperCase() === parsedUser.id.toUpperCase());
+          if (currentSocio) {
+            const updatedUser = {
+              ...parsedUser,
+              name: currentSocio['Nombre y Apellido'] ? currentSocio['Nombre y Apellido'].trim() : parsedUser.name
+            };
+            setUser(updatedUser);
+            localStorage.setItem('tennis_user', JSON.stringify(updatedUser));
+          }
+        }
+
         setLoading(false);
       },
       error: (err) => {
