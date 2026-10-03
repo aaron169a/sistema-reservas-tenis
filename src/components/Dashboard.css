@@ -266,6 +266,16 @@
     gap: 1.5rem;
   }
 
+  .date-selector-container {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+
+  .date-selector-logo {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
   .date-selector-logo img {
     height: 80px;
   }
