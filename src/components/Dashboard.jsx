@@ -88,27 +88,33 @@ const Dashboard = ({ onBack, courts, title, hours = DEFAULT_HOURS }) => {
           </div>
         )}
 
-        <div className="date-selector card mb-4">
-          <div className="flex items-center gap-2 mb-4">
-            <Calendar size={24} color="var(--accent-color)" />
-            <h2 style={{ margin: 0 }}>Seleccionar Fecha</h2>
+        <div className="date-selector card mb-4 date-selector-container">
+          <div className="date-selector-content">
+            <div className="flex items-center gap-2 mb-4">
+              <Calendar size={24} color="var(--accent-color)" />
+              <h2 style={{ margin: 0 }}>Seleccionar Fecha</h2>
+            </div>
+            
+            <div className="dates-scroll">
+              {availableDates.map(date => {
+                const isSelected = format(date, 'yyyy-MM-dd') === format(selectedDate, 'yyyy-MM-dd');
+                return (
+                  <button
+                    key={date.toString()}
+                    className={`date-btn ${isSelected ? 'selected' : ''}`}
+                    onClick={() => setSelectedDate(date)}
+                  >
+                    <span className="date-day">{format(date, 'EEEE', { locale: es })}</span>
+                    <span className="date-num">{format(date, 'd')}</span>
+                    <span className="date-month">{format(date, 'MMM', { locale: es })}</span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
-          
-          <div className="dates-scroll">
-            {availableDates.map(date => {
-              const isSelected = format(date, 'yyyy-MM-dd') === format(selectedDate, 'yyyy-MM-dd');
-              return (
-                <button
-                  key={date.toString()}
-                  className={`date-btn ${isSelected ? 'selected' : ''}`}
-                  onClick={() => setSelectedDate(date)}
-                >
-                  <span className="date-day">{format(date, 'EEEE', { locale: es })}</span>
-                  <span className="date-num">{format(date, 'd')}</span>
-                  <span className="date-month">{format(date, 'MMM', { locale: es })}</span>
-                </button>
-              );
-            })}
+
+          <div className="date-selector-logo">
+            <img src="/logo.webp" alt="Club Logo" />
           </div>
         </div>
 

@@ -110,6 +110,33 @@
   color: var(--accent-color);
 }
 
+.date-selector-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.date-selector-content {
+  flex: 1 1 auto;
+  min-width: 300px;
+}
+
+.date-selector-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.date-selector-logo img {
+  height: 120px;
+  object-fit: contain;
+  opacity: 0.95;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+}
+
 /* Courts Layout */
 .courts-grid {
   display: flex;
@@ -237,5 +264,9 @@
   
   .courts-grid {
     gap: 1.5rem;
+  }
+
+  .date-selector-logo img {
+    height: 80px;
   }
 }
