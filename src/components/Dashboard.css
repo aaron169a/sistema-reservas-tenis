@@ -284,4 +284,25 @@
   .date-selector-logo img {
     height: 80px;
   }
+
+  .time-slot.free {
+    border-color: var(--accent-color);
+  }
+  .time-slot.free .slot-time {
+    border-bottom-color: var(--accent-color);
+  }
+
+  .time-slot.occupied {
+    border-color: #FCA5A5;
+  }
+  .time-slot.occupied .slot-time {
+    border-bottom-color: #FCA5A5;
+  }
+
+  .time-slot.mine {
+    border-color: var(--danger-color);
+  }
+  .time-slot.mine .slot-time {
+    border-bottom-color: var(--danger-color);
+  }
 }
