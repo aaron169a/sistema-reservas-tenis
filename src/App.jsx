@@ -3,7 +3,7 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import Home from './components/Home';
-import FrontonView from './components/FrontonView';
+import FrontonLocations from './components/FrontonLocations';
 import TenisLocations from './components/TenisLocations';
 
 const AppContent = () => {
@@ -29,7 +29,29 @@ const AppContent = () => {
 
   // Si seleccionó frontón
   if (selectedSport === 'fronton') {
-    return <FrontonView onBack={handleBackToSports} />;
+    if (!selectedLocation) {
+      return <FrontonLocations onSelectLocation={setSelectedLocation} onBack={handleBackToSports} />;
+    }
+
+    if (selectedLocation === 'central') {
+      return (
+        <Dashboard 
+          title="Frontón - Sede Central"
+          courts={[{ id: 'F-CEN-1', name: 'Cancha 1' }, { id: 'F-CEN-2', name: 'Cancha 2' }, { id: 'F-CEN-3', name: 'Cancha 3' }]} 
+          onBack={() => setSelectedLocation(null)} 
+        />
+      );
+    }
+
+    if (selectedLocation === 'campestre') {
+      return (
+        <Dashboard 
+          title="Frontón - Sede Campestre"
+          courts={[{ id: 'F-CAM-1', name: 'Cancha 1' }, { id: 'F-CAM-2', name: 'Cancha 2' }]} 
+          onBack={() => setSelectedLocation(null)} 
+        />
+      );
+    }
   }
 
   // Si seleccionó tenis

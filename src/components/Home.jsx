@@ -47,7 +47,7 @@ const Home = ({ onSelectSport }) => {
 
             {/* Card Frontón */}
             <div 
-              className="sport-card"
+              className="sport-card active-card"
               onClick={() => onSelectSport('fronton')}
             >
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="sport-icon">
@@ -56,7 +56,7 @@ const Home = ({ onSelectSport }) => {
                 <circle cx="16" cy="6" r="1.5" fill="currentColor" />
               </svg>
               <h2>Canchas de Frontón</h2>
-              <p>Próximamente disponibles</p>
+              <p>Reserva tu cancha para jugar frontón</p>
             </div>
           </div>
         </div>
