@@ -6,6 +6,8 @@ import Home from './components/Home';
 import FrontonLocations from './components/FrontonLocations';
 import TenisLocations from './components/TenisLocations';
 
+const FRONTON_HOURS = Array.from({ length: 16 }, (_, i) => i + 6); // 6:00 to 21:00 (ends at 22:00 / 10 PM)
+
 const AppContent = () => {
   const { user } = useAuth();
   const [selectedSport, setSelectedSport] = useState(null);
@@ -39,6 +41,7 @@ const AppContent = () => {
           title="Frontón - Sede Central"
           courts={[{ id: 'F-CEN-1', name: 'Cancha 1' }, { id: 'F-CEN-2', name: 'Cancha 2' }, { id: 'F-CEN-3', name: 'Cancha 3' }]} 
           onBack={() => setSelectedLocation(null)} 
+          hours={FRONTON_HOURS}
         />
       );
     }
@@ -49,6 +52,7 @@ const AppContent = () => {
           title="Frontón - Sede Campestre"
           courts={[{ id: 'F-CAM-1', name: 'Cancha 1' }, { id: 'F-CAM-2', name: 'Cancha 2' }]} 
           onBack={() => setSelectedLocation(null)} 
+          hours={FRONTON_HOURS}
         />
       );
     }

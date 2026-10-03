@@ -6,9 +6,9 @@ import { es } from 'date-fns/locale';
 import { Calendar, LogOut, User as UserIcon, ArrowLeft } from 'lucide-react';
 import './Dashboard.css';
 
-const HOURS = Array.from({ length: 11 }, (_, i) => i + 6); // 6 to 16 (4:00 PM)
+const DEFAULT_HOURS = Array.from({ length: 11 }, (_, i) => i + 6); // 6 to 16 (4:00 PM)
 
-const Dashboard = ({ onBack, courts, title }) => {
+const Dashboard = ({ onBack, courts, title, hours = DEFAULT_HOURS }) => {
   const { user, logout } = useAuth();
   const [selectedDate, setSelectedDate] = useState(startOfToday());
   const [bookings, setBookings] = useState([]);
@@ -121,7 +121,7 @@ const Dashboard = ({ onBack, courts, title }) => {
               </div>
               
               <div className="time-slots">
-                {HOURS.map(hour => {
+                {hours.map(hour => {
                   const booking = bookings.find(b => b.courtId === court.id && b.hour === hour);
                   const isMine = booking?.userId === user.id;
                   
