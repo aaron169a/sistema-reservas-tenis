@@ -120,7 +120,8 @@
 
 .date-selector-content {
   flex: 1 1 auto;
-  min-width: 300px;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .date-selector-logo {
@@ -269,6 +270,10 @@
   .date-selector-container {
     flex-direction: column-reverse;
     gap: 1rem;
+  }
+
+  .date-selector-content {
+    width: 100%;
   }
 
   .date-selector-logo {
