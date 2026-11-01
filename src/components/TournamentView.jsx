@@ -6,15 +6,15 @@ import './TournamentView.css';
 const TOURNAMENT_DATA_1RA = {
   id: 'torneo-primavera-2026',
   name: 'Torneo Oficial Club Tenis 2026',
-  category: 'Singles Masculino - 1ra Categoría',
+  category: 'Primera Categoría',
   surface: 'Arcilla (Sede Central)',
   dates: 'Octubre - Noviembre 2026',
   status: 'Finalizado',
   champion: {
-    name: 'Alessandro Sandoval',
+    name: 'Jugador 13',
     points: '2,000 PTS',
     sets: '7-5 en la Final',
-    runnerUp: 'George Suzuki',
+    runnerUp: 'Jugador 1',
     runnerUpPoints: '1,200 PTS'
   },
   rounds: [
@@ -25,57 +25,57 @@ const TOURNAMENT_DATA_1RA = {
       matches: [
         {
           id: 'm1',
-          player1: { name: 'George Suzuki', score: 'Bye', isWinner: true },
-          player2: { name: '— (Pase directo)', score: '', isWinner: false },
+          player1: { name: 'Jugador 1', score: 'Bye', isWinner: true },
+          player2: { name: 'Jugador 2', score: '', isWinner: false },
           court: 'Cancha Principal',
           status: 'Finalizado'
         },
         {
           id: 'm2',
-          player1: { name: 'Rodrigo Castro', score: '6-0', isWinner: true },
-          player2: { name: 'Christian Andre Guzmán Miraval', score: '', isWinner: false },
+          player1: { name: 'Jugador 3', score: '6-0', isWinner: true },
+          player2: { name: 'Jugador 4', score: '', isWinner: false },
           court: 'Cancha 1',
           status: 'Finalizado'
         },
         {
           id: 'm3',
-          player1: { name: 'Guerrini Robilliard Gianfranco', score: 'W.O.', isWinner: false },
-          player2: { name: 'Joaquin Andre Velasquez', score: 'W.O.', isWinner: true },
+          player1: { name: 'Jugador 5', score: 'W.O.', isWinner: false },
+          player2: { name: 'Jugador 6', score: 'W.O.', isWinner: true },
           court: 'Cancha 2',
           status: 'Finalizado'
         },
         {
           id: 'm4',
-          player1: { name: 'Ricardo Soto', score: '', isWinner: false },
-          player2: { name: 'Joaquin Gonzales Vidal', score: '6-0', isWinner: true },
+          player1: { name: 'Jugador 7', score: '', isWinner: false },
+          player2: { name: 'Jugador 8', score: '6-0', isWinner: true },
           court: 'Cancha 3',
           status: 'Finalizado'
         },
         {
           id: 'm5',
-          player1: { name: 'Ximena Coronado Alvarez', score: '', isWinner: false },
-          player2: { name: 'Aaron Alejandro Ayala', score: '6-0', isWinner: true, isCurrentUser: true },
+          player1: { name: 'Jugador 9', score: '', isWinner: false },
+          player2: { name: 'Jugador 10', score: '6-0', isWinner: true },
           court: 'Cancha Principal',
           status: 'Finalizado'
         },
         {
           id: 'm6',
-          player1: { name: 'Enzo Paolo Carrasco Hidalgo', score: '6-3', isWinner: true },
-          player2: { name: 'Gonzalo Chang Farro', score: '', isWinner: false },
+          player1: { name: 'Jugador 11', score: '6-3', isWinner: true },
+          player2: { name: 'Jugador 12', score: '', isWinner: false },
           court: 'Cancha 1',
           status: 'Finalizado'
         },
         {
           id: 'm7',
-          player1: { name: 'Alessandro Sandoval', score: '6-2', isWinner: true },
-          player2: { name: 'Alberto Lozano', score: '', isWinner: false },
+          player1: { name: 'Jugador 13', score: '6-2', isWinner: true },
+          player2: { name: 'Jugador 14', score: '', isWinner: false },
           court: 'Cancha 2',
           status: 'Finalizado'
         },
         {
           id: 'm8',
-          player1: { name: 'Angelo Mario Ayala Hidalgo', score: '6-0', isWinner: true },
-          player2: { name: 'Mario Alonso Arellano Alvitres', score: '', isWinner: false },
+          player1: { name: 'Jugador 15', score: '6-0', isWinner: true },
+          player2: { name: 'Jugador 16', score: '', isWinner: false },
           court: 'Cancha 3',
           status: 'Finalizado'
         }
@@ -88,29 +88,29 @@ const TOURNAMENT_DATA_1RA = {
       matches: [
         {
           id: 'm9',
-          player1: { name: 'George Suzuki', score: '6-3', isWinner: true },
-          player2: { name: 'Rodrigo Castro', score: '', isWinner: false },
+          player1: { name: 'Jugador 1', score: '6-3', isWinner: true },
+          player2: { name: 'Jugador 3', score: '', isWinner: false },
           court: 'Cancha Principal',
           status: 'Finalizado'
         },
         {
           id: 'm10',
-          player1: { name: 'Joaquin Andre Velasquez', score: '—', isWinner: false },
-          player2: { name: 'Joaquin Gonzales Vidal', score: '6-0', isWinner: true },
+          player1: { name: 'Jugador 6', score: '—', isWinner: false },
+          player2: { name: 'Jugador 8', score: '6-0', isWinner: true },
           court: 'Cancha 1',
           status: 'Finalizado'
         },
         {
           id: 'm11',
-          player1: { name: 'Aaron Alejandro Ayala', score: '6-0', isWinner: true, isCurrentUser: true },
-          player2: { name: 'Enzo Paolo Carrasco Hidalgo', score: '', isWinner: false },
+          player1: { name: 'Jugador 10', score: '6-0', isWinner: true },
+          player2: { name: 'Jugador 11', score: '', isWinner: false },
           court: 'Cancha Principal',
           status: 'Finalizado'
         },
         {
           id: 'm12',
-          player1: { name: 'Alessandro Sandoval', score: '6-1', isWinner: true },
-          player2: { name: 'Angelo Mario Ayala Hidalgo', score: '', isWinner: false },
+          player1: { name: 'Jugador 13', score: '6-1', isWinner: true },
+          player2: { name: 'Jugador 15', score: '', isWinner: false },
           court: 'Cancha 2',
           status: 'Finalizado'
         }
@@ -123,15 +123,15 @@ const TOURNAMENT_DATA_1RA = {
       matches: [
         {
           id: 'm13',
-          player1: { name: 'George Suzuki', score: '6-2', isWinner: true },
-          player2: { name: 'Joaquin Gonzales Vidal', score: '', isWinner: false },
+          player1: { name: 'Jugador 1', score: '6-2', isWinner: true },
+          player2: { name: 'Jugador 8', score: '', isWinner: false },
           court: 'Cancha Principal',
           status: 'Finalizado'
         },
         {
           id: 'm14',
-          player1: { name: 'Aaron Alejandro Ayala', score: '', isWinner: false, isCurrentUser: true },
-          player2: { name: 'Alessandro Sandoval', score: '6-1', isWinner: true },
+          player1: { name: 'Jugador 10', score: '', isWinner: false },
+          player2: { name: 'Jugador 13', score: '6-1', isWinner: true },
           court: 'Cancha Principal',
           status: 'Finalizado'
         }
@@ -144,8 +144,8 @@ const TOURNAMENT_DATA_1RA = {
       matches: [
         {
           id: 'm15',
-          player1: { name: 'George Suzuki', score: '', isWinner: false },
-          player2: { name: 'Alessandro Sandoval', score: '7-5', isWinner: true },
+          player1: { name: 'Jugador 1', score: '', isWinner: false },
+          player2: { name: 'Jugador 13', score: '7-5', isWinner: true },
           court: 'Cancha Principal',
           status: 'Finalizado'
         }
@@ -239,26 +239,14 @@ const TournamentView = ({ onBack }) => {
             </div>
           </div>
 
-          {/* Categorías y Barra de Búsqueda */}
+          {/* Categoría y Barra de Búsqueda */}
           <div className="tournament-controls">
             <div className="category-tabs">
               <button 
-                className={`category-tab ${selectedCategory === '1ra' ? 'active' : ''}`}
+                className="category-tab active"
                 onClick={() => setSelectedCategory('1ra')}
               >
-                1ra Categoría (Singles)
-              </button>
-              <button 
-                className={`category-tab ${selectedCategory === '2da' ? 'active' : ''}`}
-                onClick={() => setSelectedCategory('2da')}
-              >
-                2da Categoría (Singles)
-              </button>
-              <button 
-                className={`category-tab ${selectedCategory === 'dobles' ? 'active' : ''}`}
-                onClick={() => setSelectedCategory('dobles')}
-              >
-                Dobles Abierto
+                Primera Categoría
               </button>
             </div>
 
