@@ -702,3 +702,235 @@
     width: 250px;
   }
 }
+
+/* =========================================
+   ESTILOS EXCLUSIVOS DE ADMINISTRADOR
+   ========================================= */
+
+.badge-admin-tag {
+  background: #DCFCE7;
+  color: #15803D;
+  border: 1px solid #86EFAC;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.admin-control-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #F0FDF4 0%, #FFFFFF 100%);
+  border: 1.5px solid #86EFAC;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.1);
+}
+
+.admin-control-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.admin-control-left strong {
+  color: #064E3B;
+  font-size: 1.05rem;
+  display: block;
+}
+
+.admin-control-left p {
+  color: #047857;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.admin-control-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.btn-edit-active {
+  background: #047857 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.3);
+}
+
+.btn-reset-data {
+  color: #DC2626 !important;
+  border-color: #FECACA !important;
+}
+
+.btn-reset-data:hover {
+  background: #FEE2E2 !important;
+}
+
+.badge-editing {
+  background: #FEF08A;
+  color: #854D0E;
+  border: 1px solid #FDE047;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* Match Card in Edit Mode */
+.match-card.editable-card {
+  border: 1.5px dashed #059669;
+  cursor: pointer;
+}
+
+.match-card.editable-card:hover {
+  border-color: #047857;
+  background: #F0FDF4;
+}
+
+.match-edit-badge {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  background: #059669;
+  color: #FFFFFF;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  z-index: 2;
+  opacity: 0.9;
+}
+
+/* Edit Champion Pill */
+.btn-edit-champion-pill {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: all 0.2s ease;
+  z-index: 5;
+}
+
+.btn-edit-champion-pill:hover {
+  background: #FFFFFF;
+  color: #064E3B;
+}
+
+/* Edit Modal Layout */
+.admin-edit-modal {
+  max-width: 500px !important;
+}
+
+.edit-player-section {
+  background: var(--bg-card);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.edit-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.edit-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.edit-input {
+  flex: 1;
+}
+
+.edit-score-input {
+  width: 100px;
+}
+
+.checkbox-winner-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #047857;
+  cursor: pointer;
+}
+
+.checkbox-winner-label input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #059669;
+}
+
+.edit-divider-text {
+  text-align: center;
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin: 0.75rem 0;
+}
+
+.edit-meta-section {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.edit-meta-section > div {
+  flex: 1;
+}
+
+/* Toast Notifications */
+.tournament-toast {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 0.9rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+  animation: slideUp 0.3s ease-out;
+}
+
+.tournament-toast.success {
+  background-color: #064E3B;
+  color: #86EFAC;
+  border: 1px solid #10B981;
+}
+
+.tournament-toast.error {
+  background-color: #7F1D1D;
+  color: #FCA5A5;
+  border: 1px solid #EF4444;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
