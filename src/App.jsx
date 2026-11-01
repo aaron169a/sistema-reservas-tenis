@@ -5,6 +5,7 @@ import Dashboard from './components/Dashboard';
 import Home from './components/Home';
 import FrontonLocations from './components/FrontonLocations';
 import TenisLocations from './components/TenisLocations';
+import TournamentView from './components/TournamentView';
 
 const FRONTON_HOURS = Array.from({ length: 16 }, (_, i) => i + 6); // 6:00 to 21:00 (ends at 22:00 / 10 PM)
 
@@ -27,6 +28,11 @@ const AppContent = () => {
 
   if (!user) {
     return <Login />;
+  }
+
+  // Si seleccionó torneos
+  if (selectedSport === 'tournaments') {
+    return <TournamentView onBack={handleBackToSports} />;
   }
 
   // Si seleccionó frontón

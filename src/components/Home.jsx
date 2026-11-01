@@ -1,6 +1,6 @@
 import React from 'react';
 import { useAuth } from '../context/AuthContext';
-import { LogOut } from 'lucide-react';
+import { LogOut, Trophy } from 'lucide-react';
 import './Home.css';
 
 const Home = ({ onSelectSport }) => {
@@ -27,7 +27,7 @@ const Home = ({ onSelectSport }) => {
 
       <main className="home-container">
         <div className="glass-card">
-          <h1 className="glass-title">Selecciona tu disciplina</h1>
+          <h1 className="glass-title">Selecciona una opción</h1>
           
           <div className="sport-cards-container">
             {/* Card Tenis */}
@@ -57,6 +57,16 @@ const Home = ({ onSelectSport }) => {
               </svg>
               <h2>Canchas de Frontón</h2>
               <p>Reserva tu cancha para jugar frontón</p>
+            </div>
+
+            {/* Card Torneos */}
+            <div 
+              className="sport-card active-card tournament-card"
+              onClick={() => onSelectSport('tournaments')}
+            >
+              <Trophy size={48} className="sport-icon tournament-icon" />
+              <h2>Torneos</h2>
+              <p>Cuadro de llaves y resultados</p>
             </div>
           </div>
         </div>
