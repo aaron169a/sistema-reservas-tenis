@@ -17,7 +17,7 @@ const INITIAL_TOURNAMENT_DATA = {
   champion: {
     name: 'Jugador 13',
     points: '2,000 PTS',
-    sets: '7-5 en la Final',
+    sets: '7-5, 3-6, 6-4 en la Final',
     runnerUp: 'Jugador 1',
     runnerUpPoints: '1,200 PTS'
   },
@@ -29,57 +29,71 @@ const INITIAL_TOURNAMENT_DATA = {
       matches: [
         {
           id: 'm1',
-          player1: { name: 'Jugador 1', score: 'Bye', isWinner: true },
-          player2: { name: 'Jugador 2', score: '', isWinner: false },
+          scoreType: 'bye',
+          player1: { name: 'Jugador 1', sets: ['Bye'], isWinner: true },
+          player2: { name: '— (Pase directo)', sets: [''], isWinner: false },
           court: 'Cancha Principal',
           status: 'Finalizado'
         },
         {
           id: 'm2',
-          player1: { name: 'Jugador 3', score: '6-0', isWinner: true },
-          player2: { name: 'Jugador 4', score: '', isWinner: false },
+          scoreType: 'sets',
+          setsCount: 2,
+          player1: { name: 'Jugador 3', sets: ['6', '6'], isWinner: true },
+          player2: { name: 'Jugador 4', sets: ['0', '1'], isWinner: false },
           court: 'Cancha 1',
           status: 'Finalizado'
         },
         {
           id: 'm3',
-          player1: { name: 'Jugador 5', score: 'W.O.', isWinner: false },
-          player2: { name: 'Jugador 6', score: 'W.O.', isWinner: true },
+          scoreType: 'wo',
+          player1: { name: 'Jugador 5', sets: ['W.O.'], isWinner: false },
+          player2: { name: 'Jugador 6', sets: ['W.O.'], isWinner: true },
           court: 'Cancha 2',
           status: 'Finalizado'
         },
         {
           id: 'm4',
-          player1: { name: 'Jugador 7', score: '', isWinner: false },
-          player2: { name: 'Jugador 8', score: '6-0', isWinner: true },
+          scoreType: 'sets',
+          setsCount: 2,
+          player1: { name: 'Jugador 7', sets: ['2', '1'], isWinner: false },
+          player2: { name: 'Jugador 8', sets: ['6', '6'], isWinner: true },
           court: 'Cancha 3',
           status: 'Finalizado'
         },
         {
           id: 'm5',
-          player1: { name: 'Jugador 9', score: '', isWinner: false },
-          player2: { name: 'Jugador 10', score: '6-0', isWinner: true },
+          scoreType: 'sets',
+          setsCount: 2,
+          player1: { name: 'Jugador 9', sets: ['1', '3'], isWinner: false },
+          player2: { name: 'Jugador 10', sets: ['6', '6'], isWinner: true },
           court: 'Cancha Principal',
           status: 'Finalizado'
         },
         {
           id: 'm6',
-          player1: { name: 'Jugador 11', score: '6-3', isWinner: true },
-          player2: { name: 'Jugador 12', score: '', isWinner: false },
+          scoreType: 'sets',
+          setsCount: 3,
+          player1: { name: 'Jugador 11', sets: ['6', '3', '6'], isWinner: true },
+          player2: { name: 'Jugador 12', sets: ['3', '6', '4'], isWinner: false },
           court: 'Cancha 1',
           status: 'Finalizado'
         },
         {
           id: 'm7',
-          player1: { name: 'Jugador 13', score: '6-2', isWinner: true },
-          player2: { name: 'Jugador 14', score: '', isWinner: false },
+          scoreType: 'sets',
+          setsCount: 2,
+          player1: { name: 'Jugador 13', sets: ['6', '6'], isWinner: true },
+          player2: { name: 'Jugador 14', sets: ['2', '3'], isWinner: false },
           court: 'Cancha 2',
           status: 'Finalizado'
         },
         {
           id: 'm8',
-          player1: { name: 'Jugador 15', score: '6-0', isWinner: true },
-          player2: { name: 'Jugador 16', score: '', isWinner: false },
+          scoreType: 'sets',
+          setsCount: 2,
+          player1: { name: 'Jugador 15', sets: ['6', '6'], isWinner: true },
+          player2: { name: 'Jugador 16', sets: ['0', '2'], isWinner: false },
           court: 'Cancha 3',
           status: 'Finalizado'
         }
@@ -92,29 +106,37 @@ const INITIAL_TOURNAMENT_DATA = {
       matches: [
         {
           id: 'm9',
-          player1: { name: 'Jugador 1', score: '6-3', isWinner: true },
-          player2: { name: 'Jugador 3', score: '', isWinner: false },
+          scoreType: 'sets',
+          setsCount: 2,
+          player1: { name: 'Jugador 1', sets: ['6', '6'], isWinner: true },
+          player2: { name: 'Jugador 3', sets: ['3', '4'], isWinner: false },
           court: 'Cancha Principal',
           status: 'Finalizado'
         },
         {
           id: 'm10',
-          player1: { name: 'Jugador 6', score: '—', isWinner: false },
-          player2: { name: 'Jugador 8', score: '6-0', isWinner: true },
+          scoreType: 'sets',
+          setsCount: 2,
+          player1: { name: 'Jugador 6', sets: ['2', '1'], isWinner: false },
+          player2: { name: 'Jugador 8', sets: ['6', '6'], isWinner: true },
           court: 'Cancha 1',
           status: 'Finalizado'
         },
         {
           id: 'm11',
-          player1: { name: 'Jugador 10', score: '6-0', isWinner: true },
-          player2: { name: 'Jugador 11', score: '', isWinner: false },
+          scoreType: 'sets',
+          setsCount: 2,
+          player1: { name: 'Jugador 10', sets: ['6', '6'], isWinner: true },
+          player2: { name: 'Jugador 11', sets: ['4', '3'], isWinner: false },
           court: 'Cancha Principal',
           status: 'Finalizado'
         },
         {
           id: 'm12',
-          player1: { name: 'Jugador 13', score: '6-1', isWinner: true },
-          player2: { name: 'Jugador 15', score: '', isWinner: false },
+          scoreType: 'sets',
+          setsCount: 2,
+          player1: { name: 'Jugador 13', sets: ['6', '6'], isWinner: true },
+          player2: { name: 'Jugador 15', sets: ['1', '2'], isWinner: false },
           court: 'Cancha 2',
           status: 'Finalizado'
         }
@@ -127,15 +149,19 @@ const INITIAL_TOURNAMENT_DATA = {
       matches: [
         {
           id: 'm13',
-          player1: { name: 'Jugador 1', score: '6-2', isWinner: true },
-          player2: { name: 'Jugador 8', score: '', isWinner: false },
+          scoreType: 'sets',
+          setsCount: 2,
+          player1: { name: 'Jugador 1', sets: ['6', '6'], isWinner: true },
+          player2: { name: 'Jugador 8', sets: ['2', '4'], isWinner: false },
           court: 'Cancha Principal',
           status: 'Finalizado'
         },
         {
           id: 'm14',
-          player1: { name: 'Jugador 10', score: '', isWinner: false },
-          player2: { name: 'Jugador 13', score: '6-1', isWinner: true },
+          scoreType: 'sets',
+          setsCount: 2,
+          player1: { name: 'Jugador 10', sets: ['3', '4'], isWinner: false },
+          player2: { name: 'Jugador 13', sets: ['6', '6'], isWinner: true },
           court: 'Cancha Principal',
           status: 'Finalizado'
         }
@@ -148,14 +174,32 @@ const INITIAL_TOURNAMENT_DATA = {
       matches: [
         {
           id: 'm15',
-          player1: { name: 'Jugador 1', score: '', isWinner: false },
-          player2: { name: 'Jugador 13', score: '7-5', isWinner: true },
+          scoreType: 'sets',
+          setsCount: 3,
+          player1: { name: 'Jugador 1', sets: ['5', '6', '4'], isWinner: false },
+          player2: { name: 'Jugador 13', sets: ['7', '3', '6'], isWinner: true },
           court: 'Cancha Principal',
           status: 'Finalizado'
         }
       ]
     }
   ]
+};
+
+// Helper para extraer lista limpia de sets de un jugador (soporta retrocompatibilidad)
+export const getPlayerSets = (player) => {
+  if (!player) return [];
+  if (Array.isArray(player.sets) && player.sets.length > 0) {
+    return player.sets.map(s => String(s !== undefined && s !== null ? s : '').trim());
+  }
+  if (player.score) {
+    const trimmed = String(player.score).trim();
+    if (trimmed.includes(' ') || trimmed.includes(',')) {
+      return trimmed.replace(/,/g, ' ').split(/\s+/).filter(Boolean);
+    }
+    return [trimmed];
+  }
+  return [];
 };
 
 const checkIsAdmin = (user) => {
@@ -215,7 +259,33 @@ const TournamentView = ({ onBack }) => {
   const handleMatchClick = (match) => {
     setActiveMatch(match);
     if (isAdmin && isEditMode) {
-      setEditingMatchData(JSON.parse(JSON.stringify(match)));
+      const p1Sets = getPlayerSets(match.player1);
+      const p2Sets = getPlayerSets(match.player2);
+      const maxSets = Math.max(p1Sets.length, p2Sets.length, 2);
+      const initialSetsCount = match.setsCount || (maxSets === 3 ? 3 : 2);
+
+      const isBye = match.scoreType === 'bye' || p1Sets[0] === 'Bye' || match.player1.score === 'Bye';
+      const isWO = match.scoreType === 'wo' || p1Sets[0] === 'W.O.' || p2Sets[0] === 'W.O.' || match.player1.score === 'W.O.';
+
+      setEditingMatchData({
+        ...match,
+        scoreType: isBye ? 'bye' : isWO ? 'wo' : 'sets',
+        setsCount: initialSetsCount,
+        player1: {
+          name: match.player1.name || '',
+          set1: p1Sets[0] || '',
+          set2: p1Sets[1] || '',
+          set3: p1Sets[2] || '',
+          isWinner: !!match.player1.isWinner
+        },
+        player2: {
+          name: match.player2.name || '',
+          set1: p2Sets[0] || '',
+          set2: p2Sets[1] || '',
+          set3: p2Sets[2] || '',
+          isWinner: !!match.player2.isWinner
+        }
+      });
     }
   };
 
@@ -223,9 +293,46 @@ const TournamentView = ({ onBack }) => {
   const handleSaveMatchEdit = async () => {
     if (!editingMatchData) return;
 
+    let p1Sets = [];
+    let p2Sets = [];
+
+    if (editingMatchData.scoreType === 'bye') {
+      p1Sets = ['Bye'];
+      p2Sets = [];
+    } else if (editingMatchData.scoreType === 'wo') {
+      p1Sets = editingMatchData.player1.isWinner ? ['W.O.'] : [''];
+      p2Sets = editingMatchData.player2.isWinner ? ['W.O.'] : [''];
+    } else {
+      // Normal sets (2 o 3 sets)
+      p1Sets = [editingMatchData.player1.set1 || '', editingMatchData.player1.set2 || ''];
+      p2Sets = [editingMatchData.player2.set1 || '', editingMatchData.player2.set2 || ''];
+      if (editingMatchData.setsCount === 3) {
+        p1Sets.push(editingMatchData.player1.set3 || '');
+        p2Sets.push(editingMatchData.player2.set3 || '');
+      }
+    }
+
+    const finalMatch = {
+      ...editingMatchData,
+      scoreType: editingMatchData.scoreType,
+      setsCount: editingMatchData.setsCount,
+      player1: {
+        name: editingMatchData.player1.name,
+        sets: p1Sets,
+        score: p1Sets.filter(Boolean).join(' '),
+        isWinner: editingMatchData.player1.isWinner
+      },
+      player2: {
+        name: editingMatchData.player2.name,
+        sets: p2Sets,
+        score: p2Sets.filter(Boolean).join(' '),
+        isWinner: editingMatchData.player2.isWinner
+      }
+    };
+
     const updatedRounds = tournament.rounds.map((round) => ({
       ...round,
-      matches: round.matches.map((m) => (m.id === editingMatchData.id ? editingMatchData : m))
+      matches: round.matches.map((m) => (m.id === finalMatch.id ? finalMatch : m))
     }));
 
     const updatedTournament = {
@@ -240,7 +347,7 @@ const TournamentView = ({ onBack }) => {
     try {
       setSaving(true);
       await tournamentService.saveTournament(updatedTournament);
-      showNotification('¡Partido actualizado y guardado con éxito!');
+      showNotification('¡Resultado por sets guardado con éxito!');
     } catch (err) {
       console.error(err);
       showNotification('Error al guardar en Firebase: ' + err.message, 'error');
@@ -295,6 +402,38 @@ const TournamentView = ({ onBack }) => {
     }
   };
 
+  // Renderizar las cajitas de sets alineadas simétricamente
+  const renderSetsBoxes = (player, otherPlayer) => {
+    const sets = getPlayerSets(player);
+    const otherSets = getPlayerSets(otherPlayer);
+
+    if (sets.length === 0) return null;
+
+    return (
+      <div className="sets-container">
+        {sets.map((setVal, idx) => {
+          if (!setVal && !otherSets[idx]) return null;
+
+          const otherVal = otherSets[idx] || '';
+          const num1 = parseInt(setVal, 10);
+          const num2 = parseInt(otherVal, 10);
+          const isNumeric = !isNaN(num1) && !isNaN(num2);
+          const isWon = isNumeric ? num1 > num2 : player.isWinner;
+          const isSpecial = isNaN(num1);
+
+          return (
+            <span 
+              key={idx} 
+              className={`set-box ${isWon ? 'set-won' : ''} ${isSpecial ? 'set-special' : ''}`}
+            >
+              {setVal || '—'}
+            </span>
+          );
+        })}
+      </div>
+    );
+  };
+
   return (
     <div className="tournament-layout">
       {/* Toast Notification */}
@@ -339,7 +478,7 @@ const TournamentView = ({ onBack }) => {
               <ShieldCheck size={24} color="#059669" />
               <div>
                 <strong>Panel de Edición de Torneos</strong>
-                <p>Tienes permisos de Administrador para modificar los jugadores y resultados de este torneo.</p>
+                <p>Tienes permisos de Administrador para modificar los jugadores, cantidad de sets (2 o 3) y resultados de este torneo.</p>
               </div>
             </div>
             <div className="admin-control-actions">
@@ -478,11 +617,7 @@ const TournamentView = ({ onBack }) => {
                             {match.player1.name}
                           </span>
                         </div>
-                        {match.player1.score && (
-                          <span className={`score-badge ${match.player1.isWinner ? 'score-winner' : ''}`}>
-                            {match.player1.score}
-                          </span>
-                        )}
+                        {renderSetsBoxes(match.player1, match.player2)}
                       </div>
 
                       <div className="match-divider"></div>
@@ -494,11 +629,7 @@ const TournamentView = ({ onBack }) => {
                             {match.player2.name}
                           </span>
                         </div>
-                        {match.player2.score && (
-                          <span className={`score-badge ${match.player2.isWinner ? 'score-winner' : ''}`}>
-                            {match.player2.score}
-                          </span>
-                        )}
+                        {renderSetsBoxes(match.player2, match.player1)}
                       </div>
                     </div>
                   ))}
@@ -566,85 +697,268 @@ const TournamentView = ({ onBack }) => {
               </div>
 
               <div className="match-modal-body">
-                {/* Jugador 1 */}
-                <div className="edit-player-section">
-                  <label className="edit-label">Jugador 1</label>
-                  <div className="edit-row">
+                {/* Selector de Tipo de Partido */}
+                <div className="modal-score-type-selector">
+                  <label className="edit-label">Tipo de Resultado</label>
+                  <div className="score-type-tabs">
+                    <button 
+                      type="button"
+                      className={`score-type-tab ${editingMatchData.scoreType === 'sets' ? 'active' : ''}`}
+                      onClick={() => setEditingMatchData({ ...editingMatchData, scoreType: 'sets' })}
+                    >
+                      🎾 Sets Normales
+                    </button>
+                    <button 
+                      type="button"
+                      className={`score-type-tab ${editingMatchData.scoreType === 'wo' ? 'active' : ''}`}
+                      onClick={() => setEditingMatchData({ ...editingMatchData, scoreType: 'wo' })}
+                    >
+                      🏳️ W.O. / Abandono
+                    </button>
+                    <button 
+                      type="button"
+                      className={`score-type-tab ${editingMatchData.scoreType === 'bye' ? 'active' : ''}`}
+                      onClick={() => setEditingMatchData({ ...editingMatchData, scoreType: 'bye' })}
+                    >
+                      ⏩ Bye (Pase)
+                    </button>
+                  </div>
+                </div>
+
+                {/* Si es por Sets: Selector de 2 o 3 sets */}
+                {editingMatchData.scoreType === 'sets' && (
+                  <div className="sets-count-selector">
+                    <label className="edit-label">Duración del Partido</label>
+                    <div className="sets-count-pills">
+                      <button 
+                        type="button"
+                        className={`sets-count-pill ${editingMatchData.setsCount === 2 ? 'active' : ''}`}
+                        onClick={() => setEditingMatchData({ ...editingMatchData, setsCount: 2 })}
+                      >
+                        Partido a 2 Sets (ej: 6-4, 6-3)
+                      </button>
+                      <button 
+                        type="button"
+                        className={`sets-count-pill ${editingMatchData.setsCount === 3 ? 'active' : ''}`}
+                        onClick={() => setEditingMatchData({ ...editingMatchData, setsCount: 3 })}
+                      >
+                        Partido a 3 Sets (ej: 6-4, 4-6, 7-5)
+                      </button>
+                    </div>
+                  </div>
+                )}
+
+                {/* Tabla simétrica de Jugadores y Sets */}
+                {editingMatchData.scoreType === 'sets' && (
+                  <div className="sets-table-container">
+                    <div className="sets-table-header">
+                      <span className="col-name">Nombre del Jugador</span>
+                      <span className="col-set">Set 1</span>
+                      <span className="col-set">Set 2</span>
+                      {editingMatchData.setsCount === 3 && <span className="col-set">Set 3</span>}
+                      <span className="col-win">¿Ganador?</span>
+                    </div>
+
+                    {/* Fila Jugador 1 */}
+                    <div className={`sets-table-row ${editingMatchData.player1.isWinner ? 'winner-row' : ''}`}>
+                      <input 
+                        type="text" 
+                        className="input input-table-name"
+                        placeholder="Jugador 1"
+                        value={editingMatchData.player1.name}
+                        onChange={(e) => setEditingMatchData({
+                          ...editingMatchData,
+                          player1: { ...editingMatchData.player1, name: e.target.value }
+                        })}
+                      />
+                      <input 
+                        type="text" 
+                        maxLength="3"
+                        className="input input-table-set"
+                        placeholder="6"
+                        value={editingMatchData.player1.set1}
+                        onChange={(e) => setEditingMatchData({
+                          ...editingMatchData,
+                          player1: { ...editingMatchData.player1, set1: e.target.value }
+                        })}
+                      />
+                      <input 
+                        type="text" 
+                        maxLength="3"
+                        className="input input-table-set"
+                        placeholder="4"
+                        value={editingMatchData.player1.set2}
+                        onChange={(e) => setEditingMatchData({
+                          ...editingMatchData,
+                          player1: { ...editingMatchData.player1, set2: e.target.value }
+                        })}
+                      />
+                      {editingMatchData.setsCount === 3 && (
+                        <input 
+                          type="text" 
+                          maxLength="3"
+                          className="input input-table-set"
+                          placeholder="7"
+                          value={editingMatchData.player1.set3}
+                          onChange={(e) => setEditingMatchData({
+                            ...editingMatchData,
+                            player1: { ...editingMatchData.player1, set3: e.target.value }
+                          })}
+                        />
+                      )}
+                      <label className="radio-table-winner">
+                        <input 
+                          type="radio" 
+                          name="winner-select"
+                          checked={editingMatchData.player1.isWinner}
+                          onChange={() => setEditingMatchData({
+                            ...editingMatchData,
+                            player1: { ...editingMatchData.player1, isWinner: true },
+                            player2: { ...editingMatchData.player2, isWinner: false }
+                          })}
+                        />
+                        <span className="winner-indicator-badge">Ganó</span>
+                      </label>
+                    </div>
+
+                    {/* Fila Jugador 2 */}
+                    <div className={`sets-table-row ${editingMatchData.player2.isWinner ? 'winner-row' : ''}`}>
+                      <input 
+                        type="text" 
+                        className="input input-table-name"
+                        placeholder="Jugador 2"
+                        value={editingMatchData.player2.name}
+                        onChange={(e) => setEditingMatchData({
+                          ...editingMatchData,
+                          player2: { ...editingMatchData.player2, name: e.target.value }
+                        })}
+                      />
+                      <input 
+                        type="text" 
+                        maxLength="3"
+                        className="input input-table-set"
+                        placeholder="4"
+                        value={editingMatchData.player2.set1}
+                        onChange={(e) => setEditingMatchData({
+                          ...editingMatchData,
+                          player2: { ...editingMatchData.player2, set1: e.target.value }
+                        })}
+                      />
+                      <input 
+                        type="text" 
+                        maxLength="3"
+                        className="input input-table-set"
+                        placeholder="6"
+                        value={editingMatchData.player2.set2}
+                        onChange={(e) => setEditingMatchData({
+                          ...editingMatchData,
+                          player2: { ...editingMatchData.player2, set2: e.target.value }
+                        })}
+                      />
+                      {editingMatchData.setsCount === 3 && (
+                        <input 
+                          type="text" 
+                          maxLength="3"
+                          className="input input-table-set"
+                          placeholder="5"
+                          value={editingMatchData.player2.set3}
+                          onChange={(e) => setEditingMatchData({
+                            ...editingMatchData,
+                            player2: { ...editingMatchData.player2, set3: e.target.value }
+                          })}
+                        />
+                      )}
+                      <label className="radio-table-winner">
+                        <input 
+                          type="radio" 
+                          name="winner-select"
+                          checked={editingMatchData.player2.isWinner}
+                          onChange={() => setEditingMatchData({
+                            ...editingMatchData,
+                            player2: { ...editingMatchData.player2, isWinner: true },
+                            player1: { ...editingMatchData.player1, isWinner: false }
+                          })}
+                        />
+                        <span className="winner-indicator-badge">Ganó</span>
+                      </label>
+                    </div>
+                  </div>
+                )}
+
+                {/* Si es W.O. */}
+                {editingMatchData.scoreType === 'wo' && (
+                  <div className="wo-edit-section">
+                    <div className="input-group">
+                      <label>Jugador 1</label>
+                      <input 
+                        type="text" 
+                        className="input" 
+                        value={editingMatchData.player1.name}
+                        onChange={(e) => setEditingMatchData({
+                          ...editingMatchData,
+                          player1: { ...editingMatchData.player1, name: e.target.value }
+                        })}
+                      />
+                    </div>
+                    <div className="input-group">
+                      <label>Jugador 2</label>
+                      <input 
+                        type="text" 
+                        className="input" 
+                        value={editingMatchData.player2.name}
+                        onChange={(e) => setEditingMatchData({
+                          ...editingMatchData,
+                          player2: { ...editingMatchData.player2, name: e.target.value }
+                        })}
+                      />
+                    </div>
+                    <label className="edit-label">¿Quién ganó por W.O.?</label>
+                    <div className="flex gap-4">
+                      <label className="radio-winner">
+                        <input 
+                          type="radio"
+                          name="wo-winner"
+                          checked={editingMatchData.player1.isWinner}
+                          onChange={() => setEditingMatchData({
+                            ...editingMatchData,
+                            player1: { ...editingMatchData.player1, isWinner: true },
+                            player2: { ...editingMatchData.player2, isWinner: false }
+                          })}
+                        />
+                        <span>Ganó {editingMatchData.player1.name || 'Jugador 1'}</span>
+                      </label>
+                      <label className="radio-winner">
+                        <input 
+                          type="radio"
+                          name="wo-winner"
+                          checked={editingMatchData.player2.isWinner}
+                          onChange={() => setEditingMatchData({
+                            ...editingMatchData,
+                            player2: { ...editingMatchData.player2, isWinner: true },
+                            player1: { ...editingMatchData.player1, isWinner: false }
+                          })}
+                        />
+                        <span>Ganó {editingMatchData.player2.name || 'Jugador 2'}</span>
+                      </label>
+                    </div>
+                  </div>
+                )}
+
+                {/* Si es Bye */}
+                {editingMatchData.scoreType === 'bye' && (
+                  <div className="input-group">
+                    <label>Jugador con Pase Directo</label>
                     <input 
                       type="text" 
-                      className="input edit-input"
-                      placeholder="Nombre del Jugador 1"
+                      className="input"
                       value={editingMatchData.player1.name}
                       onChange={(e) => setEditingMatchData({
                         ...editingMatchData,
-                        player1: { ...editingMatchData.player1, name: e.target.value }
-                      })}
-                    />
-                    <input 
-                      type="text" 
-                      className="input edit-score-input"
-                      placeholder="Score (ej: 6-2)"
-                      value={editingMatchData.player1.score}
-                      onChange={(e) => setEditingMatchData({
-                        ...editingMatchData,
-                        player1: { ...editingMatchData.player1, score: e.target.value }
+                        player1: { ...editingMatchData.player1, name: e.target.value, isWinner: true }
                       })}
                     />
                   </div>
-                  <label className="checkbox-winner-label">
-                    <input 
-                      type="checkbox"
-                      checked={editingMatchData.player1.isWinner}
-                      onChange={(e) => setEditingMatchData({
-                        ...editingMatchData,
-                        player1: { ...editingMatchData.player1, isWinner: e.target.checked },
-                        player2: { ...editingMatchData.player2, isWinner: !e.target.checked }
-                      })}
-                    />
-                    <span>¿Ganador del partido?</span>
-                  </label>
-                </div>
-
-                <div className="edit-divider-text">VS</div>
-
-                {/* Jugador 2 */}
-                <div className="edit-player-section">
-                  <label className="edit-label">Jugador 2</label>
-                  <div className="edit-row">
-                    <input 
-                      type="text" 
-                      className="input edit-input"
-                      placeholder="Nombre del Jugador 2"
-                      value={editingMatchData.player2.name}
-                      onChange={(e) => setEditingMatchData({
-                        ...editingMatchData,
-                        player2: { ...editingMatchData.player2, name: e.target.value }
-                      })}
-                    />
-                    <input 
-                      type="text" 
-                      className="input edit-score-input"
-                      placeholder="Score"
-                      value={editingMatchData.player2.score}
-                      onChange={(e) => setEditingMatchData({
-                        ...editingMatchData,
-                        player2: { ...editingMatchData.player2, score: e.target.value }
-                      })}
-                    />
-                  </div>
-                  <label className="checkbox-winner-label">
-                    <input 
-                      type="checkbox"
-                      checked={editingMatchData.player2.isWinner}
-                      onChange={(e) => setEditingMatchData({
-                        ...editingMatchData,
-                        player2: { ...editingMatchData.player2, isWinner: e.target.checked },
-                        player1: { ...editingMatchData.player1, isWinner: !e.target.checked }
-                      })}
-                    />
-                    <span>¿Ganador del partido?</span>
-                  </label>
-                </div>
+                )}
 
                 <div className="edit-meta-section">
                   <div>
@@ -687,12 +1001,16 @@ const TournamentView = ({ onBack }) => {
                 <div className="match-detail-players">
                   <div className={`modal-player ${activeMatch.player1.isWinner ? 'winner-box' : ''}`}>
                     <strong>{activeMatch.player1.name}</strong>
-                    <span className="modal-score">{activeMatch.player1.score || '—'}</span>
+                    <div className="modal-sets-display">
+                      {renderSetsBoxes(activeMatch.player1, activeMatch.player2)}
+                    </div>
                   </div>
                   <div className="modal-vs">VS</div>
                   <div className={`modal-player ${activeMatch.player2.isWinner ? 'winner-box' : ''}`}>
                     <strong>{activeMatch.player2.name}</strong>
-                    <span className="modal-score">{activeMatch.player2.score || '—'}</span>
+                    <div className="modal-sets-display">
+                      {renderSetsBoxes(activeMatch.player2, activeMatch.player1)}
+                    </div>
                   </div>
                 </div>
                 <div className="match-modal-info">
@@ -743,7 +1061,7 @@ const TournamentView = ({ onBack }) => {
                 </div>
 
                 <div className="input-group">
-                  <label>Resultado de la Final (ej: 7-5 en la Final)</label>
+                  <label>Resultado de la Final (ej: 7-5, 3-6, 6-4 en la Final)</label>
                   <input 
                     type="text" 
                     className="input"

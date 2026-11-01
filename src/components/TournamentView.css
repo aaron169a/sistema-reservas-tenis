@@ -257,7 +257,7 @@
   display: flex;
   align-items: stretch;
   gap: 2.5rem;
-  min-width: 1300px;
+  min-width: 1420px;
   padding: 0 1rem;
   transition: transform 0.2s ease-out;
 }
@@ -266,7 +266,7 @@
 .bracket-round {
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 270px;
   flex-shrink: 0;
 }
 
@@ -352,10 +352,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.75rem 0.9rem;
+  padding: 0.65rem 0.85rem;
   background: #FFFFFF;
   transition: background-color 0.2s ease;
-  min-height: 44px;
+  min-height: 46px;
 }
 
 .player-row.winner {
@@ -372,7 +372,8 @@
   align-items: center;
   gap: 0.5rem;
   overflow: hidden;
-  max-width: 175px;
+  flex: 1;
+  min-width: 0;
 }
 
 .player-name {
@@ -389,30 +390,45 @@
   font-weight: 700;
 }
 
-.user-tag {
-  background: #10B981;
-  color: #FFFFFF;
-  font-size: 0.65rem;
-  font-weight: 800;
-  padding: 2px 6px;
-  border-radius: 4px;
-  letter-spacing: 0.5px;
-  box-shadow: 0 2px 4px rgba(16, 185, 129, 0.3);
+/* Symmetrical Sets Display */
+.sets-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+  margin-left: 0.5rem;
 }
 
-.score-badge {
-  font-size: 0.75rem;
+.set-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  font-size: 0.8rem;
   font-weight: 700;
-  color: var(--text-secondary);
   background: #F1F5F9;
-  padding: 2px 8px;
-  border-radius: 6px;
-  white-space: nowrap;
+  color: #475569;
+  border: 1px solid #E2E8F0;
+  font-variant-numeric: tabular-nums;
+  box-sizing: border-box;
+  padding: 0 4px;
 }
 
-.score-badge.score-winner {
-  background: var(--text-primary);
+.set-box.set-won {
+  background: #1A531A;
   color: #86EFAC;
+  border-color: #1A531A;
+  font-weight: 800;
+}
+
+.set-box.set-special {
+  padding: 0 8px;
+  font-size: 0.72rem;
+  background: #E2E8F0;
+  color: #1E293B;
+  border-color: #CBD5E1;
 }
 
 .match-divider {
@@ -838,69 +854,186 @@
 
 /* Edit Modal Layout */
 .admin-edit-modal {
-  max-width: 500px !important;
+  max-width: 580px !important;
 }
 
-.edit-player-section {
+.modal-score-type-selector {
+  margin-bottom: 1.25rem;
+}
+
+.score-type-tabs {
+  display: flex;
+  gap: 0.5rem;
   background: var(--bg-card);
-  padding: 1rem;
+  padding: 4px;
   border-radius: 10px;
 }
 
-.edit-label {
-  font-size: 0.8rem;
+.score-type-tab {
+  flex: 1;
+  padding: 0.6rem 0.5rem;
+  font-size: 0.82rem;
   font-weight: 700;
-  color: var(--text-primary);
-  display: block;
-  margin-bottom: 0.4rem;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
-.edit-row {
+.score-type-tab.active {
+  background: #FFFFFF;
+  color: var(--text-primary);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.sets-count-selector {
+  margin-bottom: 1.25rem;
+}
+
+.sets-count-pills {
   display: flex;
   gap: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
-.edit-input {
+.sets-count-pill {
   flex: 1;
+  padding: 0.6rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1.5px solid #CBD5E1;
+  border-radius: 8px;
+  background: #FFFFFF;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
 }
 
-.edit-score-input {
-  width: 100px;
+.sets-count-pill:hover {
+  border-color: var(--accent-hover);
+  color: var(--text-primary);
 }
 
-.checkbox-winner-label {
+.sets-count-pill.active {
+  background: #ECFDF5;
+  border-color: #10B981;
+  color: #064E3B;
+  font-weight: 700;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+}
+
+/* Symmetrical Sets Table in Modal */
+.sets-table-container {
+  background: var(--bg-card);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #E2E8F0;
+}
+
+.sets-table-header {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: #047857;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #CBD5E1;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.col-name {
+  flex: 1;
+  padding-left: 0.5rem;
+}
+
+.col-set {
+  width: 48px;
+  text-align: center;
+}
+
+.col-win {
+  width: 70px;
+  text-align: center;
+}
+
+.sets-table-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  margin-bottom: 0.4rem;
+}
+
+.sets-table-row.winner-row {
+  background: #ECFDF5;
+  border: 1px solid #86EFAC;
+}
+
+.input-table-name {
+  flex: 1;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.input-table-set {
+  width: 48px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem 0.25rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.radio-table-winner {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
   cursor: pointer;
 }
 
-.checkbox-winner-label input[type="checkbox"] {
+.radio-table-winner input[type="radio"] {
+  accent-color: #059669;
   width: 16px;
   height: 16px;
-  accent-color: #059669;
 }
 
-.edit-divider-text {
-  text-align: center;
-  font-weight: 800;
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-  margin: 0.75rem 0;
+.winner-indicator-badge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #047857;
+}
+
+/* W.O. Section */
+.wo-edit-section {
+  background: var(--bg-card);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
 }
 
 .edit-meta-section {
-  margin-top: 1rem;
   display: flex;
   gap: 1rem;
 }
 
 .edit-meta-section > div {
   flex: 1;
+}
+
+.modal-sets-display {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
 }
 
 /* Toast Notifications */
