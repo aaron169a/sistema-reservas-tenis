@@ -48,6 +48,7 @@ const AppContent = () => {
           courts={[{ id: 'F-CEN-1', name: 'Cancha 1' }, { id: 'F-CEN-2', name: 'Cancha 2' }, { id: 'F-CEN-3', name: 'Cancha 3' }]} 
           onBack={() => setSelectedLocation(null)} 
           hours={FRONTON_HOURS}
+          collectionName="Reservas canchas de fronton"
         />
       );
     }
@@ -59,6 +60,7 @@ const AppContent = () => {
           courts={[{ id: 'F-CAM-1', name: 'Cancha 1' }, { id: 'F-CAM-2', name: 'Cancha 2' }]} 
           onBack={() => setSelectedLocation(null)} 
           hours={FRONTON_HOURS}
+          collectionName="Reservas canchas de fronton"
         />
       );
     }
@@ -76,6 +78,7 @@ const AppContent = () => {
           title="Tenis - Sede Central"
           courts={[{ id: 3, name: 'Cancha Principal' }]} 
           onBack={() => setSelectedLocation(null)} 
+          collectionName="Reservas canchas de tenis"
         />
       );
     }
@@ -86,6 +89,7 @@ const AppContent = () => {
           title="Tenis - Sede Campestre"
           courts={[{ id: 1, name: 'Cancha 1' }, { id: 2, name: 'Cancha 2' }]} 
           onBack={() => setSelectedLocation(null)} 
+          collectionName="Reservas canchas de tenis"
         />
       );
     }

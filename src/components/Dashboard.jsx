@@ -8,7 +8,7 @@ import './Dashboard.css';
 
 const DEFAULT_HOURS = Array.from({ length: 11 }, (_, i) => i + 6); // 6 to 16 (4:00 PM)
 
-const Dashboard = ({ onBack, courts, title, hours = DEFAULT_HOURS }) => {
+const Dashboard = ({ onBack, courts, title, hours = DEFAULT_HOURS, collectionName = 'Reservas canchas de tenis' }) => {
   const { user, logout } = useAuth();
   const [selectedDate, setSelectedDate] = useState(startOfToday());
   const [bookings, setBookings] = useState([]);
@@ -26,16 +26,16 @@ const Dashboard = ({ onBack, courts, title, hours = DEFAULT_HOURS }) => {
     const unsubscribe = bookingService.subscribeToDateBookings(dateStr, (newBookings) => {
       setBookings(newBookings);
       setError(null);
-    });
+    }, collectionName);
     
     return () => unsubscribe();
-  }, [selectedDate]);
+  }, [selectedDate, collectionName]);
 
   const handleBooking = async (courtId, hour) => {
     try {
       setLoadingSlot(`${courtId}-${hour}`);
       const dateStr = format(selectedDate, 'yyyy-MM-dd');
-      await bookingService.createBooking(courtId, dateStr, hour, user);
+      await bookingService.createBooking(courtId, dateStr, hour, user, collectionName);
     } catch (err) {
       setError(err.message);
       setTimeout(() => setError(null), 3000);
@@ -47,7 +47,7 @@ const Dashboard = ({ onBack, courts, title, hours = DEFAULT_HOURS }) => {
   const handleCancel = async (bookingId) => {
     if (window.confirm('¿Seguro que deseas cancelar esta reserva?')) {
       try {
-        await bookingService.cancelBooking(bookingId, user.id);
+        await bookingService.cancelBooking(bookingId, user.id, collectionName);
       } catch (err) {
         setError(err.message);
         setTimeout(() => setError(null), 3000);
